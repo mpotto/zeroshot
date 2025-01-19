@@ -1,3 +1,8 @@
+# Project specific
+notebooks/workspace.ipynb
+scripts/debug.py
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
