@@ -1,6 +1,8 @@
 # Project specific
 notebooks/workspace.ipynb
-scripts/debug.py
+notebooks/create_classifiers.ipynb
+scripts/debug*
+scripts/download_imagenet.py
 
 
 # Byte-compiled / optimized / DLL files
