@@ -195,7 +195,7 @@ def evaluate(model, dataloader, device, classifier, amp=True):
     pred = logits.argmax(axis=1)
     # measure accuracy
     acc1, = accuracy(logits, target, topk=(1,))
-    acc5 = float("nan") 
+    acc5 = accuracy(logits, target, topk=(5,))
     mean_per_class_recall = balanced_accuracy_score(target, pred)
     report = classification_report(target, pred, digits=3, output_dict=True)
     print(classification_report(target, pred, digits=3))

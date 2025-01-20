@@ -49,7 +49,7 @@ if not os.path.exists(clf_fp):
 else:
     clf = torch.load(clf_fp, map_location='cpu')
     for task_id in range(N_TASKS):
-        print(f"\t Running task {task_id}/{N_TASKS}.")
+        print(f"\t Running task {task_id + 1}/{N_TASKS}.")
 
         dataset = ImageClassificationDataset(input_filename, class_filename, transforms, n_tasks=N_TASKS, task_id=task_id)
 
