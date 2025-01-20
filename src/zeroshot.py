@@ -198,6 +198,7 @@ def evaluate(model, dataloader, device, classifier, amp=True):
     acc5 = float("nan") 
     mean_per_class_recall = balanced_accuracy_score(target, pred)
     report = classification_report(target, pred, digits=3, output_dict=True)
+    print(classification_report(target, pred, digits=3))
     return {
         "acc1": acc1, 
         "acc5": acc5, 

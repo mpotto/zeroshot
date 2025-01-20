@@ -9,7 +9,10 @@ sys.path.extend(["..", "."])
 from src.zeroshot import zero_shot_classifier
 
 MODELS = [
-    ('ViT-B-32', 'laion2b_s34b_b79k')
+    # ('ViT-B-32', 'laion2b_s34b_b79k'),
+    ('RN50', 'yfcc15m'),
+    ('nllb-clip-base', 'v1'),
+    ('ViT-B-32', 'datacomp_m_s128m_b4k')
 ]
 DEVICE = "cuda:0"
 TEMPLATE = "imagenet1k"
