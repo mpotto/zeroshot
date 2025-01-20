@@ -20,8 +20,9 @@ class ImageClassificationDataset(Dataset):
             img_key="filepath", 
             sep="\t",
         ):
-        assert n_tasks in [25, 10, 5]
+        assert n_tasks in [25, 10, 5, 1]
         assert task_id in list(range(n_tasks))
+
         logging.debug(f'Loading csv data from {input_filename} for task {task_id + 1}/{n_tasks}.')
         data = pd.read_csv(input_filename, sep=sep)
         classes = pd.read_csv(class_filename, sep=sep)
@@ -58,3 +59,27 @@ class ImageClassificationDataset(Dataset):
         images = self.transforms(Image.open(str(self.images[idx])))
         labels = self.labels[idx]
         return idx, images, labels
+    
+
+class TextClassificationDataset(Dataset):
+    def __init__(
+            self, 
+            input_filename, 
+            tokenizer,
+            caption_key="title", 
+            sep="\t",
+        ):
+
+        df = pd.read_csv(input_filename, sep=sep)
+        self.captions = df[caption_key].tolist()
+        self.labels = df["global_label"].tolist()
+        self.tokenize = tokenizer
+        logging.debug('Done loading data.')
+
+    def __len__(self):
+        return len(self.captions)
+
+    def __getitem__(self, idx):
+        texts = self.tokenize([str(self.captions[idx])])[0]
+        labels = self.labels[idx]
+        return idx, texts, labels
