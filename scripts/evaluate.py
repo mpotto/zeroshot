@@ -73,5 +73,5 @@ else:
             output = evaluate(model, dataloader, DEVICE, weights)
             os.makedirs(os.path.join(OUT_PATH, f"{model_type}/{pretrained}"), exist_ok=True)
             with open(out_fp, 'w') as file:
-                json.dump(output, file)
+                json.dump(output, file, indent=4)
             print(f"Successfully generated '{out_fp}'.")
