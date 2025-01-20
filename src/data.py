@@ -1,3 +1,4 @@
+import torch
 from torch.utils.data import Dataset
 import logging
 import pandas as pd
@@ -7,19 +8,6 @@ import os
 
 NUM_CLASSES = 250
 DATA_PATH = f'/mnt/ssd/ronak/datasets/imagenet_captions_{NUM_CLASSES}k'
-
-def classification_transform(data, n_tasks, task_id, classes):
-    # global label has already been randomized
-    task_size = NUM_CLASSES // n_tasks
-
-    sub_df = data.loc[(data["global_label"] >= task_size * task_id) & (data["global_label"] < task_size * (task_id + 1))].copy()
-    sub_classes = classes.loc[(classes["global_label"] >= task_size * task_id) & (classes["global_label"] < task_size * (task_id + 1))].copy()
-
-    global_to_local = {label: i for i, label in enumerate(sub_df["global_label"].unique().tolist())}
-    sub_df["local_label"] = sub_df["global_label"].map(lambda x: global_to_local[x])
-    sub_classes["local_label"] = sub_classes["global_label"].map(lambda x: global_to_local[x])
-    return sub_df, sub_classes
-
 
 class ImageClassificationDataset(Dataset):
     def __init__(
@@ -37,13 +25,31 @@ class ImageClassificationDataset(Dataset):
         logging.debug(f'Loading csv data from {input_filename} for task {task_id + 1}/{n_tasks}.')
         data = pd.read_csv(input_filename, sep=sep)
         classes = pd.read_csv(class_filename, sep=sep)
-        df, class_df = classification_transform(data, n_tasks, task_id, classes)
+
+        self.task_size = NUM_CLASSES // n_tasks
+        df, class_df, self.global_to_local = self.classification_transform(data, classes, task_id)
         self.class_names = class_df.sort_values(by="local_label")["class_name"].tolist()
 
         self.images = df[img_key].map(lambda x: os.path.join(DATA_PATH, x)).tolist()
         self.labels = df["local_label"].tolist()
         self.transforms = transforms
         logging.debug('Done loading data.')
+
+    def get_task_weights(self, weights):
+        task_weights = torch.zeros(size=(len(weights), self.task_size))
+        for key in self.global_to_local:
+            task_weights[:, self.global_to_local[key]] = weights[:, key]
+        return task_weights
+
+    def classification_transform(self, data, classes, task_id):
+        # global label has already been randomized
+        sub_df = data.loc[(data["global_label"] >= self.task_size * task_id) & (data["global_label"] < self.task_size * (task_id + 1))].copy()
+        sub_classes = classes.loc[(classes["global_label"] >= self.task_size * task_id) & (classes["global_label"] < self.task_size * (task_id + 1))].copy()
+
+        global_to_local = {label: i for i, label in enumerate(sub_df["global_label"].unique().tolist())}
+        sub_df["local_label"] = sub_df["global_label"].map(lambda x: global_to_local[x])
+        sub_classes["local_label"] = sub_classes["global_label"].map(lambda x: global_to_local[x])
+        return sub_df, sub_classes, global_to_local
 
     def __len__(self):
         return len(self.images)

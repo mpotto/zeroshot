@@ -105,7 +105,7 @@ def run_classification(model, classifier, dataloader, device, amp=True):
     true = []
     nb = 0
     with torch.no_grad():
-        for images, target in tqdm(dataloader):
+        for idx, images, target in tqdm(dataloader):
             images = images.to(device)
             target = target.to(device)
 
@@ -163,7 +163,7 @@ def average_precision_per_class(scores, targets):
     return ap
 
 
-def evaluate(model, dataloader, tokenizer, classnames, templates, device, amp=True, verbose=False, save_clf=None, load_clfs=[]):
+def evaluate(model, dataloader, device, classifier, amp=True):
     """
     Run zero-shot classification and evaluate the metrics
 
@@ -174,16 +174,10 @@ def evaluate(model, dataloader, tokenizer, classnames, templates, device, amp=Tr
         CLIP-like model with `encode_image` and `encode_text`
     
     dataloader: torch.utils.data.Dataloader
-
-    tokenizer: text tokenizer
-
-    classnames: list of str
-        class names
-    
-    templates: list of str
-        templates to use for zero-shot classification
     
     device: cpu/cuda
+
+    classifier: classifier weights [n_dim, n_classes] (tensor)
 
     amp: whether to use automatic mixed precision
 
@@ -194,44 +188,19 @@ def evaluate(model, dataloader, tokenizer, classnames, templates, device, amp=Tr
 
     dict of classification metrics
     """
-    if len(load_clfs) > 0:
-        n = len(load_clfs)
-        classifier = torch.load(load_clfs[0], map_location='cpu') / n
-        for i in range(1, n):
-            classifier = classifier + torch.load(load_clfs[i], map_location='cpu') / n
-        classifier = classifier.to(device)
-    else:
-        classifier = zero_shot_classifier(model, tokenizer, classnames, templates, device, amp=amp)
-    
-    if save_clf is not None:
-        torch.save(classifier, save_clf)
-        # exit() - not sure if we want to exit here or not.
-
+    classifier = classifier.to(device)
     logits, target = run_classification(model, classifier, dataloader, device, amp=amp)
-    is_multilabel = (len(target.shape) == 2)
 
-    if is_multilabel:
-        if verbose:
-            print("Detected a multi-label classification dataset")
-        # Multiple labels per image, multiple classes on the dataset
-        ap_per_class = average_precision_per_class(logits, target)
-        if verbose:
-            for class_name, ap in zip(dataloader.dataset.classes, ap_per_class.tolist()):
-                print(f"Class: {class_name}, AveragePrecision: {ap}")
-        return {"mean_average_precision": ap_per_class.mean().item()}
-    else:
-        # Single label per image, multiple classes on the dataset
-        # just compute accuracy and mean_per_class_recall
-        # TODO: Add any additional metrics here.
-
-        pred = logits.argmax(axis=1)
-        # measure accuracy
-        if len(dataloader.dataset.classes) >= 5:
-            acc1, acc5 = accuracy(logits, target, topk=(1, 5))
-        else:
-            acc1, = accuracy(logits, target, topk=(1,))
-            acc5 = float("nan") 
-        mean_per_class_recall = balanced_accuracy_score(target, pred)
-        if verbose:
-            print(classification_report(target, pred, digits=3))
-        return {"acc1": acc1, "acc5": acc5, "mean_per_class_recall": mean_per_class_recall}
+    # TODO: Add any additional metrics besides accuracy and mean_per_class_recall here.
+    pred = logits.argmax(axis=1)
+    # measure accuracy
+    acc1, = accuracy(logits, target, topk=(1,))
+    acc5 = float("nan") 
+    mean_per_class_recall = balanced_accuracy_score(target, pred)
+    report = classification_report(target, pred, digits=3, output_dict=True)
+    return {
+        "acc1": acc1, 
+        "acc5": acc5, 
+        "mean_per_class_recall": mean_per_class_recall,
+        "classification_report": report
+    }

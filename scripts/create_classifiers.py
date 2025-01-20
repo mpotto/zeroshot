@@ -38,7 +38,7 @@ for model_type, pretrained in MODELS:
         tokenizer = open_clip.get_tokenizer(model_type)
 
         classifier = zero_shot_classifier(model, tokenizer, classnames, templates, DEVICE)
-        print(f"Successfully zero-shot classifier for '{model_type}' with'{pretrained}' pre-training and '{TEMPLATE}' templates.")
+        print(f"Successfully created zero-shot classifier for '{model_type}' with'{pretrained}' pre-training and '{TEMPLATE}' templates.")
         os.makedirs(os.path.join(OUT_PATH, f"{model_type}/{pretrained}"), exist_ok=True)
         torch.save(classifier, fp)
     print()
