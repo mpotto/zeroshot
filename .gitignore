@@ -3,7 +3,6 @@ notebooks/workspace.ipynb
 notebooks/create_classifiers.ipynb
 scripts/debug*
 scripts/download_imagenet.py
-scripts/run_gpu*
 
 
 # Byte-compiled / optimized / DLL files
