@@ -1,0 +1,1 @@
+{"dataset": "sun397", "model": "ViT-B-32", "pretrained": "datacomp_m_s128m_b4k", "task": "zeroshot_classification", "metrics": {"acc1": 0.3637659304485352, "acc5": 0.6787152656454015, "mean_per_class_recall": 0.33248206707466044}, "language": "en"}
