@@ -3,6 +3,8 @@ import torch
 import os
 import json
 import argparse
+import time
+import datetime
 
 # setup
 my_parser = argparse.ArgumentParser()
@@ -53,8 +55,12 @@ The response should be a single sentence ending in a period that is directed tow
 num_seeds = n_outputs // len(meta_prompts)
 print(f"generating {num_seeds} prompts for each meta-prompt.")
 ret = {class_.replace("(", "").replace(")", ""): [] for class_ in classnames}
-for class_ in classnames:
+for i, class_ in enumerate(classnames):
     prompts = [p.replace("{c}", class_) for p in meta_prompts]
+    print(f"class {i + 1}/{len(classnames)}: {class_}")
+
+    tic = time.time()
+
     for prompt in prompts:
         messages = [
             {"role": "user", "content": instructions + " " + prompt}
@@ -69,7 +75,13 @@ for class_ in classnames:
                 top_p=0.9,
                 pad_token_id=128001
             )
-            ret[class_.replace("(", "").replace(")", "")].append(outputs[0]['generated_text'][1]['content'])
+            response = outputs[0]['generated_text'][1]['content']
+            print(f"\t {response}")
+            ret[class_.replace("(", "").replace(")", "")].append(response)
+
+    toc = time.time()
+    print(f"time taken: {datetime.datetime.fromtimestamp(toc - tic).strftime('%M:%S')}")
+    print()
 
 with open(os.path.join(PROMPT_PATH, f"{dataset}/{dataset}_llama3_prompts_full.json"), 'w') as f:
     templates = json.dump(ret, f, indent=4)
