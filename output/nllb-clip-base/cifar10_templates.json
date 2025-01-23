@@ -1,0 +1,1 @@
+{"dataset": "cifar10", "model": "nllb-clip-base", "pretrained": "v1", "task": "zeroshot_classification", "metrics": {"acc1": 0.8435, "acc5": 0.9797, "mean_per_class_recall": 0.8436999999999999}, "language": "en"}

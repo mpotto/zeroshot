@@ -1,0 +1,1 @@
+{"dataset": "cifar10", "model": "RN50", "pretrained": "yfcc15m", "task": "zeroshot_classification", "metrics": {"acc1": 0.5107, "acc5": 0.9514, "mean_per_class_recall": 0.5108}, "language": "en"}
