@@ -100,5 +100,26 @@
         "a good photo of the {c}.",
         "a photo of the small {c}.",
         "a photo of the big {c}."
+    ],
+    "dtd": [
+        "a photo of a {c} texture.",
+        "a photo of a {c} pattern.",
+        "a photo of a {c} thing.",
+        "a photo of a {c} object.",
+        "a photo of the {c} texture.",
+        "a photo of the {c} pattern.",
+        "a photo of the {c} thing.",
+        "a photo of the {c} object."
+    ],
+    "fgvc_aircraft": [
+        "a photo of a {c}, a type of aircraft.",
+        "a photo of the {c}, a type of aircraft."
+    ],
+    "flowers": [
+        "a photo of a {c}, a type of flower."
+    ],
+    "sun397": [
+        "a photo of a {c}.",
+        "a photo of the {c}."
     ]
 }

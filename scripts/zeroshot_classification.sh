@@ -7,8 +7,9 @@ pretrained='yfcc15m'
 # model='ViT-B-32'
 # pretrained='datacomp_m_s128m_b4k'
 root="/mnt/ssd/ronak/datasets/clip_benchmark"
-dataset="cifar10"
-templates="cifar10_prompts_full"
+dataset="dtd"
+# templates="${dataset}_prompts_full"
+templates="templates"
 
 clip_benchmark eval --dataset=$dataset \
 --task=zeroshot_classification \
