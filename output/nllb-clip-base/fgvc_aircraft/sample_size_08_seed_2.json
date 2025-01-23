@@ -1,0 +1,1 @@
+{"dataset": "fgvc_aircraft", "model": "nllb-clip-base", "pretrained": "v1", "task": "zeroshot_classification", "metrics": {"acc1": 0.026102610261026102, "acc5": 0.10561056105610561, "mean_per_class_recall": 0.02627450980392157}, "language": "en"}

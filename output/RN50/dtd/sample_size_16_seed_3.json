@@ -1,0 +1,1 @@
+{"dataset": "dtd", "model": "RN50", "pretrained": "yfcc15m", "task": "zeroshot_classification", "metrics": {"acc1": 0.30106382978723406, "acc5": 0.6234042553191489, "mean_per_class_recall": 0.301063829787234}, "language": "en"}

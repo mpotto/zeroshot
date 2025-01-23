@@ -32,11 +32,11 @@
             "The anechoic chamber is a room designed to completely absorb reflections of either sound or electromagnetic waves.",
             " An anechoic chamber is a room designed to completely absorb reflections of sound."
         ],
-        "apartment building (outdoor)": [
+        "apartment building outdoor": [
             "An apartment building is typically a large rectangular structure with many windows.",
             "One way to identify an apartment building is by looking for outdoor common areas, such as a playground, pool, or picnic area."
         ],
-        "apse (indoor)": [
+        "apse indoor": [
             "A apse is a semicircular or polygonal recess in a wall, typically found at the eastern end of a church.",
             "In a photo of an apse, there is typically a large, arched window or opening at the end of a long, narrow room."
         ],
@@ -56,7 +56,7 @@
             "The format of an archive typically contains a header that includes information about the file, such as a signature or magic number, followed by a file table, and finally the file data.",
             "There is no surefire way to identify an archive, although there are some characteristics that may clue you in."
         ],
-        "arrival gate (outdoor)": [
+        "arrival gate outdoor": [
             "The photo might show the entrance to an airport, with travelers waiting to board their flights.",
             "The arrival gate is typically where the airplane arrives and the passengers disembark."
         ],
@@ -76,11 +76,11 @@
             "A assembly line is a process of manufacturing where items are produced in a sequential order.",
             "A assembly line is a line of workers, usually in a factory, who are each assigned a specific task to do in the assembly of a product."
         ],
-        "athletic field (outdoor)": [
+        "athletic field outdoor": [
             " Generally, an outdoor athletic field includes a large, open area of grassy land surrounding a track or running path, with a gymnasium or other sports facility nearby.",
             "Athletic fields are typically large, flat areas of land surrounded by bleachers or stands."
         ],
-        "atrium (public)": [
+        "atrium public": [
             "A atrium (public) typically looks like a large, open space with high ceilings.",
             "The photo is of a large, open space with a high ceiling."
         ],
@@ -100,7 +100,7 @@
             "A photo of a badlands would show a vast, open area of land with very little vegetation.",
             "Badlands can be identified by their lack of vegetative cover and their moon-like appearance."
         ],
-        "badminton court (indoor)": [
+        "badminton court indoor": [
             "The court is a rectangular 44 feet by 20 feet.",
             "The court is a rectangular 44 feet by 20 feet."
         ],
@@ -108,15 +108,15 @@
             "A baggage claim is an area where passengers claim checked-in luggage after arriving at their final destination.",
             "This photo shows a busy baggage claim area at an airport."
         ],
-        "bakery (shop)": [
+        "bakery shop": [
             "The shop has a glass front, and inside there are shelves with neatly arranged baked goods on them.",
             "The most common way to identify a bakery is by the types of baked goods that they sell."
         ],
-        "balcony (exterior)": [
+        "balcony exterior": [
             "There is a balcony with a metal railing.",
             "A balcony is an external platform that is attached to the side of a building."
         ],
-        "balcony (interior)": [
+        "balcony interior": [
             "A balcony is a small platform that projects from the wall of a building and is enclosed by a railing.",
             "In the photo, there is a balcony with a view of the cityscape."
         ],
@@ -160,7 +160,7 @@
             "A basilica is a type of church building.",
             "A basilica is a type of church that is typically rectangular in shape with a large central nave and two smaller side aisles."
         ],
-        "basketball court (outdoor)": [
+        "basketball court outdoor": [
             "A basketball court (outdoor) has a rectangular shape with a hard surface.",
             "A basketball court is typically a rectangular outdoor surface with a hoop at each end."
         ],
@@ -176,11 +176,11 @@
             "A bayou is a swampy area of land that is found in the southern United States.",
             "A bayou is a slow-moving body of water found in the southern United States."
         ],
-        "bazaar (indoor)": [
+        "bazaar indoor": [
             "The most common type of bazaar is a street market.",
             "A bazaar is an indoor market typically found in countries with hot climates."
         ],
-        "bazaar (outdoor)": [
+        "bazaar outdoor": [
             "A bazaar (outdoor) is typically an open-air market or street market.",
             "A bazaar is an outdoor market with many stalls selling various goods."
         ],
@@ -204,7 +204,7 @@
             "In a biology laboratory, there are usually microscopes, beakers, and Bunsen burners.",
             "The photo might show people in lab coats working with microscopes, beakers, and test tubes full of colorful liquids."
         ],
-        "bistro (indoor)": [
+        "bistro indoor": [
             "The photo shows a small, charming bistro with exposed brick walls and billowing white curtains.",
             "A bistro is usually a small, casually elegant restaurant with a modest menu of French-inspired food."
         ],
@@ -224,7 +224,7 @@
             "A bookstore can be identified by its shelves lined with books.",
             "A bookstore is a shop that sells books."
         ],
-        "booth (indoor)": [
+        "booth indoor": [
             "An indoor booth usually consists of a table or counter with a sign or banner hung above or behind it.",
             "Some ways you can identify a booth indoors is by looking for a sign that says \"booth\" or by looking for a table that is set up with items for sale."
         ],
@@ -232,11 +232,11 @@
             "It can be difficult to identify a botanical garden because they can vary greatly in size and scope.",
             "A botanical garden is a place where plants are grown for scientific purposes."
         ],
-        "bow window (indoor)": [
+        "bow window indoor": [
             "A bow window is a type of window that protrudes outward from the exterior wall of a house.",
             "A bow window is a window with four or more panels that bulge outward from the building."
         ],
-        "bow window (outdoor)": [
+        "bow window outdoor": [
             "A bow window is a type of window that protrudes from the exterior wall of a building.",
             "A bow window is a type of window that protrudes from the external wall of a building."
         ],
@@ -248,7 +248,7 @@
             "The photo is of a boxing ring with two fighters in the ring.",
             "The photo is of a boxing ring with the corner ropes down."
         ],
-        "brewery (indoor)": [
+        "brewery indoor": [
             "A brewery is usually a large, indoor space with a lot of stainless steel brewing equipment.",
             "The photo shows a large room with a high ceiling."
         ],
@@ -280,7 +280,7 @@
             "In the photo, there is a large butte in the center with smaller buttes and hills in the distance.",
             "A butte is a flat-topped hill with steep sides."
         ],
-        "cabin (outdoor)": [
+        "cabin outdoor": [
             "A small, one-story cabin in the woods.",
             "If you are looking for a cabin in the outdoors, you can look for one that is made of logs or has a thatched roof."
         ],
@@ -296,11 +296,11 @@
             "A campus generally refers to the land and buildings associated with a university, college, or other institution of higher education.",
             "This photo shows a campus with a large central lawn and many trees."
         ],
-        "canal (natural)": [
+        "canal natural": [
             "The photo might show the canal in different seasons, with different amounts of water.",
             "The canal is a long, narrow waterway that is lined with trees on either side."
         ],
-        "canal (urban)": [
+        "canal urban": [
             "In an urban area, a canal is typically an artificial waterway that has been constructed for irrigation, drainage, or other purposes.",
             "A photo of a canal in an urban area shows a waterway that is lined with buildings on either side."
         ],
@@ -312,11 +312,11 @@
             "A canyon is a deep gorge formed by a river or stream.",
             "."
         ],
-        "car interior (backseat)": [
+        "car interior backseat": [
             "A car backseat typically has two or three seats facing the back of the car, with seatbelts for each passenger.",
             "This photo is of a car interior with the backseat down."
         ],
-        "car interior (frontseat)": [
+        "car interior frontseat": [
             "The front seat of a car is generally the seat closest to the front of the car.",
             "A car interior (frontseat) can be identified by looking for a comfortable place to sit, a place to rest your feet, and a place to put your hands while you drive."
         ],
@@ -324,7 +324,7 @@
             "A carrousel is a type of rotating platform that is typically found in amusement parks and carnivals.",
             "A carrousel is a spinning ride at a fairground or amusement park."
         ],
-        "casino (indoor)": [
+        "casino indoor": [
             "This photo shows a large, well-lit casino with a central bar area and gaming tables surrounding it.",
             "A casino is typically a large, noisy, and brightly-lit room with a lot of people milling about."
         ],
@@ -336,15 +336,15 @@
             "The photo shows a long, dark tunnel with stone walls.",
             "A catacomb is an underground cemetery where people are buried in small chambers or cubicles."
         ],
-        "cathedral (indoor)": [
+        "cathedral indoor": [
             "A cathedral is a large and stately Christian church, typically one with a high-vaulted roof and at least one tower.",
             "Indoors, a cathedral typically has high, arched ceilings, stained glass windows, and large pillars."
         ],
-        "cathedral (outdoor)": [
+        "cathedral outdoor": [
             "In the photo, the cathedral is situated in the middle of a cityscape.",
             "This photo shows the exterior of a cathedral."
         ],
-        "cavern (indoor)": [
+        "cavern indoor": [
             "You can identify a cavern by its large, open space and tall ceilings.",
             "Indoor caverns are typically created by people and are used for a variety of purposes such as storage, shelters, or areas to hide from danger."
         ],
@@ -364,11 +364,11 @@
             "A photo of a chemistry lab might show someone wearing a lab coat and safety goggles, measuring a liquid in a glass beaker, or writing down observations in a lab notebook.",
             "A chemistry lab is a room in a school or college where chemists do experiments."
         ],
-        "chicken coop (indoor)": [
+        "chicken coop indoor": [
             "In the photo, there is a chicken coop with several chickens inside.",
             "The coop is built out of wood and chicken wire and is a simple A-frame structure."
         ],
-        "chicken coop (outdoor)": [
+        "chicken coop outdoor": [
             "The chicken coop is a wooden structure with a roof.",
             "A chicken coop is a small shed with a chicken run attached."
         ],
@@ -376,11 +376,11 @@
             "The photo is of a young child's room.",
             "There are several ways to identify a child's room."
         ],
-        "church (indoor)": [
+        "church indoor": [
             "Churches typically have high ceilings with ornate designs, large stained glass windows, and grandiose organs.",
             "An indoor church typically has a large, open space with a high ceiling."
         ],
-        "church (outdoor)": [
+        "church outdoor": [
             "There is no definitive answer to this question as different churches can have different architecture and layouts.",
             "This church is probably from the early 1900s."
         ],
@@ -396,7 +396,7 @@
             "A cliff is an elevated, steep edge of land that drops off suddenly.",
             "A cliff is a steep slope that goes down sharply."
         ],
-        "cloister (indoor)": [
+        "cloister indoor": [
             "The interior of a cloister typically contains a square or rectangular central courtyard, with an arcade on each side.",
             "A cloister is a cordoned off section of a church that typically contains religious relics or statuary."
         ],
@@ -440,7 +440,7 @@
             "A control room is typically a room that is used to house equipment that is used to monitor and control a process.",
             "A control room is typically a room that is used to house computer equipment and monitoring devices."
         ],
-        "control tower (outdoor)": [
+        "control tower outdoor": [
             "Look for a very tall building or tower that has windows all the way around it.",
             "A control tower (outdoor) looks like a small building with a glass window in the top."
         ],
@@ -472,7 +472,7 @@
             "A courtyard is a space partially or entirely enclosed by walls, buildings, or other structures.",
             "A photo of a courtyard would show an enclosed area, typically with a garden, that is surrounded by walls or other buildings."
         ],
-        "covered bridge (exterior)": [
+        "covered bridge exterior": [
             "A covered bridge typically has a roof and is often made of wood.",
             "A covered bridge is a bridge with a roof and siding that is typically made of wood."
         ],
@@ -488,7 +488,7 @@
             "A crosswalk looks like a set of lines that run across a street or intersection and are meant to indicate to drivers and pedestrians where it is safe to cross.",
             "A crosswalk is an area of the road designated for pedestrians to cross."
         ],
-        "cubicle (office)": [
+        "cubicle office": [
             "A cubicle is a small room in an office that is divided by walls.",
             "The photo shows a cubicle with three walls and a door."
         ],
@@ -504,27 +504,27 @@
             "A dentists office is a room in a building where a dentist works.",
             "In the photo, there is a small waiting room with several chairs and a coffee table."
         ],
-        "desert (sand)": [
+        "desert sand": [
             " Sand is a type of soil that is composed of very small rock and mineral particles.",
             "A desert is a dry, usually hot, region of land."
         ],
-        "desert (vegetation)": [
+        "desert vegetation": [
             "A desert is a dry, HOT place.",
             "In the photo, there is a desert with various types of vegetation."
         ],
-        "diner (indoor)": [
+        "diner indoor": [
             "A diner is typically a small, rectangular building with a long counter and stools facing the kitchen.",
             "An indoor diner typically has a counter with stools where people can sit and eat their food."
         ],
-        "diner (outdoor)": [
+        "diner outdoor": [
             "Often, an outdoor diner will have a counter with stools where people can sit and eat.",
             "A typical American diner is a small restaurant in a narrow space with a long counter and stools where customers can sit."
         ],
-        "dinette (home)": [
+        "dinette home": [
             "A dinette is a small eating area in a home, typically with a table and chairs.",
             "A dinette is a small eating area in a home, typically with a table and chairs."
         ],
-        "dinette (vehicle)": [
+        "dinette vehicle": [
             "A dinette is a small table with benches or chairs surrounding it.",
             "A dinette is typically a small bench seat with a removable table that can be stored in the vehicle."
         ],
@@ -544,7 +544,7 @@
             "A dock is a platform that is built out into the water.",
             "A dock is a structure built out over water, typically supported by pilings or posts, that provides a landing place for ships and boats."
         ],
-        "doorway (outdoor)": [
+        "doorway outdoor": [
             "This photo shows a doorway that is made of wooden planks.",
             "One way to identify an outdoor doorway is by looking for a change in the material of the wall."
         ],
@@ -556,7 +556,7 @@
             "A driveway is a paved or unpaved path leading from a street or driveway to a house, garage, or other building.",
             "The driveway is long and winding, lined with trees on either side."
         ],
-        "driving range (outdoor)": [
+        "driving range outdoor": [
             "A driving range is usually a fenced-in area with a number of hitting stations, where golfers can hit balls with their clubs.",
             "In the photo, there is a driving range with people hitting golf balls."
         ],
@@ -568,11 +568,11 @@
             "A substation is an electrical installation where buses connect high voltage transmission lines to lower voltage distribution lines.",
             "An electrical substation is usually a large fenced-in area with a transformer and several high-voltage wires coming into and out of it."
         ],
-        "elevator (door)": [
+        "elevator door": [
             "It is a photo of an elevator door with the number \"12\" on it.",
             "An elevator door is a large door that opens vertically and is used to move people and goods between floors of a building."
         ],
-        "elevator (interior)": [
+        "elevator interior": [
             "There are typically call buttons for each floor near the elevator doors.",
             "There are typically call buttons for each floor near the elevator doors."
         ],
@@ -584,7 +584,7 @@
             "A typical engine room is a large, rectangular room that contains the ship's engines, boilers, and other mechanical equipment.",
             "The photo shows a large engine room with several engines and other machinery."
         ],
-        "escalator (indoor)": [
+        "escalator indoor": [
             "The photo is of an escalator in an indoor setting.",
             "The photo shows an escalator in an indoor setting."
         ],
@@ -592,7 +592,7 @@
             "This is a photo of an excavation.",
             "A excavation is a large hole in the ground that is created when dirt and rocks are removed from an area."
         ],
-        "factory (indoor)": [
+        "factory indoor": [
             "This photo depicts a factory with several large machines inside.",
             "A factory is often a large, dark and dirty building with big machines inside."
         ],
@@ -604,11 +604,11 @@
             "A photo of a fastfood restaurant shows a busy drive-thru with a long line of cars.",
             "The photo is of a fastfood restaurant called \"In-N-Out."
         ],
-        "field (cultivated)": [
+        "field cultivated": [
             "A field can be identified by its appearance.",
             "A field can be identified by its appearance."
         ],
-        "field (wild)": [
+        "field wild": [
             "A field (wild) can look like a meadow with tall grasses and flowers, or it can be a forest with trees, bushes, and ground cover.",
             "There are various ways to identify a field in the wild."
         ],
@@ -620,7 +620,7 @@
             "Pyrometers and accelerants can be used to identify a fire station.",
             "Most fire stations are red and have a big red fire truck parked out front."
         ],
-        "firing range (indoor)": [
+        "firing range indoor": [
             "A firing range typically has a concrete floor with paper targets affixed to target backers at various distances.",
             "An indoor firing range typically contains a shooting lane, with a bench and a target at the far end."
         ],
@@ -628,7 +628,7 @@
             "A fishpond is a small, shallow pond designed to keep fish.",
             "A fishpond is a small, shallow body of water that is usually surrounded by earth or stone."
         ],
-        "florist shop (indoor)": [
+        "florist shop indoor": [
             "The photo shows a small, cramped florist shop with water-stained walls and chipped paint.",
             "A florist shop is usually a small shop with a lot of flowers."
         ],
@@ -636,11 +636,11 @@
             "A food court is a shared space in a public building where different food vendors sell their food.",
             "A food court is typically a large, open area in a shopping mall that has a number of fast food restaurants."
         ],
-        "forest (broadleaf)": [
+        "forest broadleaf": [
             "This photo shows a dense, green forest with tall trees and a thick understory of shrubs.",
             "The leaves of broadleaf trees are wider than those of coniferous trees, and the branches are arranged in a more random fashion."
         ],
-        "forest (needleleaf)": [
+        "forest needleleaf": [
             "A forest (needleleaf) looks like a mass of trees with needle-like leaves.",
             "A forest (needleleaf) looks like a mass of trees with needles for leaves."
         ],
@@ -668,7 +668,7 @@
             "A game room is typically a room in a house set aside for entertainment.",
             "The most common way to identify a game room is by the presence of gaming consoles or a gaming pc."
         ],
-        "garage (indoor)": [
+        "garage indoor": [
             "The photo is of a rectangular room with high ceilings.",
             "A garage is typically a large, rectangular room with smooth concrete floors and white walls."
         ],
@@ -680,15 +680,15 @@
             "A gas station can be identified by its location, sign, and the services it offers.",
             "A gas station is a place where people can buy gasoline and other fuel for their vehicles."
         ],
-        "gazebo (exterior)": [
+        "gazebo exterior": [
             "The photo shows a octagonal gazebo with a blue roof.",
             "The photo shows a octagonal gazebo with a blue roof."
         ],
-        "general store (indoor)": [
+        "general store indoor": [
             "A general store is a large indoor retail space that sells a variety of items.",
             "There are shelves full of different items, a counter with a register on it, and people milling about."
         ],
-        "general store (outdoor)": [
+        "general store outdoor": [
             "A general store can be identified by its large size and varied selection of goods.",
             "The photo is of an old, run-down general store in the middle of nowhere."
         ],
@@ -700,23 +700,23 @@
             "This is a photo of a golf course.",
             "A golf course can typically be identified by its green lawns, small ponds, and windmills."
         ],
-        "greenhouse (indoor)": [
+        "greenhouse indoor": [
             "A greenhouse is a glass or plastic buildind that is used to grow plants.",
             "A photo of a greenhouse might show a large, glass structure with shelves inside filled with plants."
         ],
-        "greenhouse (outdoor)": [
+        "greenhouse outdoor": [
             "In the photo, there is a large, rectangular greenhouse with a metal frame and clear walls.",
             "A large building with glass walls and a glass roof."
         ],
-        "gymnasium (indoor)": [
+        "gymnasium indoor": [
             "This is a photo of an indoor gymnasium.",
             "A photo of a gymnasium (indoor) would show a large, open space with high ceilings."
         ],
-        "hangar (indoor)": [
+        "hangar indoor": [
             "A hangar is a large, often roofed structure used to house aircraft or spacecraft.",
             "The photo is of a large, rectangular room with a high ceiling."
         ],
-        "hangar (outdoor)": [
+        "hangar outdoor": [
             "The most common type of hangar is a metal shed with a sliding door.",
             "A hangar is a large outdoor building with a wide door that is used to store aircraft."
         ],
@@ -760,11 +760,11 @@
             "A hot spring is a ruptured fissure in the Earth's surface that emits a jet of hot water and steam.",
             "A hot spring is a spot where water has been heated by the earth's hot rocks and then comes up through the ground."
         ],
-        "hot tub (outdoor)": [
+        "hot tub outdoor": [
             "A hot tub is a large tub or small pool full of hot water that people use to relax or bathe in.",
             "A hot tub is a large, round tub that is filled with hot water."
         ],
-        "hotel (outdoor)": [
+        "hotel outdoor": [
             "In the photo, there is a large, modern hotel with a light-colored exterior.",
             "A hotel (outdoor) typically looks like a tall building with many windows."
         ],
@@ -776,7 +776,7 @@
             "A house typically has four walls and a roof.",
             "The outside of a house is typically made of brick, stone, or wood."
         ],
-        "hunting lodge (outdoor)": [
+        "hunting lodge outdoor": [
             "A hunting lodge typically looks like a log cabin in the woods.",
             "This hunting lodge is a large, log cabin-style structure nestled in a clearing amidst a dense forest."
         ],
@@ -792,11 +792,11 @@
             "An ice shelf is a sloping sheet of ice that floats on the ocean and is attached to land.",
             "This photo shows an ice shelf in Antarctica."
         ],
-        "ice skating rink (indoor)": [
+        "ice skating rink indoor": [
             "The best way to identify an indoor skating rink is by the smooth, glossy surface of the ice.",
             "An ice skating rink is generally a large, oval-shaped room with polished white floors and walls."
         ],
-        "ice skating rink (outdoor)": [
+        "ice skating rink outdoor": [
             "An ice skating rink (outdoor) looks like a large, flat, white sheet of ice.",
             "In the photo, there is a large ice skating rink with a line of people waiting to skate."
         ],
@@ -812,7 +812,7 @@
             "A large warehouse with high ceilings and many rows of shelves.",
             "A large industrial area can be identified by its factories and warehouses."
         ],
-        "inn (outdoor)": [
+        "inn outdoor": [
             ".",
             "Some common features of an inn (outdoor) are a front desk, a lobby, and guest rooms."
         ],
@@ -820,11 +820,11 @@
             "A photo of a islet might show a small, rocky island surrounded by waters.",
             "A islet is a small island that is surrounded by water."
         ],
-        "jacuzzi (indoor)": [
+        "jacuzzi indoor": [
             "One way to identify a jacuzzi is by looking for a large tub with jets installed around the perimeter.",
             "An indoor jacuzzi typically looks like a large hot tub that is built into the floor."
         ],
-        "jail (indoor)": [
+        "jail indoor": [
             "A jail (indoor) looks like a large room with cells on either side.",
             "A jail (indoor) looks like a large room with cells on either side."
         ],
@@ -840,11 +840,11 @@
             "A kasbah is a type of fortress found in North Africa.",
             "Kasbahs are large, fortress-like dwellings that were built by wealthy Berber families in the Middle Ages."
         ],
-        "kennel (indoor)": [
+        "kennel indoor": [
             "A kennel (indoor) usually looks like a small room or enclosure with a solid floor and walls.",
             "The photo is of an indoor kennel with metal bars and a concrete floor."
         ],
-        "kennel (outdoor)": [
+        "kennel outdoor": [
             "A kennel (outdoor) can typically be identified by its location outdoors and by the presence of a dog or dogs.",
             "An outdoor kennel is typically a fenced in area that is used to keep a dog or other animal outdoors."
         ],
@@ -860,11 +860,11 @@
             "A kitchenette is a mini kitchen.",
             "This is a photo of a small kitchenette with light wood cabinets, a white countertop, a small sink, and a white refrigerator."
         ],
-        "labyrinth (outdoor)": [
+        "labyrinth outdoor": [
             "A labyrinth can be identified by its circular or spiral shape.",
             "A photo of a labyrinth might show a maze-like structure made out of hedges, stones, or other materials, with a winding path leading to the center."
         ],
-        "lake (natural)": [
+        "lake natural": [
             "There are many ways to identify a lake.",
             "A lake is a large body of water that is surrounded by land."
         ],
@@ -884,15 +884,15 @@
             "The lecture room is a typical classroom with a chalkboard at the front and rows of desks where the students sit.",
             "A lecture room is typically a large room with stadium seating."
         ],
-        "library (indoor)": [
+        "library indoor": [
             "The library looks like a large room with many shelves of books.",
             "A library is typically a room or building with shelves of books and other materials."
         ],
-        "library (outdoor)": [
+        "library outdoor": [
             "A library typically looks like a brick building with tall ceilings and many windows.",
             "A library typically looks like a brick building with tall ceilings and many windows."
         ],
-        "lido deck (outdoor)": [
+        "lido deck outdoor": [
             "A lido deck is an outdoor recreational area, typically found on the rooftop of a building, that is usually equipped with a swimming pool, a sun terrace, and a bar.",
             "A lido deck is an outdoor deck area on a cruise ship or ocean liner typically used for sunbathing, although it may also be used for swimming, exercises, or other activities."
         ],
@@ -932,11 +932,11 @@
             "There are a few ways to identify a manufactured home.",
             "A manufactured home is a factory-built home that is transported to the site where it will be occupied."
         ],
-        "market (indoor)": [
+        "market indoor": [
             "A market typically has numerous stalls or stands that sell a variety of goods.",
             "There are a few ways to identify an indoor market: \n-The market is usually located inside of a building \n-There are typically stalls or stands that sell various goods\n-The market may be organized into sections with different types."
         ],
-        "market (outdoor)": [
+        "market outdoor": [
             "A market is typically an outdoor event where vendors sell food, crafts, and other goods.",
             "The photo depicts a busy market with stalls selling a variety of goods."
         ],
@@ -956,19 +956,19 @@
             "The photo is of a crowded and busy street in the old city of Fez, Morocco.",
             "The photo is of a small, dusty alleyway in a medina (a Muslim quarter in a city)."
         ],
-        "moat (water)": [
+        "moat water": [
             "Moat is a dry ditch or an enclosure filled with water that is dug around the perimeter of a castle for protection from invaders.",
             " around a castleIn the photo, the castle is surrounded by a wide, deep moat."
         ],
-        "monastery (outdoor)": [
+        "monastery outdoor": [
             "A photo of a monastery shows a large stone building with high ceilings and large windows.",
             "The external features of a monastery vary depending on the style of architecture, but many monasteries have high walls that enclose a courtyard, bell towers, and distinctively-shaped roofs."
         ],
-        "mosque (indoor)": [
+        "mosque indoor": [
             "A mosque is a place of worship for Muslims.",
             "A mosque is a place of worship for Muslims."
         ],
-        "mosque (outdoor)": [
+        "mosque outdoor": [
             "There are many ways to identify a mosque.",
             "In the photo, there is a mosque in the center with a large, onion-shaped dome."
         ],
@@ -984,11 +984,11 @@
             "A mountain is snowy if it has snow on it.",
             "There are many ways to identify a mountain as being snowy."
         ],
-        "movie theater (indoor)": [
+        "movie theater indoor": [
             "The photo is of an indoor movie theater.",
             "The most common type of indoor movie theater has tiered seating in which the seats are on elevations so that every row is higher than the row in front of it."
         ],
-        "museum (indoor)": [
+        "museum indoor": [
             "The photo is of a large, high-ceilinged room with white walls.",
             "In general, museums have a sign with the name of the museum."
         ],
@@ -1000,7 +1000,7 @@
             "There is no one answer to this question as music studios can come in all shapes and sizes.",
             "A music studio typically contains musical equipment such as microphones, mixing consoles, sound speakers, and musical instruments."
         ],
-        "nuclear power plant (outdoor)": [
+        "nuclear power plant outdoor": [
             "The identification of a nuclear power plant from the outdoors can be achieved through the observation of several characteristics.",
             "A nuclear power plant (outdoor) looks like a large, industrial complex with multiple buildings and towers."
         ],
@@ -1012,7 +1012,7 @@
             "A oast house is a tall, conical building that is used to dry hops.",
             "A oast house is a traditional Kentish building used for drying hops."
         ],
-        "observatory (outdoor)": [
+        "observatory outdoor": [
             "An observatory is a tower or building used for observing the weather and the sky.",
             "A observatory is typically a large, isolated structure with a dome or telescopes on top."
         ],
@@ -1028,7 +1028,7 @@
             "A office building typically has a large, open floor plan with many individual offices or cubicles.",
             "This office building is located in the heart of the financial district in downtown Toronto."
         ],
-        "oil refinery (outdoor)": [
+        "oil refinery outdoor": [
             "Oil refineries are large industrial complexes that process crude oil into more useful products, such as gasoline, diesel fuel, heating oil, kerosene, and liquefied petroleum gas.",
             "The photo might show the tall Eisenberg smokestacks, surrounded by a steel fence, with a view of the harbor in the background."
         ],
@@ -1044,7 +1044,7 @@
             "In the photo, there is a vast orchard with rows upon rows of trees.",
             "An orchard is an area of land where fruit or nut trees are grown."
         ],
-        "outhouse (outdoor)": [
+        "outhouse outdoor": [
             "Outhouses are typically small, wooden structures with a door and a hole in the ground.",
             "The outhouse is a small, wooden structure with a door and a window."
         ],
@@ -1064,11 +1064,11 @@
             "A park is a large area of land that is set aside for recreation.",
             "A park generally contains a large open area of grassland, trees and shrubs, and a playground."
         ],
-        "parking garage (indoor)": [
+        "parking garage indoor": [
             "An indoor parking garage typically has concrete flooring and walls and a ceiling made of either concrete or metal.",
             "A parking garage is a large, indoor parking structure typically found in urban areas."
         ],
-        "parking garage (outdoor)": [
+        "parking garage outdoor": [
             "The easiest way to identify a parking garage is by the presence of large, open spaces for vehicles to park.",
             "Most parking garages are large, standalone structures with many parking spaces."
         ],
@@ -1108,11 +1108,11 @@
             "A group of people are sitting and lying on a colorful blanket in a grassy area next to a river.",
             "In the photo, there is a large green park with a few trees."
         ],
-        "pilothouse (indoor)": [
+        "pilothouse indoor": [
             "In the photo, there is a large, wheel in the center of the room with a wooden panel in front of it.",
             "A pilothouse is an indoor area on a ship or boat that houses the ship's wheel and officers."
         ],
-        "planetarium (outdoor)": [
+        "planetarium outdoor": [
             "A planetarium is typically a large dome-shaped structure.",
             "Most planetariums are large domes that have a projection of the night sky on the inside."
         ],
@@ -1128,11 +1128,11 @@
             "A plaza can be identified by its large, open space in the center, often with a fountain or monument, and the buildings and walkways surrounding it.",
             "If a plaza has a lot of open space in the middle, it is probably a plaza."
         ],
-        "podium (indoor)": [
+        "podium indoor": [
             "A podium has three sides and a top.",
             "A podium is a raised platform that is used as a stage for speeches or presentations."
         ],
-        "podium (outdoor)": [
+        "podium outdoor": [
             "A podium is an elevated platform on which a person can stand to make a speech or give a lecture.",
             "A podium (outdoor) is a raised platform that is typically used for speeches or presentations."
         ],
@@ -1140,15 +1140,15 @@
             "A pond is a small body of water surrounded by land.",
             "A pond is a body of water that is smaller than a lake and is usually fed by a stream or river."
         ],
-        "poolroom (establishment)": [
+        "poolroom establishment": [
             "A poolroom is an establishment where people can gamble on pool games.",
             "The photo is of a large room with a pool table in the center."
         ],
-        "poolroom (home)": [
+        "poolroom home": [
             "A poolroom (home) can be identified by its large, open space with a billiards table in the center.",
             "Generally, a poolroom is a room in someone's house that is set up for playing pool."
         ],
-        "power plant (outdoor)": [
+        "power plant outdoor": [
             "From a distance, you can identify a power plant by its tall smokestacks.",
             "A power plant can be identified by its large smokestacks and large buildings."
         ],
@@ -1156,7 +1156,7 @@
             "A promenade deck is an outdoor deck that is typically located on the top level of a cruise ship.",
             "The photo is of a woman walking on a promenade deck."
         ],
-        "pub (indoor)": [
+        "pub indoor": [
             "This photo is of a small, Irish pub.",
             "This is a photo of a pub called The Eagle in Islington, London."
         ],
@@ -1276,7 +1276,7 @@
             "The photo is of a small shopfront with a green awning.",
             "There is no definitive answer to this question as shopfronts can vary greatly in terms of their size, shape, and overall appearance."
         ],
-        "shopping mall (indoor)": [
+        "shopping mall indoor": [
             "The photo shows a large, open space with a high ceiling.",
             "This is a photo of a typical shopping mall, with a large central atrium and several stories of shops and businesses."
         ],
@@ -1324,15 +1324,15 @@
             "A stable is typically a building where animals are kept, especially horses.",
             "A stable is usually a large building with stalls for horses."
         ],
-        "stadium (baseball)": [
+        "stadium baseball": [
             "A baseball stadium looks like a large, open field with a diamond shape in the middle.",
             "The photo is of a baseball stadium."
         ],
-        "stadium (football)": [
+        "stadium football": [
             "A stadium is typically an open-air venue with a rectangular or oval shape.",
             "The stadium is gigantic with a huge field in the middle."
         ],
-        "stage (indoor)": [
+        "stage indoor": [
             "A stage (indoor) can be identified by its raised platform, typically surrounded by a curtain.",
             "A photo of a stage (indoor) would show an empty stage with a curtain in the background."
         ],
@@ -1348,7 +1348,7 @@
             "A subway interior can be identified by its long, rectangular shape; its multiple rows of benches or seats; and its bright fluorescent lighting.",
             "A subway interior typically has a long, narrow platform with a train on one side and a wall on the other."
         ],
-        "subway station (platform)": [
+        "subway station platform": [
             "Each subway station has a unique name or number.",
             "A subway station platform is a raised area with a train track running through the middle of it."
         ],
@@ -1364,19 +1364,19 @@
             "In the photo, there is a swamp with murky water and overgrown plants.",
             "A swamp is damp, murky, and humid."
         ],
-        "swimming pool (indoor)": [
+        "swimming pool indoor": [
             "This photo is of an indoor swimming pool with tiled walls and floor.",
             "In the photo, there is an indoor swimming pool with blue walls and tiles."
         ],
-        "swimming pool (outdoor)": [
+        "swimming pool outdoor": [
             "A swimming pool (outdoor) is typically a large, rectangular body of water that is surrounded by concrete or other hard surfaces.",
             "A swimming pool (outdoor) typically looks like a large, rectangular body of water surrounded by a concrete deck."
         ],
-        "synagogue (indoor)": [
+        "synagogue indoor": [
             "A synagogue (indoor) is a place of Jewish worship.",
             "A synagogue's interior depends on the size and style of the building, but many synagogues have a central hall with a raised platform or stage at one end for the reading of the Torah scroll and the leader of prayer, called the ha."
         ],
-        "synagogue (outdoor)": [
+        "synagogue outdoor": [
             "The photo shows a large, white synagogue with a tall, green dome in the center.",
             "In the photo, there is a brown building with a white dome in the center."
         ],
@@ -1384,31 +1384,31 @@
             "The photo shows a television studio with a camera on a tripod in the center of the room.",
             "The photo is of a large room with brick walls and a high ceiling."
         ],
-        "temple (east asia)": [
+        "temple east asia": [
             "A temple in East Asia typically has a large, central hall with an altar at the back, surrounded by smaller rooms and courtyards.",
             "A temple in East Asia typically has a large, central hall with an altar at the back, surrounded by smaller rooms and courtyards."
         ],
-        "temple (south asia)": [
+        "temple south asia": [
             "In South Asia, a temple is often a highly decorated and ornate building, constructed of brick, stone, or marble.",
             "This particular temple is located in Siem Reap, Cambodia and is called Wat Preah Khan."
         ],
-        "tennis court (indoor)": [
+        "tennis court indoor": [
             "The tennis court is a dark blue color with white lines running across it.",
             "In the photo, an indoor tennis court is visible."
         ],
-        "tennis court (outdoor)": [
+        "tennis court outdoor": [
             "A tennis court is a rectangle that is 27 feet wide and 78 feet long.",
             "A tennis court is a rectangular court with a net stretched across the middle."
         ],
-        "tent (outdoor)": [
+        "tent outdoor": [
             "The outside of a tent is typically a waterproof and windproof fabric that is draped over and attached to poles.",
             "The photo is of a beige and green tent set up in a grassy area."
         ],
-        "theater (indoor procenium)": [
+        "theater indoor procenium": [
             "A photo of a theater would likely depict a large room with a stage at one end and rows of tiered seating for audience members.",
             "A theater is a room with a stage at one end and seats for an audience on the other."
         ],
-        "theater (indoor seats)": [
+        "theater indoor seats": [
             "Most theaters have tiered rows of seats, with an aisle down the middle and aisles along the sides.",
             "A photo of a theater might show indoor seats that are comfortable and spacious."
         ],
@@ -1440,7 +1440,7 @@
             "A toy shop is typically a shop that sells toys.",
             "The photo is of a small, independent toyshop."
         ],
-        "track (outdoor)": [
+        "track outdoor": [
             "There are a few ways to identify a track:\n- Check for a defined path: if there is a path that is more worn down than the surrounding area, it is likely a track\n- Check for signs or markings: if there.",
             "I see a faint, single track through crunchy, dry leaves."
         ],
@@ -1448,7 +1448,7 @@
             "This is a photo of a train railway.",
             "A railroad or railway is a set of parallel lines that are connected together to form a track."
         ],
-        "train station (platform)": [
+        "train station platform": [
             "In order to identify a train station platform, you can look for various things.",
             "A train station has a platform where the train can stop."
         ],
@@ -1464,7 +1464,7 @@
             "A trench looks like a long and deep hole in the ground that is usually dug by a machine.",
             "A trench is a line of holes that has been dug into the ground."
         ],
-        "underwater (coral reef)": [
+        "underwater coral reef": [
             "You can identify a underwater (coral reef) by its brightly colored corals and fish.",
             "The easiest way to identify a coral reef is by its brightly colored limestone formations."
         ],
@@ -1512,11 +1512,11 @@
             "A volcano is a mountain that opens downward to a pool of molten rock below the surface of the earth.",
             "The most common way to identify a volcano is by its cone shape."
         ],
-        "volleyball court (indoor)": [
+        "volleyball court indoor": [
             "In the photo, there is a volleyball court with six players.",
             "A volleyball court is typically a hardwood floor covered with a powdery substance."
         ],
-        "volleyball court (outdoor)": [
+        "volleyball court outdoor": [
             "A volleyball court is a rectangular playing surface with a net stretched across the middle.",
             "The photo is of an outdoor volleyball court with a sand floor."
         ],
@@ -1524,7 +1524,7 @@
             "In a traditional doctor's office, the waiting room is usually the first room that you enter.",
             "The waiting room is usually a small room with a few chairs and a table."
         ],
-        "warehouse (indoor)": [
+        "warehouse indoor": [
             "In the photo, there is a large, open room with high ceilings.",
             "This is a photo of an indoor warehouse."
         ],
@@ -1532,15 +1532,15 @@
             "A water tower can be identified by its large size and elevated position.",
             "Most water towers are cylindrical, with a roof on top."
         ],
-        "waterfall (block)": [
+        "waterfall block": [
             "A waterfall (block) can be identified by its large size, vertical orientation, and smooth sides.",
             "A waterfall (block) can be identified by tracing the path of the water from the top to the bottom."
         ],
-        "waterfall (fan)": [
+        "waterfall fan": [
             "A waterfall (fan) is a natural feature created by water flowing over an edge.",
             "This photo shows a beautiful waterfall cascading down a rock face."
         ],
-        "waterfall (plunge)": [
+        "waterfall plunge": [
             "A waterfall plunges over a cliff, often creating a spray of water as it falls.",
             "This photo is of a tall, rushing waterfall."
         ],
@@ -1568,15 +1568,15 @@
             "There are a few ways to identify a windmill.",
             "There are a few ways to identify a windmill."
         ],
-        "wine cellar (barrel storage)": [
+        "wine cellar barrel storage": [
             "The photo shows a wine cellar with large barrels stored inside.",
             "In the photo, there are rows of large wooden barrels stacked on top of each other."
         ],
-        "wine cellar (bottle storage)": [
+        "wine cellar bottle storage": [
             "A wine cellar (or wine room) is a storage room for wine in bottles, barrels, or in bulk, for long-term aging.",
             "The photo might show high racks of wines, with bottles neatly arranged."
         ],
-        "wrestling ring (indoor)": [
+        "wrestling ring indoor": [
             "A wrestling ring is an indoor boxing or wrestling ring that is usually square in shape.",
             "A wrestling ring (indoor) looks like a roped off square with padded corners."
         ],

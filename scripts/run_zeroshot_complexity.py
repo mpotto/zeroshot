@@ -79,6 +79,7 @@ my_parser.add_argument(
 )
 my_parser.add_argument("--use_hyperparam", type=int, default=0)
 my_parser.add_argument("--num_seeds", type=int, default=10)
+my_parser.add_argument("--batch_size", type=int, default=64)
 my_args = my_parser.parse_args()
 
 model_type='open_clip'
@@ -118,7 +119,7 @@ for seed in range(num_seeds):
             f"--output=/home/ronak/zeroshot/output/{model}/{templates}.json",
             f"--dataset_root={root}",
             f"--custom_template_file=/home/ronak/zeroshot/prompts/{templates}.json",
-            "--batch_size=64",
+            f"--batch_size={my_args.batch_size}",
             "--quiet"
         ]
         # for open_clip

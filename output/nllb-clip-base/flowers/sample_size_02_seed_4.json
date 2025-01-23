@@ -1,0 +1,1 @@
+{"dataset": "flowers", "model": "nllb-clip-base", "pretrained": "v1", "task": "zeroshot_classification", "metrics": {"acc1": 0.11172548381850707, "acc5": 0.23532281671816555, "mean_per_class_recall": 0.12127739732214717}, "language": "en"}
