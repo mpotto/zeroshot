@@ -1,0 +1,1 @@
+{"dataset": "sun397", "model": "nllb-clip-base", "pretrained": "v1", "task": "zeroshot_classification", "metrics": {"acc1": 0.5114294646633687, "acc5": 0.8432793276569138, "mean_per_class_recall": 0.46398378677441693}, "language": "en"}

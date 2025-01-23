@@ -77,7 +77,6 @@ my_parser.add_argument(
     required=True,
     choices=['dtd', 'fgvc_aircraft', 'flowers', 'sun397'],
 )
-my_parser.add_argument("--num_seeds", type=int, default=10)
 my_parser.add_argument("--batch_size", type=int, default=64)
 my_args = my_parser.parse_args()
 
@@ -90,36 +89,22 @@ pretrained = {
 }[model]
 root = "/mnt/ssd/ronak/datasets/clip_benchmark"
 dataset = my_args.dataset
-num_seeds = my_args.num_seeds
 os.makedirs(f"/home/ronak/zeroshot/output/{model}/{dataset}", exist_ok=True)
 
-# number of runs per dataset
-sample_sizes = {
-    "dtd": [2, 4, 8, 16, 32, 46, 60], 
-    "fgvc_aircraft": [2, 4, 8, 14, 20], 
-    "sun397": [2, 4, 8, 16, 23, 30], 
-    "flowers": [2, 4, 8, 14, 20],
-}[dataset]
-
-
-for seed in range(num_seeds):
-    print(f"\t *** running seed {seed}/{num_seeds - 1} ***")
-    for sample_size in sample_sizes:
-        print(f"\t\t at sample size {sample_size:02d}...")
-        templates = f"{dataset}/sample_size_{sample_size:02d}_seed_{seed}"
-        commands = [
-            "eval",
-            f"--dataset={dataset}",
-            "--task=zeroshot_classification",
-            f"--pretrained={pretrained}",
-            f"--model={model}",
-            f"--model_type={model_type}",
-            f"--output=/home/ronak/zeroshot/output/{model}/{templates}.json",
-            f"--dataset_root={root}",
-            f"--custom_template_file=/home/ronak/zeroshot/prompts/{templates}.json",
-            f"--batch_size={my_args.batch_size}",
-            "--quiet"
-        ]
-        # for open_clip
-        args = parser.parse_args(commands)
-        main_eval(args)
+templates = f"templates"
+commands = [
+    "eval",
+    f"--dataset={dataset}",
+    "--task=zeroshot_classification",
+    f"--pretrained={pretrained}",
+    f"--model={model}",
+    f"--model_type={model_type}",
+    f"--output=/home/ronak/zeroshot/output/{model}/{dataset}/{templates}.json",
+    f"--dataset_root={root}",
+    f"--custom_template_file=/home/ronak/zeroshot/prompts/{templates}.json",
+    f"--batch_size={my_args.batch_size}",
+    "--quiet"
+]
+# for open_clip
+args = parser.parse_args(commands)
+main_eval(args)
