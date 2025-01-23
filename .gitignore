@@ -5,6 +5,7 @@ scripts/debug*
 scripts/download_imagenet.py
 scripts/run_gpu*
 notebooks/read.txt
+token.txt
 
 
 # Byte-compiled / optimized / DLL files

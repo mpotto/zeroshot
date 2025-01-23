@@ -1,0 +1,23 @@
+{
+    "dtd": [
+        "What does {c} material look like?",
+        "What does a {c} surface look like?",
+        "What does a {c} texture look like?",
+        "What does a {c} object look like?",
+        "What does a {c} pattern look like?"
+    ],
+    "fgvc_aircraft": [
+        "Describe a(n) {c} aircraft.",
+        "Describe the {c} aircraft."
+    ],
+    "flowers": [
+        "Describe how to identify a(n) {c}, a type of flower.",
+        "What does a(n) {c} flower looks like?"
+    ],
+    "sun397": [
+        "Describe what a(n) {c} looks like.",
+        "How can you identify a(n) {c}?",
+        "Describe a photo of a(n) {c}.",
+        "Describe the scene of a(n) {c}."
+    ]
+}
