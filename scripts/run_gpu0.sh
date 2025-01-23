@@ -1,7 +1,9 @@
 #!/bin/bash
 
-device='cuda:0'
-model_type='RN50'
+# device='cuda:0'
+# model_type='RN50'
 
-python scripts/evaluate.py --device $device --n_tasks 10 --model_type $model_type --template imagenet_captions
-python scripts/evaluate.py --device $device --n_tasks 5 --model_type $model_type --template imagenet_captions
+# python scripts/evaluate.py --device $device --n_tasks 10 --model_type $model_type --template imagenet_captions
+# python scripts/evaluate.py --device $device --n_tasks 5 --model_type $model_type --template imagenet_captions
+
+CUDA_VISIBLE_DEVICES=1 python scripts/run_zeroshot_complexity.py --dataset fgvc_aircraft --model RN50
