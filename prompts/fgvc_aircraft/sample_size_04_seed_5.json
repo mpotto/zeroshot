@@ -1,604 +1,604 @@
 {
     "fgvc_aircraft": {
         "DC-3": [
-            "dc-3 aircraft is a large biplane bomber.",
-            "dc-3 aircraft was a large single engine fixed wing plane with distinctive curved fuselage and pointed nose.",
-            "dc-3 aircraft is a large twin engined plane.",
-            "dc-3 aircraft is a large plane with four main engines and a fixed tail rotor."
+            "dc-3 aircraft is a classic twin-engine propeller airplane.",
+            "dc-3 aircraft is a large plane with four main engines and a fixed tail rotor.",
+            "dc-3 aircraft is a small airplane used for transportation. \n\nit is typically smaller than other airplanes, with a shorter fuselage. \nit has a single propeller engine and four seats. \ndc-3 airplanes are often used for short flights",
+            "dc-3 aircraft is a three-engine propeller driven plane."
         ],
         "ERJ 135": [
-            "the erj 135 is a regional jet aircraft widely used in international flights.",
-            "the erj 135 is a small regional jet aircraft widely used in europe and other parts of the world.",
-            "erj 135 aircraft is a regional jet with four engines.",
-            "erj 135 aircraft is a regional jet plane."
+            "erj 135 aircraft is a medium-sized jet plane with four engines. \n\n.",
+            "the erj 135 is a single aisle business jet.",
+            "the erj 135 is a small twin jet aircraft widely used for regional and short-haul flights within its designated airworthiness class period.",
+            "erj 135 is a medium size commercial aircraft."
         ],
         "DC-10": [
-            "dc-10 is a large commercial airliner used for cargo transport.",
-            "dc-10 is a commercial airliner.",
-            "dc-10 is a large commercial airliner.",
-            "dc-10 aircraft is a wide body commercial airliner."
+            "dc-10 is a widebody commercial jet aircraft.",
+            "dc-10 is a wide-body commercial airliner.",
+            "dc-10 is a commercial airliner widely used for long-distance flights globally.",
+            "dc-10 is a jumbo jet with large wings and a distinctive vertical stabilizer."
         ],
         "Gulfstream V": [
-            "the gulfstream v is a business jet with high-speed capabilities. \n\n.",
-            "gulfstream v is a business jet that typically features two crew members on board, with passengers able to fly in comfort with its powerful engines.",
-            "gulfstream v is a midsize business jet known for its sleek and streamlined design featuring a single-wing configuration.",
-            "gulfstream v is a high-performance jet aircraft that features a streamlined design and advanced avionics."
+            "the gulfstream v is a large private jet with twin engines and a maximum capacity of eight passengers.",
+            "gulfstream v is a commercial jet airplane known for its sleek and futuristic design that incorporates advanced technology and innovative materials.",
+            "gulfstream v aircraft is a high-speed jet with advanced avionics and powerful engines designed for long-distance flights and business travel.",
+            "the gulfstream v is a high-performance business jet."
         ],
         "A340-500": [
-            "the airbus a320-500 is a narrow body three engine commercial jet aircraft.",
-            "a320neo is a midsize aircraft designed for corporate and business flying. \n\n.",
-            "a340-500 aircraft is a commercial airliner with four engines\n\n.",
-            "a commercial a380 aircraft has a narrow wing and a large cabin."
+            "a commercial airliner is an a340-500 aircraft with four engines.",
+            "the aircraft i am describing is the airbus a320 which is a medium size commercial airliner.",
+            "a320-500 is commercial airliner used for frequent flights.",
+            "a commercial airliner like the emirates a340 500 is a wide body jet that has a passenger capacity of around 700 people"
         ],
         "DHC-8-300": [
-            "dHC-8-300 is a commercial airliner widely used in international flights.",
-            "the dhc-8-300 is a commercial airliner manufactured by aero spacetransport austria the aircraft features two engine configurations depending on the variant model the dhc-8-300 has a unique fuselage design and a distinctive",
-            "dhc-8-300 aircraft is a commercial plane with a wingspan of twenty eight feet.",
-            "dc-8-300 aircraft are narrow-body jet airliners designed primarily for short-haul flights in the pacific region."
+            "dhc-8-300 aircraft is a midsize commercial plane.",
+            "dhc-8-300 aircraft is a commercial jet airliner.",
+            "dc-8-300 is a commercial airliner.",
+            "dc-10-300 aircraft are twin jet airliners."
         ],
         "Eurofighter Typhoon": [
-            "the eurofighter typhoon is a multirole european fighter jet that flies in various air forces worldwide.",
-            "the eurofighter typhoon is a multirole fighter jet aircraft used by several countries in europe. \n\nit is known for its high maneuverability and powerful engine.",
-            "eurofighter typhoon is a complex multirole aircraft that flies at low altitudes with its unique combination of speed, maneuverability, and firepower.",
-            "the eurorifier typhoon is a multirole fighter aircraft owned by air force austria."
+            "eurofighter typhoon aircraft is a multirole fighter plane designed primarily for air defense and combat operations.",
+            "the eurofighter typhoon is a multirole fighter jet produced by european aircraft corporation (eac) in partnership with german industrial corporation efl flugzeugwerke (efl) and italian aerospace corporation aerospace.",
+            "eurofighter typhoon aircraft is a multirole fighter jet that can fly at altitudes up to 85,000 feet and has advanced radar systems and missiles.",
+            "the eurofighter typhoon is a multirole fighter aircraft."
         ],
         "747-400": [
-            "a 747-400 is a large commercial airliner. \n\nit has a distinctive triangular nose and wide windows.",
-            "a commercial jet aircraft typically has a distinctive sleek black nose and distinctive angled wing design.",
-            "a 747-400 jumbo jet is a large commercial airliner that flies long distances quickly and comfortably.",
-            "the 747-400 is a wide body commercial airliner."
+            "the 747-400 is a large commercial jet aircraft. \n\nit is a type of jumbo jet with a length of approximately seventy-eight feet six inches and a wingspan of over three hundred feet.",
+            "a 747-400 is a large commercial airliner that is part of the jumbo jet class.",
+            "the 747-400 is a widebody commercial airliner manufactured by boeing.",
+            "a commercial airliner with three engines and a wide body designed for long haul flights worldwide."
         ],
         "Beechcraft 1900": [
-            "the beechcraft 1900 is a general aviation aircraft designed for business and recreational purposes.\n\n.",
-            "beechcraft 1900 aircraft is a twin engine propeller driven commercial airliner designed for short to medium range flights.",
-            "the beechcraft 1900 is a twin engined propeller driven aircraft designed for business use.",
-            "beechcraft 1900 aircraft is a twin engine propeller driven commercial airliner designed for short to medium range flights."
+            "the beechcraft 1900 aircraft is a twin-engine airliner.",
+            "beechcraft 1900 is a popular training aircraft.",
+            "the beechcraft 1900 aircraft is a single engined light trainer airplane.",
+            "the beechcraft 1900 is a commercial airliner."
         ],
         "An-12": [
-            "an-12 aircraft is a twin-engine jet airliner.",
-            "an-12 aircraft is a small military transport plane that originated from the american aviation company hawker aircraft corporation.",
-            "an-12 aircraft is a commercial airliner model.",
-            "an an-12 aircraft is a commercial airliner with twelve seats."
+            "an an-12 aircraft is a twinjet airliner produced by american aviation.",
+            "an-12 aircraft is a commercial airliner.",
+            "an-12 aircraft is a commercial airliner manufactured by mitchell international aircraft corporation.",
+            "an-12 aircraft is a transport plane that can carry dozens of passengers and their cargo."
         ],
         "Il-76": [
-            "il-76 aircraft is a commercial transport aircraft originally designed for russians.",
-            "il-76 aircraft is a russian heavy transport plane.",
-            "il-76 aircraft is a large commercial jet airliner.",
-            "il-76 aircraft is a large commercial airliner."
+            "il-76 aircraft is a versatile and reliable turboprop transport plane.",
+            "il-76 aircraft is a large commercial airliner with four engines.",
+            "il-76 aircraft is a russian turboprop airliner that is used for transporting people and goods on long distances worldwide.",
+            "il-76 aircraft is a large commercial airliner with five engines."
         ],
         "MD-11": [
-            "md-11 aircraft is a large commercial jet airliner widely used in international long-haul flights worldwide.",
-            "md-11 aircraft is a wide-body airliner with four engines \n\n.",
-            "md-11 aircraft is a commercial airliner that is used for long-haul flights.",
-            "md-11 aircraft is a large commercial airliner."
+            "md-11 aircraft is a wide-body commercial airliner.",
+            "the md-11 aircraft is a large commercial airliner with a distinctive triple tail design.",
+            "md-11 aircraft is a large commercial jet airliner.",
+            "md-11 is a wide-body commercial airliner commonly used by airlines in the us for long-distance flights."
         ],
         "Metroliner": [
-            "a metroliner is a type of train train that is designed to carry people it uses a distinctive long roof to provide more space for passengers and cargo the train also has a large locomotive behind it that pushes the train forward it is typically used for",
-            "the metroliner is a large four-engine aircraft that was popular in the mid 20th century period.",
-            "a metroliner is a type of train train that is designed to carry people it uses a distinctive long roof to provide more space for passengers and cargo the train also has a large locomotive behind it that pushes the train forward it is typically used for",
-            "a metroliner is a type of commercial aircraft."
+            "metroliner is a large commercial airliner that is often seen taking off and landing at major airports worldwide.",
+            "the metroliner was a large metal winged aircraft.",
+            "a metroliner aircraft is a large commercial airliner.",
+            "metroliner aircraft is a classic steam-powered model."
         ],
         "BAE 146-200": [
-            "bae146-200 is a commercial airliner widely used in international flights worldwide.",
-            "the bae 146-200 is a narrow body jet aircraft.",
-            "the bae 146-200 is a four-engine jet airliner.",
-            "bae 146-200 aircraft is a type of narrow-body commercial airliner."
+            "the bae 146-200 is a three-engine narrow-body jet airliner.",
+            "the bae 146-200 is a midsize aircraft that is known for its versatility and reliability.",
+            "the bae 146-200 is a medium-sized aircraft.",
+            "bae 146-200 aircraft is a commercial jet."
         ],
         "MD-80": [
-            "md-80 aircraft is a commercial plane model with six engines.",
-            "md-80 aircraft is a large commercial airliner with six engines.",
-            "the md-80 aircraft is a commercial airliner commonly used for transcontinental flights. \n\n.",
-            "md-80 aircraft is a commercial airliner known for its distinctive horizontal stabilizer and high-altitude capabilities."
+            "md-80 aircraft is a commercial jet plane.",
+            "the md-80 aircraft is a commercial airliner.",
+            "md-80 aircraft is a commercial airliner model produced by md Aircraft corporation.",
+            "md-80 aircraft is a commercial jet airliner."
         ],
         "737-300": [
-            "a typical commercial airliner is a 737-300. \n\nperiod",
-            "the 737-300 is a narrow-body jet airliner that seats approximately two hundred and fifty people.",
-            "this is a commercial airliner with a fuselage three seventy seven feet long and a wingspan of two hundred fifty seven feet.",
-            "the 737-300 is a single engine jet aircraft."
+            "the 737-300 is a commercial airliner.",
+            "the 737-300 is a commercial aircraft.",
+            "the 737-300 is a regional jet aircraft.",
+            "the 737-300 is a commercial airliner widely used by major airlines worldwide."
         ],
         "MD-87": [
-            "md-87 aircraft is a supersonic jet developed by american aviator kenneth coltrane in the 1940s and 1950s.",
-            "md-87 aircraft is a commercial airliner manufactured by mitchell davis mfg company in the 1960s.",
-            "md-87 aircraft is a small regional jet known for its unique styling and capabilities.",
-            "md-87 aircraft is a commercial jet."
+            "md-87 aircraft is a military transport plane produced by american aviation corporation.",
+            "md-87 aircraft is a commercial airliner model produced by european aircraft corporation aviajet.\n\n.",
+            "md-87 aircraft was a commercial airliner manufactured by md Aviation inc. it had a wingspan of 88 meters and an altitude of around 40,000 feet.",
+            "the md-87 is a twin-engine jet aircraft."
         ],
         "Tu-154": [
-            "tu-154 aircraft is a commercial airliner that belongs to the ariana grandi airline group.",
-            "tu-154 is a commercial airliner.",
-            "tu-154 aircraft is a large four-engine jet airliner known for its comfort and speed.\n\n.",
-            "tu-154 is a european jet airliner known for its sleek design and narrow-body configuration."
+            "the tu-154 is a commercial aircraft used primarily for long-haul flights it has a distinctive double-rotor design and is known for its high-speed capabilities and reliability.",
+            "tu-154 aircraft is a narrow-body commercial airliner\n\n.",
+            "tu-154 aircraft is a narrow-body jet plane that was widely used in commercial aviation.",
+            "the tu-154 is a european regional jet aircraft."
         ],
         "737-900": [
             "the 737-900 aircraft is a commercial airliner.",
-            "a commercial aircraft with a capacity for seventy seven seats.",
-            "the 737-900 is a commercial aircraft with a length of approximately thirty six feet eight inches and a wingspan of twenty seven feet six inches.",
-            "the Boeing 737-900 is a commercial airliner widely used for short to medium distance flights worldwide."
+            "the 737-900 is a narrow-body aircraft typically used for short to medium distance flights.",
+            "the 737-900 is a commercial airliner widely used by major airlines worldwide.",
+            "a 737-900 aircraft is a commercial jet airliner designed for long-distance flights."
         ],
         "Cessna 172": [
-            "cessna 172 is a popular single engine piston aircraft.",
-            "the cessna 172 is a light sport aircraft widely used in training and recreational flying.",
-            "cessna 172 is a general aviation aircraft known for its reliability and ease of maintenance.",
-            "cessna 172 is a small single engine airplane."
+            "the cessna 172 is a popular single-engine plane with a powerful engine and a sturdy airframe that is highly reliable and easy to maintain.",
+            "cessna 172 is a light single-engine airplane.",
+            "the cessna 172 is a small single-engine airplane.",
+            "the cessna 172 is a popular single-engine piston aircraft."
         ],
         "737-700": [
-            "the 737-700 is a small commercial jet aircraft with a seating capacity of twenty eight passengers. \n\n.",
-            "the 737-700 is a narrow-body jet airliner that seats around two hundred and fifty people.",
-            "here are the details of the 737-700 aircraft\n\nthe 737-700 is a short-range jet aircraft that was manufactured by boeing. it is a four- or five-passenger aircraft that is used for regional and short-haul passenger",
-            "the 737-700 is a regional jet aircraft that has a length of 34.98 feet and a width of 29.6 feet."
+            "the 737-700 is a narrowbody jet aircraft.",
+            "a 737-700 is a typical small business jet.",
+            "a commercial jet airliner consisting of a main cabin section attached to a tail section",
+            "the 737-700 is a small regional airliner with four seats per row. it is similar to the 737-300 but has a larger cabin with more windows. the aircraft has a unique wing design with a swept upper surface and a tr"
         ],
         "A330-200": [
-            "a. the a330-200 is a commercial airliner designed for passenger transport. \n\n.",
-            "aeroplane is a commercial aircraft type often used for long distance flights.'",
-            "a330-200 is a wide-body commercial airliner.",
-            "the a330-200 is a commercial airliner."
+            "the a330-200 is a wide body commercial airliner that seats around two hundred and fifty people.",
+            "a typical commercial airliner a330-200 is a large widebody aircraft.",
+            "a commercial airliner the a330-200 is a narrow-body jet airliner widely used in global air travel.",
+            "aerodynamic airplane characteristics include sleek fuselage and raked wingtips."
         ],
         "Global Express": [
-            "the global express aircraft is a narrowbody plane with two turbofan engines typically powered by seven or more jet engines.",
-            "global express aircraft is a narrow body jet with two rows of eight seats.",
-            "the global express aircraft is a commercial airliner designed primarily for passengers traveling internationally, featuring multiple engines and advanced navigation systems to ensure safe and efficient travel.",
-            "global express aircraft is a narrow body jet with two rows of eight seats."
+            "the global express aircraft is a small private jet with six seats in total.",
+            "a global express aircraft is a type of aircraft used for cargo transport it is a small plane with a long range and can transport heavy or oversized cargo.",
+            "the global express aircraft is a narrow body jet.",
+            "the global express is a small commercial airliner typically used by airlines like american airlines. \n\n."
         ],
         "707-320": [
-            "the 707-320 is a commercial airliner.",
-            "the 707-320 is a commercial airliner.",
-            "the 707-320 is a commercial airliner.",
-            "a general aviation plane that is commonly used in business and private flying\n\n."
+            "the Boeing 707-320 is a commercial airliner widely used in the early 1980s.",
+            "the 707-320 is a commercial airliner widely used in the 1970s.",
+            "the boeing 707-320 is a commercial airliner designed for passenger transport.",
+            "707-320 aircraft is commercial airliner."
         ],
         "Fokker 70": [
-            "fokker 70 aircraft is a small propeller airplane designed for passenger transport.",
-            "fokker 70 aircraft is a twin-jet airliner.",
-            "fokker 70 is a large commercial airliner that is similar in size to a plane used for training.",
-            "the fokker 70 is a commercial airliner manufactured by dutch aircraft manufacturing company.fokker aviation company.fokker 70 aircraft is used for long-haul flights.over its length of 72.7 meters and 24.2"
+            "fokker 70 aircraft is a twin engined wide body airliner.",
+            "fokker 70 is a large commercial airliner aircraft.",
+            "the fokker 70 is a narrow-body propeller aircraft that is used for short- to medium-haul passenger flights.",
+            "fokker 70 is a medium-sized narrow-body aircraft."
         ],
         "C-47": [
-            "c-47 aircraft is a military transport plane with a large cargo hold that can carry heavy loads of supplies and equipment.",
-            "c-47 aircraft is a military transport plane with a large cargo hold that can carry heavy loads of supplies and equipment.",
-            "c-47 is a military transport plane with six wheels.",
-            "c-47 is a military transport plane with six wheels."
+            "c-47 aircraft is a large transport plane used for cargo and personnel transport.",
+            "the c-47 is a large cargo plane with a distinctive diamond-shaped fuselage.",
+            "the c47 aircraft is a large transport plane.",
+            "the c47 aircraft is a tricycle Landing Gear plane made by american Airlines."
         ],
         "Saab 340": [
-            "the saab 340 is a small singleengine propelleraircraft used in various countries for passenger transport and cargo operations.",
-            "saab 340 is a regional jet plane commonly used for commuter flights.",
-            "saab 340 is a small propeller plane with 6 engines.",
-            "saab 340 is a regional jet with four engine piston turbofans. it was designed to be an affordable and efficient flying option. saab 340 was used by several airlines around the world including airbus and regional airlines."
+            "the saab 340 is a commercial aircraft originally designed for small regional flights.",
+            "the saab 340 is a european regional aircraft produced by saab en aviation in stockholm sweden.",
+            "saab 340 is a commercial airliner produced from 1981 to 1994.",
+            "saab 340 is a commercial airliner typically manufactured by saab company."
         ],
         "Cessna 560": [
-            "the cessna 560 is a medium size business jet.",
-            "cessna 560 aircraft is a popular general aviation plane. \n\nit has a four-seat layout with a large overhead bin and rear cabin.",
-            "the cessna 560 is a midsize business jet.",
-            "the cessna 560 is a commercial airliner manufactured by republic aircraft corporation."
+            "cessna 560 is a general aviation aircraft known for its reliability and ease of maintenance.",
+            "the cessna 560 is a commercial turboprop aircraft widely used for regional and cargo flights.",
+            "the cessna 560 is a commercial twin engine aircraft.",
+            "the cessna 560 is a midsize business jet that features large windows and a comfortable seating arrangement for five passengers."
         ],
         "747-300": [
-            "a commercial airliner is a large aircraft that typically operates on a 747-300. \n\n.",
-            "the 747-300 is a large commercial jet aircraft. \n\nit is a type of jumbo jet with a length of approximately seventy-eight feet six inches and a wingspan of over three hundred feet.",
-            "the 747-300 is a widebody airliner. \n\nit features a pressurized cabin with large windows for better visibility during flight. \nits unique design includes a distinctive nose section and a large vertical stabilizer. \nthe aircraft can carry",
-            "a commercial jet airliner consisting of a main fuselage covered in glass panels for viewing the flight path of passengers."
+            "the 747-300 is a wide body commercial airliner.",
+            "a commercial airliner with powerful engines and a large cargo hold and often flies on a scheduled route.",
+            "a typical commercial airliner has four engines, including two on the main wings, one on the tail, and one auxiliary on the nose",
+            "i need to format my response with lower case letters and no special characters other than a period and commas only\n\nthe 747-300 aircraft is a wide body jet airliner with four engine layout."
         ],
         "A340-600": [
-            "the airbus a340-600 is a commercial airliner.",
-            "the american air lines a340-600 is a widebody commercial airliner.",
-            "the a340-600 is a widebody commercial airliner.",
-            "a commercial airliner is an a340 600 aircraft with four engines."
+            "a commercial airliner typically has a main cabin with two rows of seats divided into first class and business class seats.",
+            "a major commercial airliner is the a340-600.",
+            "the a340-600 is a large commercial airliner with a distinctive wing design and a capacity of up to eight hundred passengers.",
+            "the a380 aircraft is a jumbo jet with six engines in its propulsion system."
         ],
         "767-200": [
-            "the Boeing 767-200 is a commercial airliner widely used in the early 1980s.",
-            "here are the details of the 767-200 aircraft\n\nthe 767-200 is a widebody jet aircraft that was widely used for commercial airline transport and cargo transport\n\nit has a distinctive wing shape with a fuselage that is narrow at the",
-            "a commercial aircraft with three engines is a 767-200.",
-            "a general aviation aircraft is often classified as a single-engine turboprop or jet airliner.\n\n."
+            "the 767-200 aircraft is a commercial airliner.",
+            "the 767-200 is a commercial jet airliner with a wingspan of twenty eight feet. \n\n.",
+            "a commercial airliner with 767-200 specifications includes 767-200 widebody aircraft.",
+            "the 767-200 is a wide body jet airliner."
         ],
         "CRJ-200": [
-            "the crj-200 is a commercial airliner.",
-            "crj-200 aircraft is a twin jet airliner.",
-            "the crj-200 is a narrow-body jet airliner.",
-            "the crj-200 is a regional jet aircraft."
+            "the c.r.j-200 is a midsize jet aircraft commonly used for business and executive travel.",
+            "crj-200 is a commercial airliner manufactured by canada railways.",
+            "crj-200 aircraft is a widebody commercial airliner.",
+            "crj-200 aircraft is a narrow-body jet airliner."
         ],
         "Dornier 328": [
-            "dornier 328 aircraft is a german jet airliner designed primarily for regional flights.",
-            "dornier 328 is a twin engined propeller driven airplane commonly used for short distance air transport and general aviation purposes.",
-            "dornier 328 is a light jet aircraft.",
-            "dornier 328 is a small business plane that was manufactured from 1972 to 1978."
+            "dornier 328 is a small propeller aircraft widely used in europe and other parts of the world.",
+            "dornier 328 is a midsize jet aircraft.",
+            "dornier 328 is a medium-sized propeller aircraft.",
+            "dornier 328 is a german single engined propeller driven aircraft."
         ],
         "Fokker 100": [
-            "the fokker 100 is a narrowbody airliner.",
-            "fokker 100 is a twin jet airliner.",
-            "fokker 100 aircraft is a narrow body three engined tri jet airliner built by dutch aerospace company.",
-            "fokker 100 aircraft is a twin-jet airliner."
+            "fokker 100 is a commercial airliner.",
+            "fokker 100 is a large commercial airliner with three engines and four seats per class.",
+            "fokker 100 is a widebody airliner that features large windows and can carry between five and seven hundred passengers.",
+            "fokker 100 is a medium-sized propeller aircraft."
         ],
         "A340-200": [
-            "a commercial airliner is an a340 200 aircraft with four engines.",
-            "a commercial airliner is an a340 200 aircraft with four engines.",
-            "a commercial airliner is an a340 200 aircraft with four engines.",
-            "a340-200 is a commercial jet airliner with six engine powerplants."
+            "a commercial a380 airliner is a long range airplane.",
+            "the a340-200 is a widebody commercial airliner.",
+            "a commercial airliner with four engines and a typical payload of 180 passengers.",
+            "a commercial airliner is a long narrow jet with multiple rows of seats and a pressurized cabin. \n\n."
         ],
         "EMB-120": [
-            "i apologize for my previous formatting but here is the response in the required format\n\nthe emb-120 is a twin jet aircraft designed for short distance flights across the atlantic region it typically carries four passengers and two flight attendants it is equipped with a",
-            "embl-120 aircraft is a small business plane that was manufactured by embar jet design company embl plane design.",
-            "the emb-120 is an american single-engine turboprop airliner.",
-            "emb-120 aircraft is a type of small business jet."
+            "emb-120 is a small regional jet with seats for approximately fifty people.",
+            "emb-120 aircraft is a small propeller-driven airliner used by several airlines worldwide.\n\n.",
+            "the emb-120 aircraft is a twin-engine commercial jet plane.",
+            "emb-120 aircraft is a single-engine turboprop plane."
         ],
         "A300B4": [
-            "a300b4 aircraft is a commercial jet airliner with four engines.",
-            "a300b4 aircraft is a commercial airliner.",
-            "a300b4 aircraft is a commercial jet airliner.",
-            "a30b4 aircraft is a twinjet airliner."
+            "a300b4 aircraft is a twin jet airliner.",
+            "a small commercial airliner made by american aviation corporation has a length of about 125 meters and a wingspan of nearly 27 meters.",
+            "a300b4 aircraft is a commercial airliner widely used in international flights worldwide.",
+            "a. the a300b4 is a midsize commercial airliner"
         ],
         "Yak-42": [
-            "the yak-42 is a russian military transport aircraft.",
-            "yak-42 aircraft is a cargo plane with two turbofan engines.",
-            "the yak-42 is a twin-engine transport plane produced by yak air service of ukraine.",
-            "yak-42 is a russian military transport aircraft."
+            "the yak-42 is a russian turboprop aircraft.",
+            "yak-42 is a type of military transport plane.",
+            "yak42 is a commercial airliner used for long-haul flights.",
+            "yak-42 is a mid-size commercial airliner built by samson aviation corp in japan."
         ],
         "F-16A/B": [
-            "the f-16a/b is a versatile jet fighter with a sleek design and powerful engines.",
-            "f-16a/b is a multirole fighter aircraft with sleek streamlined design.",
-            "f-16a/b aircraft is a versatile multirole fighter airplane.",
-            "f-16a/b aircraft is a military jet fighter."
+            "the f-16a/b aircraft is a single seat, multirole fighter plane.",
+            "f-16a/b is a four-engine multirole fighter jet.",
+            "f-16a/b is a widely used multirole jet fighter aircraft.",
+            "f-16a/b aircraft is a multirole fighter jet that is widely used by various countries and air forces worldwide. \n\nthey are known for their high maneuverability and low radar cross-section making them difficult to detect by enemy radar systems."
         ],
         "ERJ 145": [
-            "erj145 aircraft is a regional jet that typically operates in the 40-50 seat range.",
-            "erj 145 aircraft is a regional jet with four engines.",
-            "erj 145 is a midsize commercial aircraft designed to transport 100 passengers comfortably overseas.",
-            "erj 145 aircraft is a regional jet."
+            "erj 145 is a regional jet plane model produced by european aircraft corporation.",
+            "erj145 aircraft is a midsize business jet with four engines and four seats for up to twelve people.",
+            "erj 145 is a regional jet aircraft designed for short to medium distance flights.",
+            "erj 145 aircraft is a narrowbody jet that is widely used for short to medium distance flights due to its high maneuverability and fuel efficiency."
         ],
         "ATR-42": [
-            "a tr-42 aircraft is a twin jet airliner.",
-            "a typical commercial airliner is a tricycle with three wheels tricycle with three wheels the tricycle portion is the base of the aircraft tricycle with three wheels the tricycle portion is the base of the aircraft and the three wheels provide stability tricycle",
-            "atrium airliners are medium-sized single-aisle jets that primarily operate in regions near asia.",
-            "a tr42 aircraft is a single-aisle regional jet."
+            "atrip-42 aircraft is a propeller-driven airliner used by several airlines worldwide.\n\n.",
+            "atr-42 aircraft is a small single-engine plane that was widely used for domestic and international passenger transport in the mid to late 20th century.",
+            "the atr-42 aircraft is a narrow body jet airliner that was used in the 1990s.",
+            "atr-42 aircraft is a type of small twin jet."
         ],
         "Falcon 2000": [
-            "the falcon 2000 is a commercial four engine business jet. \n\n.",
-            "falcon 2000 is a commercial aircraft model.",
-            "the falcon 2000 is a medium size business jet with three rows of seats and can carry up to eight people in a single row. \n\n.",
-            "falcon 2000 is a business jet typically used for corporate and private travel."
+            "the falcon 2000 is a four-place business jet.",
+            "the falcon 2000 is a midsize business jet aircraft that features two engines.",
+            "the falcon 2000 is a midsize aircraft.",
+            "falcon 2000 is a commercial airline plane."
         ],
         "Model B200": [
-            "model b200 is a small business version of the aircraft model 200 b, with less payload and speed.",
-            "model b200 aircraft is a commercial jet airliner.",
-            "model b200 is a small business version of the aircraft model 200 b, with less payload and speed.",
-            "the model b200 aircraft is a large business jet with a wingspan of 54 meters."
+            "model b200 aircraft is a commercial airliner manufactured by mitsubishi aviation corporation it is a widebody jet aircraft that has a distinctive curved fuselage and is used for long-haul flights.",
+            "the model b200 aircraft is a business jet with four engines.",
+            "the model b200 is a general aviation aircraft known for its high maneuverability and fuel efficiency.",
+            "the model b200 is a commercial airliner known for its high-speed performance and advanced safety features."
         ],
         "777-200": [
-            "a 777-200 is a commercial jet airliner with wingspan of thirty five meters and seats for seven hundred passengers.",
-            "the 777-200 aircraft is a commercial airliner.",
-            "the 777-200 is a wide body commercial airliner model.",
-            "the 777-200 aircraft is a commercial jet plane with a wingspan of twenty eight feet."
+            "the 777-200 is a wide body jet aircraft.",
+            "a typical commercial airliner is a 777-200.",
+            "the 777-200 is a widebody commercial airliner manufactured by chengdu Aircraft corporation.",
+            "the 777-200 is a narrowbody airliner produced by the american aerospace company emerson airliner."
         ],
         "ATR-72": [
-            "atr-72 aircraft is a medium-sized jet airliner with 72 seats.",
-            "atrium turbo prop 72 aircraft is a medium size jet plane.",
-            "the atr72 is a single aisle narrow body aircraft primarily used for regional transportation.",
-            "atrium turbo prop powered aircraft"
+            "a typical atr72 aircraft is a small twin-engine jet plane with two engines located on the right side of the cockpit.",
+            "atrocious russia's a-72 aircraft is a small single-engine propeller plane.",
+            "atrial plane aircraft characteristics and types and what are atr72 planes.",
+            "atr72 aircraft is a short takeoff and landing airplane\n\n."
         ],
         "DC-9-30": [
-            "dc-9-30 aircraft is a commercial airliner.",
-            "dc-9-30 is a commercial jet airliner with sleek streamlined body.",
+            "dc-9-30 is a commercial airliner manufactured by dc aviation corporation\n\n.",
+            "the dc-9-30 is a medium range commercial airliner.",
             "dc-9-30 is a commercial airliner.",
-            "dc-9-30 is a commercial airliner."
+            "dc-9-30 is a large commercial airliner with a distinctive vertical stabilizer."
         ],
         "DR-400": [
-            "the dr-400 aircraft is a commercial airliner manufactured by a european manufacturer specifically designed for medium size flights.",
-            "the dr-400 is a german multi-engine business jet.",
-            "the dr-400 is a commercial jet aircraft known for its sleek and modern design that was first introduced in the 1990s.\n\n.",
-            "the dr-400 is a midsize commercial aircraft."
+            "the dr-400 is a commercial jet airliner that is widely used for business and passenger travel.",
+            "the dr-400 is a commercial transport aircraft designed primarily for passengers.",
+            "the dr-400 is a commercial twin jet aircraft.",
+            "the dr-400 is a commercial airliner developed by a european aircraft manufacturer based in germany it is a four-engine turboprop aircraft with a wingspan of around 75 feet and has a maximum takeoff weight of approximately 400,000 pounds"
         ],
         "757-300": [
-            "a 757-300 aircraft is a commercial airliner.",
-            "the 757-300 is a wide-body jet aircraft.",
-            "757-300 aircraft is a commercial airliner model.",
-            "757-300 is a commercial airliner. \n\n."
+            "757-300 aircraft is a commercial airliner.",
+            "here are the details of the 757-300 aircraft\n\nthe 757-300 is a widebody jet aircraft produced by american aircraft company \nit is a narrow-body jet airliner designed for long-distance flights \nit features a double-deck aircraft",
+            "the 757-300 is a commercial aircraft model designed for both regional and long-haul flights.",
+            "a commercial jet airliner consisting of five main sections is designated as a 757-300."
         ],
         "F/A-18": [
-            "flying an f-a-18 aircraft requires precise piloting skills and a great deal of attention to detail always.",
-            "the f a18 aircraft is a high performance four seat fighter plane.",
-            "flying aircraft of american navy is highly advanced f/a-18 has sleek design with sharp angles and rounded edges.\n\n.",
-            "flying a fighter aircraft is an exhilarating experience always."
+            "the f a-18 is a single seat, twin engine, vertical takeoff and landing military aircraft.",
+            "the f/a-18 hornet is a single seat vertical takeoff and landing aircraft primarily used for military purposes and is known for its versatility and maneuverability.",
+            "the f a 18 aircraft is a four seat single seat fighter jet with a sleek and agile design.\n\nperiod",
+            "flying aircraft is an airplane that is used for military purposes."
         ],
         "737-400": [
-            "a 737-400 aircraft is a midsize commercial airliner.",
-            "the 737-400 is a commercial airliner.",
-            "a commercial jet airliner the 737-400 is a narrow-body aircraft with two engines and a capacity for twelve to twenty seats.",
-            "a 737-400 aircraft is a midsize commercial airliner."
+            "the 737-400 is a commercial airliner widely used by major airlines worldwide.",
+            "the 737-400 is a single-aisle commercial airliner.",
+            "the 737-400 is a midsize commercial aircraft.",
+            "the 737-400 is a commercial aircraft model with four wheels. it has a capacity of twenty five passengers and two crew members."
         ],
         "E-195": [
-            "e-195 is a commercial airliner manufactured by european aviation limited.",
-            "the e195 aircraft is a commercial jet airliner.",
-            "e-195 is a small commercial airliner.",
-            "the e-195 aircraft is a commercial airliner designed for short-haul flights it has a capacity for one or two passengers depending on the configuration."
+            "the e-195 aircraft is a small commercial jet plane with a seating capacity for eight people.",
+            "e-195 aircraft is a jet aircraft developed by european aviation company.",
+            "the e195 aircraft is a midsize twinjet aircraft.",
+            "e-195 is a small regional jet aircraft."
         ],
         "747-200": [
-            "a 747-200 aircraft is a large commercial airliner with a distinctive twin-arch design.",
-            "the 747-200 is a large commercial jet aircraft with a distinctive double wing design.",
-            "a 747-200 aircraft is a large commercial airliner with four engines and a distinctive curved wing.",
-            "a 747-200 is a large commercial jet aircraft with four engines. \n\nit has a distinctive unique angled vertical tail. \nthe 747-200 is a versatile and reliable aircraft. \nits four engines provide efficient and powerful takeoff."
+            "the 747-200 is a large commercial airliner with four engines.",
+            "a 747-200 is a large commercial airliner.",
+            "the 747-200 is a large commercial jet aircraft. \n\nit is a type of jumbo jet with a distinctive triangular wing shape.",
+            "a typical commercial airliner is a 747-200."
         ],
         "Spitfire": [
-            "spitfire aircraft is a british fighter plane known for its impressive maneuverability and soundness in combat.",
-            "spitfire aircraft was a british aircraft during world war ii.",
-            "spitfire aircraft is a well known british fighter plane from world war i and ii period.",
-            "spitfire aircraft was a british aircraft during world war ii."
+            "the spitfire aircraft was a legendary fighter plane from world war ii known for its speed and maneuverability.",
+            "spitfire aircraft was a british fighter plane with distinctive design features.\n\nperiod.",
+            "spitfire aircraft was a british fighter plane.",
+            "the spitfire is a british fighter plane from world war ii."
         ],
         "767-300": [
-            "a typical commercial airliner is a 767-300.",
-            "a 767-300 is a commercial jet airliner with four engines. \n\n.",
-            "a general aviation aircraft is often classified as a single-engine turboprop or jet airliner.\n\n.",
-            "the 767-300 is a wide body jet airliner."
+            "a 767-300 is a large commercial airliner.",
+            "the 767-300 is a wide body commercial airliner model.",
+            "a commercial airliner with a wide-body design is a 767-300.",
+            "the 767-300 is a commercial airliner commonly used for short- to medium-distance flights between cities worldwide."
         ],
         "BAE-125": [
-            "bae-125 aircraft has four engines, including two high-bypass turbofan engines, producing approximately 65,500 pounds of thrust per engine.",
-            "bae125 aircraft is a commercial airliner model.",
-            "bae-125 aircraft is a commercial airliner.",
-            "the bae 125 is a medium size business jet."
+            "the bae-125 is a commercial aircraft designed primarily for short-haul routes worldwide gently.",
+            "the bae-125 is a small propeller driven regional jet aircraft designed to transport a small number of passengers between locations within the united states.",
+            "bae-125 aircraft is a single engine turbofan plane with two engines.",
+            "bae-125 aircraft is a commercial airliner widely used in international flights worldwide."
         ],
         "Tornado": [
-            "tornado aircraft is a small, turboprop aircraft with four to five seats designed for passengers.",
-            "the harrier jet is a highly maneuverable aircraft.",
-            "a typical commercial airliner is similar to a tundra.",
-            "the e190 is a commercial airliner type\n\n."
+            "a type of aircraft that can fly at speeds up to 500 miles per hour and withstand severe turbulence is a tornad aircraft.",
+            "tornado aircraft is a type of military aircraft designed to withstand strong winds and turbulence.",
+            "tornado aircraft is a military aircraft designed to perform reconnaissance, bombing missions, and other types of aerial operations.",
+            "tornado aircraft typically has long slender wings that allow for efficient wind catching and dropping."
         ],
         "CRJ-700": [
-            "crj700 aircraft is a narrow body jet with four engines.",
-            "the cjr-700 is a widebody commercial airliner manufactured by chengdu rengjia aviation company limited chinese state-owned airline.",
-            "crj-700 is a regional jet aircraft.",
-            "crj-700 aircraft is a wide-body jet airliner used by several airlines worldwide.\n\n."
+            "crj-700 aircraft is a narrow-body commercial jet plane.",
+            "crj-700 aircraft is a commercial jet airliner with four engine rows.",
+            "the crj-700 is a narrow body aircraft produced by cia aviaition corporation.",
+            "crj-700 aircraft is a narrow-body jet airliner."
         ],
         "Cessna 208": [
-            "the cessna 208 is a small single engine propeller plane that is popular for recreational flying and short range flights.",
-            "the cessna 208 carmina is a four-seat, twin-engine plane.",
-            "cessna 208 is a midsize commercial airplane.",
-            "the cessna 208 is a small propeller aircraft widely used for general aviation purposes."
+            "cessna 208 is a popular twin engine business aircraft.",
+            "the cessna 208 is a single engine general aviation airplane commonly used for private flying and pilot training.",
+            "the cessna 208 caravan is a versatile single-engine light aircraft known for its reliability and maneuverability.",
+            "the cessna 208 is a four-engine regional aircraft. \n\nit is often used for small business and charter flights."
         ],
         "CRJ-900": [
-            "crj-900 aircraft is a widebody commercial jet plane. \n\nand it features a unique five-class seating configuration.",
-            "crj-900 aircraft is a narrow-body jet airliner.",
-            "crj-900 aircraft is a twin jet airliner.",
-            "crj-900 is a commercial jet airliner produced by canada airlines corporation."
+            "crj-900 aircraft is a commercial jet airliner with a seating capacity for around 178 people. \n\n.",
+            "crj-900 is a commercial airliner manufactured by cedar aviation corporation it is a widebody jet aircraft that has a distinctive oval fuselage and is powered by two large engines",
+            "crj-900 aircraft is a large commercial airliner widely used in international flights.",
+            "crj-900 aircraft is a twinjet airliner produced by canadian regional aircraft company."
         ],
         "E-170": [
-            "the e-170 is a commercial jet aircraft.",
-            "e-170 aircraft is a commercial jet airliner.",
-            "e-170 aircraft is a commercial airliner model produced by european aircraft corporation.",
-            "e-170 aircraft is a commercial jet airliner."
+            "the e-170 aircraft is a narrow body jet airliner that is used by air traffic control agencies to manage airport operations on a regional level.",
+            "the e-170 is a commercial airliner.",
+            "e-170 aircraft is a narrow body commercial jet.",
+            "e-170 aircraft is a narrow body jet airliner."
         ],
         "DC-8": [
-            "dc-8 aircraft is a narrow-body jet airliner designed specifically for short-haul flights.",
-            "dc-8 aircraft is a commercial airliner that was widely used for passenger flights. \n\n.",
-            "dc-8 aircraft is a commercial airliner with a flat fuselage.",
-            "dc-8 aircraft is a commercial airliner that was widely used for passenger flights. \n\n."
+            "dc-8 aircraft is a mid-size commercial airliner.",
+            "dc-8 aircraft is a commercial airliner.",
+            "dc-8 aircraft is a narrow-body commercial airliner.",
+            "dc-8 aircraft is a commercial airliner with seven engines and four landing gear. \n\nthe dc-8 has a distinctive curved fin and a large winglets at the tips of the wings."
         ],
         "Challenger 600": [
-            "challenger 600 is a commercial airliner produced by american aircraft company american aeronautics.",
-            "the challenger 600 is a commercial airliner manufactured by david m c smith aerospace. it is a wide-body transport aircraft with a maximum takeoff weight of over 650,000 pounds.",
-            "challenger 600 is a commercial airliner produced by american aircraft corporation.",
-            "challenger 600 aircraft is a commercial airliner known for its efficiency and reliability worldwide."
+            "the challenger 600 is a commercial airliner designed by mcclaren aircraft corporation it is a four-engine aircraft that can carry a maximum of 160 passengers.",
+            "the challenger 600 is a commercial airliner.",
+            " challenger 600 is a commercial airliner.",
+            " challenger 600 is a commercial airliner manufactured by boeing."
         ],
         "DHC-8-100": [
-            "dhc-8-100 is a commercial jet airliner.",
-            "dhc-8-100 is a small commercial airplane.",
-            "dhc-8-100 aircraft is a twin engine narrow body jet that is widely used for commercial flights worldwide period",
-            "dc-8-100 is a commercial airliner."
+            "dc-10 is a large commercial jet aircraft.",
+            "the dhc-8-100 aircraft is a commercial twin jet airliner that was widely used from the late 1980s through the mid 1990s.",
+            "dhc8-100 aircraft is a commercial airliner used for transporting passengers worldwide.",
+            "dhc-8-100 aircraft is a commercial airplane."
         ],
         "DC-6": [
-            "dc-6 aircraft was a propeller driven bomber used primarily by the us military.",
-            "dc-6 is a small commercial airliner.",
-            "detailed description of a dc-6 aircraft. \n\nthe dc-6 is a modified version of the dc-3 aircraft with several improvements, including a more powerful engine and improved cargo capacity.",
-            "dc-6 aircraft is a tricycle type twin engined propeller driven aircraft designed for cargo transport by david mitchell and his colleague."
+            "dc-6 aircraft was a single engined propeller driven plane.",
+            "dc-6 aircraft is a twin-engine propeller plane.",
+            "dc-6 aircraft is a military transport plane with six engines.",
+            "dc-6 aircraft was a commercial airliner model built by american aircraft division."
         ],
         "A340-300": [
-            "a large commercial airplane with 3 engines and a seating capacity of 300 passengers is a 787 next generation aircraft.",
-            "a commercial airplane a340-300 is a narrowbody jet airliner with three engines and can carry up to 240 passengers and crew.",
-            "a commercial airliner is an a340-300 aircraft with four engines.",
-            "a commercial airplane a340-300 is a narrowbody jet airliner with three engines and can carry up to 240 passengers and crew."
+            "a320-200 aircraft has two engines of high power.",
+            "a commercial airliner with three engines and a wide body designed for long haul flights worldwide.",
+            "a commercial airliner is a large jet with four or five engines and three or four seats per row.\n\n.",
+            "a commercial airliner with four engines is the a340-300."
         ],
         "DHC-6": [
-            "d hc-6 aircraft is a single engine turboprop plane used for general aviation and small airline operations.",
-            "dhc-6 aircraft is a twin-engine turboprop airliner.",
-            "the dhc-6 twin otter is a propeller-driven airplane used for short-range general aviation.",
-            "dhc-6 aircraft is a small twin-engine airplane."
+            "dhc-6 aircraft is a twin-engine propeller plane.",
+            "dhc-6 aircraft is a twin-engine turboprop plane.",
+            "dhc-6 aircraft is a turboprop aircraft with four engines.",
+            "dhc6 aircraft is a twin engine type with high capacity."
         ],
         "DHC-1": [
-            "dh-1 aircraft is a twin-engine general aviation plane.",
+            "dhc-1 aircraft is a light jet model.",
             "dhc-1 aircraft is a small turboprop plane.",
-            "dh-1 aircraft is a twin-engine general aviation plane.",
-            "dHC-1 is a small single-engine propeller plane."
+            "dhc-1 aircraft is a small propeller plane with a distinctive single vertical stabilizer.",
+            "the dhc-1 is a small propeller driven twin engined aircraft that originated in the early 1950s."
         ],
         "Boeing 717": [
-            "boeing 717 is a narrow jet with two rows of seats.",
-            "the boeing 717 is a narrowbody jet aircraft.",
-            "boeing 717 is a narrow jet airliner with single-engine capabilities and a wide-body configuration.",
-            "the boeing 717 is a midsize commercial airliner."
+            "boeing 717 aircraft is a narrow jet airliner.",
+            "boeing 717 is a regional jet aircraft.",
+            "boeing 717 is a medium size commercial aircraft.",
+            "the boeing 717 is a narrow body jet airliner."
         ],
         "Cessna 525": [
-            "the cessna 525 jetstar is a business class aircraft that seats up to eight people.",
-            "the cessna 525 is a midsize general aviation aircraft designed for business and personal use.\n\n.",
-            "the cessna 525 is a single engine business jet.",
-            "the cessna 525 is a midsize twin engine business aircraft that is known for its reliability and comfort."
+            "cessna 525 is a midsize general aviation aircraft.",
+            "the cessna 525 jet aircraft is a four-seat, twin-engine plane.",
+            "the cessna 525 golden eagle is a midsize business jet manufactured by cessna aircraft company.",
+            "the cessna 525 is a single engine general aviation aircraft commonly used for private flying and business purposes."
         ],
         "Gulfstream IV": [
-            "gulfstream iv aircraft is a large business jet that was manufactured by airbus.",
-            "gulfstream iv is a high-performance jet aircraft that features a streamlined design and advanced avionics.",
-            "gulfstream iv is a high-performance jet aircraft that features a streamlined design and advanced avionics.",
-            "gulfstream iv is a commercial jet aircraft."
+            "gulfstream iv is a business jet model manufactured by gulfstream jets.",
+            "the gulfstream iv is a business jet model known for its advanced avionics systems and comfortable seating.",
+            "the gulfstream iv is a high-performance business jet.",
+            "gulfstream iv is a commercial jet aircraft known for its sleek and modern design that features a distinctive wing shape and advanced avionics systems."
         ],
         "777-300": [
-            "the 777-300er is a commercial airliner.",
-            "a commercial airliner with a wide-body aircraft design is a 777-300.",
-            "the 777-300 aircraft is a widebody commercial jet plane.",
-            "the 777-300 is a wide body commercial airliner model."
+            "a 777-300 aircraft is a large commercial airliner designed for long-distance flights.",
+            "a typical commercial airliner is a 777-300.",
+            "the 777-300 jumbos are commercial airliners.",
+            "a 777-300 is a wide body aircraft with three engines\n\n."
         ],
         "737-500": [
-            "the 737-500 is a regional jet aircraft.",
-            "the 737-500 is a medium size narrow body aircraft.",
-            "the 737-500 is a midsize commercial aircraft.",
-            "a 737-500 is a medium-sized jet aircraft with four engines."
+            "the 737-500 is a small commercial airliner with four seats per row. it is a four-engine plane. it has a typical flight range of 500 miles. the aircraft has a typical cruise speed of 450 miles per hour. it",
+            "the 737-500 is a narrow body jet airliner that is commonly used for regional and small to medium size flights.",
+            "the 737-500 is a commercial airliner.",
+            "a commercial airliner with three seventy-three thousand and eight hundred forty-nine engines."
         ],
         "Tu-134": [
-            "tu-134 aircraft is a commercial jet plane.",
-            "tu-134 aircraft is a commercial airliner.",
-            "tu-134 aircraft is a commercial airliner.",
-            "tu-134 aircraft is a jet airliner."
+            "tu-134 is a commercial aircraft designed for long-haul flights and features four engines.",
+            "the tu-134 aircraft is a type of commercial airliner that was designed to be a mid-size jet.",
+            "the tu-114 aircraft is a large commercial airliner with a distinctive elliptical design.",
+            "tu-134 aircraft is a type of commercial airliner widely used in international flights."
         ],
         "SR-20": [
-            "sr-20 aircraft is a military transport plane with a large cargo hold that can carry heavy loads of supplies and equipment.",
-            "sr-20 aircraft is a high altitude long endurance aircraft that uses two ramjets to generate thrust and has a maximum takeoff weight of 65,000 pounds.",
-            "sr-20 aircraft is a supersonic business jet.",
-            "the sr-20 aircraft is a military transport plane with a length of about 71 feet."
+            "the sr-20 is a united states military experimental aircraft.",
+            "sr-20 aircraft is a trapezoidal-wing experimental aircraft that belongs to the aeronautical testing aircraft category of a typical american sr-20 aircraft.",
+            "sr-20 aircraft is a military transport plane with six engines.",
+            "sr-20 aircraft is a mid-size commercial transport plane."
         ],
         "757-200": [
-            "757-200 aircraft is a commercial airliner model produced by american airlines corporation.",
-            "the a380 is a jumbo jet with four engine options including the a350.",
-            "the 757-200 is a widebody commercial airliner.",
-            "a typical commercial airliner is a 757-200."
+            "a jet airliner primarily used for short to medium distance flights between two distant locations in a country or across oceans.",
+            "757-200 is a commercial airliner.",
+            "757-200 aircraft is a type of commercial airliner.",
+            "a commercial airliner with 757-200 seats is designed for widebody flights worldwide."
         ],
         "Hawk T1": [
-            "hawker hawk t1 is a british jet fighter plane designed primarily for air defense.",
-            "the hawk t1 is a canadian military version of the hawk aircraft that features improved avionics and maneuverability characteristics.",
-            "hawker aircraft is a british designed jet fighter.",
-            "hawker hawk t1 aircraft is a british single-engine jet trainer plane."
+            "hawk t1 aircraft is a single-engine turbine powered by a safran aero turbin moto 12 engine.",
+            "the hawk t1 is a highly advanced fighter aircraft.",
+            "hawker hawker hawk t1 aircraft is a british british english produced american manufactured single engine multirole fighter plane.",
+            "hawker hawker hawker aircraft, originally a british single engine multirole aircraft developed during world war ii, known for its innovative aerodynamics and advanced avionics systems that helped to revolutionize fighter aircraft design."
         ],
         "A318": [
-            "a318 aircraft is a commercial airliner model with four engines.",
-            "a318 is a commercial airliner \n\nnote: i have reformat the sentence as directed.",
-            "a318 aircraft is a commercial aircraft model made by airbus corporation.",
-            "a319 is a type of commercial airliner designed by airbus \n\n."
+            "a318 aircraft is a commercial airliner. \n\n.",
+            "a318 is a commercial aircraft.",
+            "aeroplanes are the main types of aircraft that use turbofan engines to generate lift and propel the plane through the air.",
+            "a318 aircraft is a commercial airliner that carries between fifty and seven hundred passengers."
         ],
         "Falcon 900": [
-            "falcon 900 aircraft is a commercial airliner widely used in the early 1980s.",
-            "falcon 900 is a commercial jet aircraft known for its sleek and powerful design.",
-            "falcon 900 aircraft is a commercial airliner widely used in the early 1980s.",
-            "the falcon 900 is a commercial transport plane that was widely used in the 1970s and 1980s for long-distance flights."
+            "the falcon 900 is a high performance commercial aircraft.",
+            "the falcon 900 is a large business jet with a four engine configuration that features a long list of advanced safety features and a strong reputation for reliability.",
+            "the falcon 900 is a business jet model known for its advanced avionics systems and comfortable seating.",
+            "the falcon 900 is a high performance commercial airliner manufactured by austin o'neal."
         ],
         "A320": [
-            "the avro a320 is a twinjet aircraft commonly used in business and regional airlines worldwide.\n\n.",
-            "a320 aircraft is a commercial airliner used for frequent flights.",
-            "the a320 is a commercial airliner a320 is a narrowbody aircraft that is widely used for domestic and international flights it has a maximum takeoff weight of around 80 000 kg and is powered by four engine variants including the engine 601",
-            "a320 aircraft is a commercial airliner widely used in worldwide airlines."
+            "a320 aircraft is a commercial airliner that belongs to european aircraft manufacturer bae systems. \n\n.i am ready.",
+            "a320 aircraft is a narrow body commercial jet airliner.",
+            "a320 aircraft is a commercial airliner manufactured by european aircraft manufacturer airbus.",
+            "the a320 aircraft is a commercial jet airliner produced by aerolineas aeronauticas. \n\n."
         ],
         "PA-28": [
-            "the pa-28 chopper is a single engine plane made by chandler aircraft corporation.",
-            "pa-28 aircraft is a single-engine general aviation plane commonly used for private flying and low-level instruction.",
-            "the pa-28 aircraft is a general aviation plane with twin piston engines and a single tail rotor.",
-            "the pa-28 chieftain is a small single-engine plane commonly used for personal transport and training purposes."
+            "the pa-28 is a general aviation plane known for its simple design and versatility.",
+            "pa-28 aircraft is a widely used single-engine piston plane.",
+            "pilots fly p-28s for general aviation purposes and often for small charter flights. \n\n.",
+            "pa-28 aircraft is a general aviation plane with four or six wheels and a retractable landing gear."
         ],
         "747-100": [
-            "the 747-100 is a wide body commercial airliner.",
-            "a 747-100 is a large commercial jet aircraft with wingspan of almost 80 feet and seats 440 passengers.",
-            "the 747-100 is a jumbo jet aircraft with four engines.",
-            "the 747-100 is a large commercial jet aircraft with a distinctive double wing design."
+            "a 747-100 aircraft is a large commercial airliner with a distinctive doubledeck configuration and can carry up to 560 passengers.",
+            "the 747-100 is a wide body four engine commercial jet airplane.",
+            "the 747-100 is a widebody commercial airliner.",
+            "a commercial jet airliner consisting of a main fuselage covered in glass panels for viewing the flight path of the plane in front of it."
         ],
         "A380": [
-            "a380 aircraft is a large commercial airliner.",
-            "a big commercial airliner with four engines and a three-class seating arrangement is a380 aircraft.",
-            "a large commercial airliner is the a380 aircraft.",
-            "the airbus a380 is a wide bodied jet airliner that features 329 seats and two engines."
+            "a commercial airliner is a large aircraft with many seats. \n\n.",
+            "a380 aircraft is a large commercial plane with four engine options.",
+            "a large commercial airliner with four engines and seats for approximately fifty people.",
+            "the airbus a380 is a wide body commercial airliner that seats around two hundred and fifty people."
         ],
         "C-130": [
-            "the c130 aircraft is a medium tactical transport aircraft.",
-            "c-130 aircraft is a transport plane with many windows.",
-            "the c-130 aircraft is a large transport plane that was widely used in the us military and other countries for transporting personnel and cargo.",
-            "c-130 aircraft is a military transport plane used for cargo and personnel transport."
+            "the c130 aircraft is a large tactical transport plane.",
+            "c-130 aircraft is a twin-engine heavy-lift military transport plane.\n\n.",
+            "the c-130 aircraft is a modified version of the c-97 transport plane that was widely used by the us air force.",
+            "the c-130 aircraft is a large military transport plane."
         ],
         "A310": [
-            "a310 aircraft is a commercial jet airliner designed to be efficient and cost-effective for international flights.",
-            "a310 aircraft is a commercial airliner model produced by aircraft manufacturer boeing.",
-            "a310 aircraft is a narrow body commercial jet airliner.",
-            "a310 aircraft is a commercial airliner manufactured by avia airplane company.\n\n."
+            "a310 aircraft is a regional jet airliner model that was manufactured by airbus.",
+            "a310 aircraft is a commercial airliner that typically accommodates between five to seven passengers depending on the specific variant.",
+            "a310 aircraft is a commercial airliner.",
+            "a320 aircraft is a commercial airliner produced by embraer \n\n."
         ],
         "727-200": [
-            "the 727-200 is a commercial airliner.",
-            "the 727-200 is a commercial jet airliner with a seating capacity of twenty-two passengers. \n\n.",
-            "the 727-200 is a commercial airliner.",
-            "a 727-200 is a commercial airliner with three engines."
+            "the 727-200 is a commercial airliner that was widely used in the 1970s and 1980s for short-haul flights.",
+            "the 727-200 is a single engine turbo prop airplane.",
+            "the Boeing 727-200 is a commercial airliner with a single engine and four turbofan engines.",
+            "the 727-200 is a commercial airliner with twin engines and a distinctive oval-shaped fuselage."
         ],
         "L-1011": [
-            "l-1011 aircraft is a small business plane that was manufactured in the 1960s.",
-            "the l-1011 aircraft is a commercial airliner that was widely used in the 1960s and 1970s.",
-            "the l-1011 aircraft was a narrow-body jet airliner that used a unique nacelle design.",
-            "the l-1011 is a commercial airliner."
+            "l-1011 is a mid-size commercial airliner.",
+            "l-1011 aircraft is a narrowjet airliner.",
+            "the l-1011 is a narrow-bodied jet airliner that was designed to be a more comfortable alternative to the standard wide-body aircraft of its time.",
+            "l-1011 is a commercial airliner."
         ],
         "A321": [
-            "the a321 aircraft is a commercial airliner.",
-            "a commercial airliner with three engines and a wingspan of about 60 feet is the a321 aircraft.",
-            "the a321 is a widebody commercial airliner widely used by major airlines worldwide.",
-            "the a321 aircraft is a commercial airliner."
+            "a321 aircraft is a commercial airliner.",
+            "a321 aircraft is a commercial airplane manufactured by cga aircraft systems company.\n\n.",
+            "a large commercial airliner has a narrow body and a single large rear deck that holds a cargo ramp.",
+            "a319 aircraft is a commercial airliner with 156 seats."
         ],
         "A319": [
-            "a319 aircraft is a commercial airliner used by airlines for short to medium distance flights.",
-            "a319 aircraft is a narrow body commercial airliner widely used by major airlines worldwide.",
-            "a319 aircraft is a narrowbody jet airliner.",
-            "a319 aircraft is a commercial jet airliner."
+            "a319 aircraft is a regional jet airliner model that was widely used for domestic flights in various countries worldwide.",
+            "a319 aircraft is a commercial airplane typically used for short to medium distance flights.",
+            "a319 aircraft is a medium size commercial airliner.",
+            "a319 aircraft is a narrow body airliner model."
         ],
         "MD-90": [
-            "md-90 aircraft is a type of small business aircraft.",
-            "the md-90 aircraft is a commercial transport plane that was manufactured by airbus from 1996 to 2001.",
-            "md-90 aircraft is a commercial airliner.",
-            "md-90 aircraft is a small regional jet known for its unique configuration and capabilities."
+            "the md-90 is a commercial airliner built by md Aircraft \n\n.",
+            "md-90 aircraft is a twin-engine general aviation plane.",
+            "the md-90 is a twin-engine regional jet aircraft.",
+            "the md-90 aircraft is a commercial airliner."
         ],
         "Fokker 50": [
-            "fokker 50 is a large transport plane that was used for many years to transport people and cargo to remote areas of southern africa.",
-            "the fokker 50 is a single engined aircraft designed for business jet service with a strong emphasis on comfort and reliability.",
-            "fokker 50 is a medium-sized propeller aircraft.",
-            "fokker 50 is a commercial airliner."
+            "fokker 50 aircraft is a small propeller driven four engined plane typically used by airlines.",
+            "fokker 50 is a turboprop aircraft manufactured by dutch aircraft manufacturing company.",
+            "fokker 50 aircraft is a commercial airliner with a distinctive twin-tail design period.",
+            "the flicker of the spotlight on the fokker 50 aircraft is intense as it flies overhead."
         ],
         "767-400": [
-            "a general aviation plane that is typically flown by one pilot for passengers or cargo.",
-            "the Boeing 767-400 is a commercial airliner widely used in international flights.",
-            "the 767-400 aircraft is a commercial airliner.",
-            "a general aviation plane that is typically flown by one pilot for passengers or cargo."
+            "this is an a320-200 aircraft that typically cruises at 40,000 feet.",
+            "a commercial airliner with a wing span of seventy-two meters and a typical cruising altitude of eighty thousand feet is the aircraft in question.",
+            "a commercial jet aircraft used for long distance travel on a scheduled basis.",
+            "a commercial airliner is a 767-400."
         ],
         "BAE 146-300": [
-            "the bae 146-300 is a midsize aircraft that is commonly used for corporate and business travel.",
-            "the bae 146 is a type of jet aircraft.",
-            "the bae 146-300 aircraft is a midsize jet that features four seats per row and can carry one or two hundred passengers.",
-            "the bae 146-300 is a three-engine narrow-body jet airliner."
+            "the bae 146-300 is a regional jet aircraft designed for short to medium distance flights.",
+            "bae 146-300 aircraft is a commercial airliner used by several airlines worldwide.\n\n.",
+            "bae146-300 is a popular business jet.",
+            "the bae 146-300 is a medium-sized aircraft."
         ],
         "E-190": [
-            "the e190 aircraft is a commercial jet airliner.",
-            "e-190 is an aero plane model with four engines.",
-            "the e-190 is a midsize commercial airliner with four engines.",
-            "the e190 aircraft is a narrowbody turbofan commercial jet."
+            "e-190 aircraft is a jet airliner model manufactured by bae systems.",
+            "e-190 is a commercial airliner with four engine turbofan configuration.",
+            "e-190 aircraft is a commercial airliner.",
+            "e190 aircraft is a commercial airliner model produced by airbus."
         ],
         "737-800": [
-            "the 737-800 is a narrow-body jet airliner that seats approximately two hundred and fifty people.",
-            "the 737-800 is a commercial airliner widely used by major airlines worldwide.",
-            "this is an airliner. it is a large aircraft that is used for long-distance flights. it has a distinctive design with two horizontal stabilizers and a rudder. it is a commercial airliner and is used by many airlines around the world.",
-            "a commercial jet aircraft used for long distance travel on land and sea."
+            "the 737-800 is a commercial airliner.",
+            "the 737 800 is a commercial airliner.",
+            "a 737-800 is a medium-sized jet aircraft with four engines. \n\nit has a distinctive wing shape and a large cargo door on the rear. \nthe aircraft has a passenger cabin with a galley and a lavatory. \nit can",
+            "the 737-800 is a narrow-body commercial airliner."
         ],
         "Embraer Legacy 600": [
-            "the embraer legacy 600 is a commercial airliner.",
-            "embrarer legacy 600 is a commercial jet airliner.",
-            "the embraer legacy 600 is a regional jet that is manufactured by embraer and is known for its high cruising speed and reliability.",
-            "the embraer legacy 600 is a business jet with a distinctive elliptical design and a capacity for five passengers or four cargo. \n\n."
+            "embraer legacy 600 is a business jet produced by brazilian aviation company embraer. \n\nit is a high-performance mid-size business jet featuring advanced avionics and robust engine capabilities.",
+            "embraer legacy 600 aircraft is a large business jet with a three-class seating configuration and a range of approximately 7,200 nautical miles.",
+            "embraer legacy 600 aircraft is a commercial airliner used by several airlines worldwide.\n\n.",
+            "embraer legacy 600 is a business class aircraft designed for long range flights."
         ],
         "737-200": [
-            "the 737-200 is a commercial aircraft with a length of approximately thirty six feet eight inches and a wingspan of twenty seven feet six inches.",
-            "the 737-200 is a narrowbody jet aircraft.",
-            "a typical commercial airliner is a 737-200.",
-            "the 737-200 is a midsize commercial aircraft. \n\nit is typically 41 to 44 meters long and has a typical maximum takeoff weight of 56,000 to 59,000 kilograms."
+            "the 737-200 is a small commercial airliner with four engines.",
+            "the 737-200 is a small jet airplane.",
+            "the 737-200 is a single engine general aviation aircraft commonly used for business trips and personal flights.",
+            "the 737-200 is a commercial airliner."
         ],
         "737-600": [
-            "a 737-600 is a typical small business jet.",
-            "the 737-600 is a narrow body aircraft commonly used for regional and short distance flights.",
-            "a commercial aircraft with a capacity for seventy to sixty three passengers typically has four engines and is powered by turbofan engines.",
-            "the 737-600 is a medium size narrow body aircraft."
+            "this is an avion planned to fly at high altitudes.",
+            "the 737-600 is a narrowbody airliner produced by american Airlines.",
+            "the 737-600 is a midsize commercial aircraft.",
+            "the 737-600 is a small single engine propeller plane that is popular for short to medium distance flights."
         ],
         "A330-300": [
-            "aeroplane with three engines is called a330-300 aircraft.",
-            "a commercial airliner with four engines is the a330-300 \n\nit is a narrowbody aircraft designed by bmi aerospace it was first introduced in 1994.",
-            "a commercial aircraft the a330-300 is a widebody jet airliner known for its comfort and reliability.",
-            "the a330-300 is a widebody commercial airliner manufactured by airbus."
+            "the a330-300 is a wide body jet aircraft with a length of approximately fifty three and eight feet.",
+            "a commercial airliner the a330-300 is a narrow-body jet airliner widely used in global air travel.",
+            "the a330-300 is a widebody commercial airliner.",
+            "a. the a330-300 is a midsize commercial airliner that is widely used for regional flights."
         ],
         "DH-82": [
-            "detailed information about dh-82 aircraft available upon request.",
-            "dhe Phantom experimental twin jet is a remarkable aircraft that was designed to test advanced features.",
-            "the dh-82 aircraft is a float plane with two vertical takeoff and landing floats.",
-            "dhu-82 aircraft is a small, single-engine business plane."
+            "the dh-82 is a naval reconnaissance aircraft.",
+            "dh-82 aircraft is a type of military transport plane.",
+            "dh-82 aircraft is a transport plane that can carry multiple passengers and cargo.",
+            "the dh-82 aircraft is a naval helicopter based on the h-123 main rotorcraft\n\n."
         ],
         "Saab 2000": [
-            "saab 2000 is a swedish family aircraft.",
-            "the saab 2000 is a four seat single engined jet airliner that was manufactured in sweden from 1979 to 1983.",
-            "the saab 2000 is a twin engine propeller driven aircraft used primarily for general aviation.",
-            "saab 2000 is a small business plane that was used for many different types of flights around the world."
+            "saab 2000 is a small business plane that was used for many different types of flights around the world.",
+            "the saab 2000 is a single engine propeller driven airplane.",
+            "the saab 2000 is a Swedish business aircraft that is known for its efficiency and reliability.",
+            "saab 2000 aircraft is a type of single-engine jet trainer plane."
         ]
     }
 }
