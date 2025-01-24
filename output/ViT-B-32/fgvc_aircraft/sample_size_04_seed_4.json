@@ -1,1 +1,1 @@
-{"dataset": "fgvc_aircraft", "model": "ViT-B-32", "pretrained": "datacomp_m_s128m_b4k", "task": "zeroshot_classification", "metrics": {"acc1": 0.043504350435043505, "acc5": 0.1566156615661566, "mean_per_class_recall": 0.04405525846702317}, "language": "en"}
+{"dataset": "fgvc_aircraft", "model": "ViT-B-32", "pretrained": "datacomp_m_s128m_b4k", "task": "zeroshot_classification", "metrics": {"acc1": 0.0288028802880288, "acc5": 0.10921092109210921, "mean_per_class_recall": 0.028761140819964347}, "language": "en"}

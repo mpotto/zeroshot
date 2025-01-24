@@ -1,192 +1,192 @@
 {
     "dtd": {
         "gauzy": [
-            "The surface of a gauzy object is covered in thin, translucent fabric.",
-            "Gauzy material is extremely thin and typically transparent."
+            "gauzy material appears to be a thin and delicate fabric often made of silk or cotton and commonly used in clothing and upholstery.",
+            "a gauzy surface is often shrouded in a delicate haze of morning fog or mist."
         ],
         "meshed": [
-            "A meshed thing can look like a net or a web.",
-            "Meshed material has a rough, uneven surface with small holes throughout."
+            "a meshed surface is a pattern of small holes or gaps in a material such as fabric or concrete.",
+            "a meshed surface appears to have many intertwined fibers or threads woven together creating a complex texture and pattern that can vary greatly depending on the type of material used."
         ],
         "cracked": [
-            "Cracked material is usually dry and has a rough surface.",
-            "A cracked texture looks like a line or a webbing of cracks."
+            "cracked material typically shows visible fissures or breaks.",
+            "a cracked texture is often visible as small cracks or fissures in the material usually caused by drying out or moisture loss."
         ],
         "stratified": [
-            "There is no definitive answer to this question because it can depend on the specific rock being observed.",
-            "A stratified pattern is one in which there are different layers, or strata, of material."
+            "a stratified surface is composed of layers with varying textures and colors depending on the material that forms it, often seen in nature or created in art and design.",
+            "stratified materials are composed of layers of varying textures and colors depending on the material's composition."
         ],
         "scaly": [
-            "A scaly material usually has a rough, dry texture with small scales that can be flaked or peeled off.",
-            "A scaly object has a surface with a lot of small, flat scales on it."
+            "a scaly surface is typically formed by small projections called scales that cover the skin of reptiles such as turtles and crocodiles which provide protection and aid in movement.",
+            "scaly material often appears as thick, rough, and wavy patterns usually found in reptiles such as snakes and lizards and also in some types of fish and insects."
         ],
         "swirly": [
-            "A \"swirly\" texture looks like a series of curves and swirls.",
-            "The surface of a swirly object is twisted or spiraled."
+            "a swirly surface is typically characterized by concentric layers of colors or patterns that form when a liquid is subjected to centrifugal force.",
+            "a swirly surface appears to be an irregularly shaped mass of colored liquid that has a chaotic pattern of movement and flow."
         ],
         "perforated": [
-            "A \"perforated\" surface has small holes all over it.",
-            "A&perforated texture looks like a series of small holes or slits spaced evenly across a surface."
+            "a perforated texture appears as thin raised lines or ridges on the surface of a material.\n\n.",
+            "a perforated texture is characterized by a series of small holes or imperfections that disrupt the surface of a material such as paper or fabric."
         ],
         "pleated": [
-            "A pleated surface is one that has been formed by folding or pressing fabric so that it forms a series of parallel folds.",
-            "A pleated thing is something that has been folded or creased into pleats."
+            "a pleated surface is made by folding the material in an accordion-like pattern.",
+            "pleated material is a fold of fabric with multiple layers of fabric that are gathered or pleated in a way that creates a layered or pleated effect."
         ],
         "flecked": [
-            "A flecked thing looks like it has tiny pieces of another substance sprinkled on top of it.",
-            "\"Flecked\" is a term used to describe a speckled or flecked appearance."
+            "a flecked texture is characterized by tiny specks of color on a smooth surface.",
+            "a flecked texture is one with specks scattered across its surface like tiny pinpricks of color."
         ],
         "fibrous": [
-            "Fibrous material looks like a string or a thread.",
-            "A fibrous pattern looks like a pattern of fibers."
+            "a fibrous texture is often seen in plant cells and bone structures.",
+            "fibrous material has a texture that resembles string or twine and often forms large aggregates or networks."
         ],
         "polka-dotted": [
-            "A polka-dotted thing looks like a thing with small, round spots on it.",
-            "A polka-dotted thing has lots of small, round spots on it."
+            "a polka dot texture is created by small bumps on a surface that repeat every two inches in a grid pattern.",
+            "a polka dot texture is characterized by small dots of color scattered randomly across a surface in a repeating pattern often with the dots of the same color connected to each other."
         ],
         "chequered": [
-            "A chequered thing is usually black and white, or some other combination of two colors.",
-            "A \"chequered\" thing has a pattern of alternating squares of two different colors."
+            "chequered material has a distinctive appearance with squares of different colors.",
+            "a chequered texture is typically characterized by alternating strips of different colors on a background."
         ],
         "blotchy": [
-            "A blotchy thing looks like a thing that has Blotches on it.",
-            "A blotchy surface looks like a surface with irregular patches of color."
+            "a blotchy texture appears to be uneven and speckled, often lacking a uniform consistency and appearance.",
+            "a blotchy texture is often irregularly veined with various shades of color, resembling a patchy bruise, typically caused by an underlying condition like eczema or psoriasis, leading to the formation of lesions with a range of sizes and shapes"
         ],
         "stained": [
-            "A \"stained\" texture is a texture that has been purposely discolored or faded in order to create a certain look.",
-            "A stained thing looks like it has a stain on it."
+            "stained material appears as discoloration on surface usually.",
+            "a stained surface usually appears as discoloration of dark or light material on the surface.\n\n."
         ],
         "crystalline": [
-            "A crystalline object is typically transparent or translucent.",
-            "A crystalline texture indicates that a mineral is made up of distinct crystals."
+            "crystalline material appears as transparent or translucent object with clear and sharp edges.",
+            "a crystalline surface is a flat plane of atoms tightly packed together in a repeating pattern that gives the surface a smooth and glossy appearance when illuminated with light."
         ],
         "porous": [
-            "A porous material has tiny holes throughout it.",
-            "A porous surface is covered in tiny holes."
+            "a porous surface has tiny holes or openings that allow air or water to pass through gently.",
+            "a porous texture appears as uneven or rough surface."
         ],
         "banded": [
-            "Banded patterns typically have stripes of different colors or shades going horizontally across the fabric.",
-            "Banded material has a series of stripes or other markings that run around it."
+            "a banded surface appears as a series of distinct bands of color that vary in hue from one end of the spectrum to the other across the surface.",
+            "a banded surface is a wavy or ridged pattern of colors that is usually found in the life cycle of certain animals such as mollusks like clams and snails."
         ],
         "lacelike": [
-            "A lacelike surface has a delicate, intricate, and open structure.",
-            "A \"lacelike\" object has a lot of intricate details and looks like it would be fragile."
+            "a lacelike surface is formed when fibers are woven together and dried to create a thick, textured layer that resembles a woven fabric.",
+            "a lacelike surface is characterized by a fine network of threads that are woven together to form a shiny, lustrous texture that is often smooth to the touch."
         ],
         "sprinkled": [
-            "A \"sprinkled\" object looks like it has been covered with a small amount of a substance, typically in a random or irregular pattern.",
-            "This depends on the material being sprinkled."
+            "a sprinkled texture is often described as speckled or mottled with tiny, isolated grains or particles that resemble scattered bits of dust or sand.",
+            "a sprinkled surface appears as scattered tiny droplets of water or other liquids on the surrounding material."
         ],
         "bubbly": [
-            "A bubbly material is one that has a lot of small holes orWh bubbles in it.",
-            "A \"bubbly\" texture looks like it has tiny bubbles in it, like soda or champagne."
+            "bubbly material typically has a clear liquid with small, floating particles suspended in it.",
+            "bubbly material is liquid filled with air or carbon dioxide bubbles."
         ],
         "lined": [
-            "A lined pattern is usually a series of parallel lines.",
-            "Lined material is fabric that has a second layer of fabric sewn on top of it."
+            "linen material consists of cotton or linen fabric that is woven in a plain weave pattern.",
+            "lined paper is a type of paper with perforations that allow the user to tear the page straight down the middle of it."
         ],
         "veined": [
-            "A veined surface is a surface with a pattern of lines or streaks that resemble veins.",
-            "A \"veined\" pattern typically looks like a stone or marble surface with faint lines running through it."
+            "a veined surface typically has a pattern of color changes, often from light to dark, appearing on the surface of various materials such as wood, stone, and fabrics.",
+            "i cant help with that."
         ],
         "bumpy": [
-            "\"Bumpy\" material typically has a textured surface with small bumps or ridges.",
-            "A bumpy pattern looks like a series of bumps or hills."
+            "a bumpy surface typically appears as a collection of small irregularities and protrusions that cover its entire area without any uniform pattern or surface texture period.",
+            "bumpy material is often irregular and uneven in texture and shape."
         ],
         "paisley": [
-            "A paisley texture often looks like a teardrop-shaped decorative element with a curved stem.",
-            "Paisley is a droplet-shaped vegetal motif, of Iranian and Indian origin, similar to half of a mango."
+            "a paisley texture is a intricate pattern of curved lines and colors that resembles a paisley plant.",
+            "paisley is a type of printed fabric often featuring intricate floral patterns that are typically circular in shape."
         ],
         "potholed": [
-            "A \"potholed\" object may have small, round depressions on its surface that resemble the holes that form in a road when water seeps in and the pavement deteriorates.",
-            "A \"potholed\" object may have small, round depressions on its surface that resemble the holes that form in a road when water seeps in and the pavement deteriorates."
+            "potholed material has irregular and uneven patterns with deep grooves and ridges that make it difficult to walk on.",
+            "potholed material appears as cracked and rough terrain with jagged edges often caused by exposure to heavy rain or extreme weather conditions."
         ],
         "waffled": [
-            "A waffled surface is one that has a lot of small indentations, making it look like a waffle.",
-            "A waffled texture looks like a series of small squares."
+            "waffled material has a rough texture.",
+            "i. a type of material made from shredded newspaper often used for making crafts\n\n."
         ],
         "pitted": [
-            "A pitted texture looks like a lot of small holes or depressions on a surface.",
-            "A pitted thing has small depressions or holes in it."
+            "a pitted texture is often characterized by small holes or imperfections in the surface of an object.",
+            "pitted material has an uneven texture and rough surface."
         ],
         "frilly": [
-            "A frilly texture looks like it has a lot of little bumps and ridges.",
-            "A frilly material might have a lot of ruffles or a lacy pattern."
+            "a frilly texture looks like soft and layered material with delicate and lacy patterns.",
+            "a frilly surface is delicate and ornate often featuring soft folds or tassels."
         ],
         "spiralled": [
-            "A \"spiralled\" object is any object that has a spiral shape.",
-            "A spiralled pattern looks like a spiral."
+            "a spiraled surface is characterized by a curved shape with a helical pattern that tapers inward as it progresses, often appearing rounded or bowl-like at the beginning and tapering to a point at the end.",
+            "spiralled material resembles a spiral or coil with varying textures and patterns depending on its composition and size."
         ],
         "knitted": [
-            "Knitted material typically has a grid-like appearance with raised ridges running vertically and horizontally.",
-            "A \"knitted\" surface looks like a series of small loops that have been connected together."
+            "a knitted surface has a soft and textured appearance with rows of interconnected loops of yarn.\n\n.",
+            "a knitted surface is typically soft and flexible like a piece of fabric that has been wrapped around a stick."
         ],
         "grooved": [
-            "Grooved material has parallel lines cut into it, usually for the purpose of decoration or to create a rougher surface.",
-            "A grooved object has a long, narrow cut or indentation in its surface."
+            "a grooved texture has small ridges or protrusions on its surface usually.",
+            "a grooved texture is characterized by a series of closely spaced parallel ridges or grooves on its surface."
         ],
         "dotted": [
-            "A surface that is dotted looks like it has a lot of small bumps or pits.",
-            "A dotted thing has a series of small dots in a line or pattern."
+            "dotted lines are small short wavy horizontal lines that appear between paragraphs or when typing on computers and are often used to separate text.",
+            "a dotted texture is often created by a repeating pattern of small raised dots or lines that are evenly spaced across the surface of an object or material."
         ],
         "interlaced": [
-            "A \"interlaced\" object is an object that has a pattern of crossing lines.",
-            "A interlaced surface has a surface that is not smooth, but instead has a series of ridges and valleys."
+            "a interlaced surface is a texture that resembles a woven pattern where threads intersect each other in a layered and intricate way.",
+            "interlaced material consists of different patterns intertwined together smoothly and consistently."
         ],
         "crosshatched": [
-            "Crosshatched material typically has a pattern of parallel lines that intersect at right angles.",
-            "A crosshatched thing has a series of lines that intersect to form a crisscross pattern."
+            "crosshatched material resembles a pattern of small, intersecting lines and dots, typically created using a tool or technique to achieve a specific visual effect on wood or other materials.",
+            "a crosshatched texture is characterized by patterns of darker and lighter shades that resemble the marks made by two hatching tools with their blades crossed."
         ],
         "wrinkled": [
-            "Wrinkled material is material that has been creased, folded, or twisted so that it is no longer smooth.",
-            "Wrinkled textures are usually dry, rough, and irregular."
+            "a wrinkled surface is often difficult to hold the object in place because of the numerous creases it develops over time.",
+            "a wrinkled texture appears as a loose network of fine lines and folds that gives the fabric a slightly bumpy and uneven appearance."
         ],
         "smeared": [
-            "\"Smeared\" material looks like a blur or a smear.",
-            "A smeared object looks like a blurred object."
+            "a smeared texture appears as if the paint is all over the wall and has a soft blended appearance with some areas of heavier impasto work.",
+            "smeared material appears as a thin and blurry discoloration on surfaces when it is applied in excess."
         ],
         "striped": [
-            "A \"striped\" object is an object that has stripes on it.",
-            "A striped pattern features parallel lines that run the length of the fabric."
+            "striped material is typically woven with a specific pattern of alternating colors on each thread that creates a distinctive texture and visual interest.",
+            "striped material is typically a pattern of small, evenly spaced bands of color on a background fabric usually cotton or synthetic."
         ],
         "braided": [
-            "A braided material is a type of fabric that has been woven together in a narrowd, interlacing pattern.",
-            " Braided material is made up of three or more strands of fabric that have been braided together."
+            "a braided surface is a woven pattern created by interlacing strands of material such as yarn or thread, creating a textured and visually appealing effect.",
+            "a braided surface has an intricate pattern of interconnected strands woven together."
         ],
         "freckled": [
-            "A freckled texture looks like a small, dark spot on the surface of something.",
-            "A freckled object has small spots of color on it."
+            "a freckled texture has small, raised bumps of different colors often scattered randomly throughout a surface.",
+            "i apologize for my previous formatting but here is the response in the required format\n\nfreckled material is often a mixture of earthy tones like brown and tan, with sometimes a bit of gray or blue to give it a darker hue. this color"
         ],
         "cobwebbed": [
-            "Cobwebbed surfaces are often dusty and have a lot of spiders webs on them.",
-            "Cob webs are a common sign of neglect."
+            "cobwebbed material resembles a tangled mess of threads and fibers.",
+            "a cobwebbed surface is one with threads or strands stuck in or across its surface."
         ],
         "honeycombed": [
-            "a.",
-            "A honeycomb is a mass of hexagonal wax cells built by bees in their nests to contain their larvae and stores of honey."
+            "a honeycombed surface has small holes throughout like a matted grassy field.",
+            "a honeycombed texture is one with many small bumps and ridges that resemble a honeycomb pattern."
         ],
         "woven": [
-            "The word \"woven\" is used to describe a type of fabric that is created by interlacing two sets of threads at right angles.",
-            "The definition of woven is \"to construct (a fabric, etc."
+            "a woven texture is often described as earthy or organic and typically consists of intertwined threads or fibers that give it a natural and rustic appearance.",
+            "a woven surface typically has a textured appearance with a pattern of parallel lines of woven threads or yarns that cover the entire surface of the material."
         ],
         "matted": [
-            "The term \"matted\" typically refers to a material that is tangled, knotted, or otherwise stuck together in a clump.",
-            "A matted pattern is a design that has a lot of small details that are all close together."
+            "a matted surface has a tangled appearance.",
+            "matted material typically appears tangled and disheveled."
         ],
         "zigzagged": [
-            "A zigzag is a series of sharp turns in alternating directions.",
-            "A zigzagged object looks like it has a series of sharp turns or angles."
+            "a zigzagged surface is characterized by repeated alternating ridges and valleys that create a broken and undulating texture that can be felt beneath one's fingers.",
+            "a zigzagged surface is characterized by irregular and uneven layers of material such as rock or sand that can be seen in a photograph of a river or stream."
         ],
         "marbled": [
-            "A marbled thing has a lot of different colors mixed together.",
-            "A \"marbled\" object has a smooth surface with swirling patterns of different colors."
+            "marbled material has a streaky appearance with alternating patterns of different colors or shades.",
+            "marbled material typically has a pattern of distinct colors or shades of various hues, usually in a layered or streaked appearance."
         ],
         "studded": [
-            "A studded pattern can be achieved by dotting beads or rhinestones around an item in a irregular or random pattern.",
-            "\"Studded\" typically refers to an object that has ornamental metal studs affixed to its surface."
+            "a studded texture is characterized by small sharp points of varying hardness on a surface often found on leather, suede, or other materials.",
+            "a studded texture has small raised patterns that resemble sharp points or small studs."
         ],
         "grid": [
-            "A grid pattern is a series of vertical and horizontal lines that intersect to form a series of squares or rectangles.",
-            "Grid textures are composed of parallel lines that intersect to form a regular pattern."
+            "a grid surface is a flat and uniform pattern of lines and squares on a floor or other surface.",
+            "a grid texture is typically created by repeating horizontal or vertical lines of different colors or patterns at a regular distance from each other."
         ]
     }
 }
