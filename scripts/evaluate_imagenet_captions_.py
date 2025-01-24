@@ -86,7 +86,7 @@ for M in SAMPLE_SIZES:
 
         # generate output
         os.makedirs(os.path.join(OUT_PATH, f"{model_type}/imagenet_captions"), exist_ok=True)
-        out_fp = os.path.join(OUT_PATH, f"{model_type}imagenet_captions/task_{task_id:02d}_sample_size_{M}_seed_{SEED:02d}.json") 
+        out_fp = os.path.join(OUT_PATH, f"{model_type}/imagenet_captions/task_{task_id:02d}_sample_size_{M}_seed_{SEED:02d}.json") 
         if os.path.exists(out_fp):
             print(f"Output '{out_fp}' already exists.")
         else:
