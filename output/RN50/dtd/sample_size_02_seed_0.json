@@ -1,1 +1,1 @@
-{"dataset": "dtd", "model": "RN50", "pretrained": "yfcc15m", "task": "zeroshot_classification", "metrics": {"acc1": 0.21223404255319148, "acc5": 0.49148936170212765, "mean_per_class_recall": 0.21223404255319148}, "language": "en"}
+{"dataset": "dtd", "model": "RN50", "pretrained": "yfcc15m", "task": "zeroshot_classification", "metrics": {"acc1": 0.19414893617021275, "acc5": 0.49361702127659574, "mean_per_class_recall": 0.19361702127659575}, "language": "en"}
