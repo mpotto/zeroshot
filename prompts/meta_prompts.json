@@ -1,4 +1,11 @@
 {
+    "imagenet1k": [
+        "Describe what a(n) {c} looks like.",
+        "How can you identify a(n) {c}?",
+        "What does a(n) {c} look like?",
+        "Describe an image from the Internet of a(n) {c}.",
+        "Write a caption of an image of a(n) {c}."
+    ],
     "dtd": [
         "What does {c} material look like?",
         "What does a {c} surface look like?",

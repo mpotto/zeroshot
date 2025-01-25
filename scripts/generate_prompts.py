@@ -21,6 +21,7 @@ ROOT = "."
 PROMPT_PATH = "prompts/"
 MAX_NEW_TOKENS = 50
 TEMPERATURE = 0.99
+START = 421
 
 n_outputs = my_args.num_outputs
 dataset = my_args.dataset
@@ -52,12 +53,17 @@ print(f"dataset {dataset} has {len(classnames)} classes and {len(meta_prompts)} 
 instructions = """Please format your response as one that contains only lower case letters and no special characters (including new lines, bold, and any markdown artifacts) other than a period ('.') or commas (','). 
 The response should be a single sentence ending in a period that is directed toward the final instruction in this message. Your sentence should be a minimum of three words and maximum of thirty."""
 
+def format(class_):
+    return class_.replace("(", "").replace(")", "").replace(" ", "_").replace("/", "_").replace("___", "_")    
+
 num_seeds = n_outputs // len(meta_prompts)
 print(f"generating {num_seeds} prompts for each meta-prompt.")
-ret = {class_.replace("(", "").replace(")", ""): [] for class_ in classnames}
-for i, class_ in enumerate(classnames):
+ret = {format(class_): [] for class_ in classnames}
+for i, class_ in enumerate(classnames[START:]):
     prompts = [p.replace("{c}", class_) for p in meta_prompts]
-    print(f"class {i + 1}/{len(classnames)}: {class_}")
+    print(f"class {i + START + 1}/{len(classnames)}: {class_}")
+
+    formatted_class = format(class_)
 
     tic = time.time()
 
@@ -77,11 +83,14 @@ for i, class_ in enumerate(classnames):
             )
             response = outputs[0]['generated_text'][1]['content']
             print(f"\t {response}")
-            ret[class_.replace("(", "").replace(")", "")].append(response)
+            ret[formatted_class].append(response)
+
+    with open(os.path.join(PROMPT_PATH, f"{dataset}/classes/{dataset}_llama3_prompts_{formatted_class}.json"), 'w') as f:
+        json.dump({formatted_class: ret[formatted_class]}, f, indent=4)
 
     toc = time.time()
     print(f"time taken: {datetime.datetime.fromtimestamp(toc - tic).strftime('%M:%S')}")
     print()
 
 with open(os.path.join(PROMPT_PATH, f"{dataset}/{dataset}_llama3_prompts_full.json"), 'w') as f:
-    templates = json.dump(ret, f, indent=4)
+    json.dump({dataset: ret}, f, indent=4)
