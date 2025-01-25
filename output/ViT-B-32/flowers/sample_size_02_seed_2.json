@@ -1,1 +1,1 @@
-{"dataset": "flowers", "model": "ViT-B-32", "pretrained": "datacomp_m_s128m_b4k", "task": "zeroshot_classification", "metrics": {"acc1": 0.2478451780777362, "acc5": 0.488209464953651, "mean_per_class_recall": 0.22770010007665775}, "language": "en"}
+{"dataset": "flowers", "model": "ViT-B-32", "pretrained": "datacomp_m_s128m_b4k", "task": "zeroshot_classification", "metrics": {"acc1": 0.23288339567409336, "acc5": 0.503984387705318, "mean_per_class_recall": 0.21565662914882047}, "language": "en"}

@@ -1,1 +1,1 @@
-{"dataset": "flowers", "model": "RN50", "pretrained": "yfcc15m", "task": "zeroshot_classification", "metrics": {"acc1": 0.4942267035290291, "acc5": 0.731826313221662, "mean_per_class_recall": 0.4678741280402334}, "language": "en"}
+{"dataset": "flowers", "model": "RN50", "pretrained": "yfcc15m", "task": "zeroshot_classification", "metrics": {"acc1": 0.4906488859977232, "acc5": 0.7267848430639128, "mean_per_class_recall": 0.46340386294856784}, "language": "en"}

@@ -1,1 +1,1 @@
-{"dataset": "dtd", "model": "ViT-B-32", "pretrained": "datacomp_m_s128m_b4k", "task": "zeroshot_classification", "metrics": {"acc1": 0.24627659574468086, "acc5": 0.5446808510638298, "mean_per_class_recall": 0.24627659574468075}, "language": "en"}
+{"dataset": "dtd", "model": "ViT-B-32", "pretrained": "datacomp_m_s128m_b4k", "task": "zeroshot_classification", "metrics": {"acc1": 0.2574468085106383, "acc5": 0.5398936170212766, "mean_per_class_recall": 0.2579787234042553}, "language": "en"}

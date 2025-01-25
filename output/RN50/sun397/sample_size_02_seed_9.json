@@ -1,0 +1,1 @@
+{"dataset": "sun397", "model": "RN50", "pretrained": "yfcc15m", "task": "zeroshot_classification", "metrics": {"acc1": 0.37391728120344997, "acc5": 0.7063648233628188, "mean_per_class_recall": 0.3619770132259562}, "language": "en"}

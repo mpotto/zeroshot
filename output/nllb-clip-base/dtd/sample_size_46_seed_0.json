@@ -1,1 +1,1 @@
-{"dataset": "dtd", "model": "nllb-clip-base", "pretrained": "v1", "task": "zeroshot_classification", "metrics": {"acc1": 0.34361702127659577, "acc5": 0.7058510638297872, "mean_per_class_recall": 0.34308510638297873}, "language": "en"}
+{"dataset": "dtd", "model": "nllb-clip-base", "pretrained": "v1", "task": "zeroshot_classification", "metrics": {"acc1": 0.3659574468085106, "acc5": 0.7191489361702128, "mean_per_class_recall": 0.3664893617021276}, "language": "en"}

@@ -1,1 +1,1 @@
-{"dataset": "fgvc_aircraft", "model": "RN50", "pretrained": "yfcc15m", "task": "zeroshot_classification", "metrics": {"acc1": 0.046804680468046804, "acc5": 0.17581758175817583, "mean_per_class_recall": 0.04615864527629234}, "language": "en"}
+{"dataset": "fgvc_aircraft", "model": "RN50", "pretrained": "yfcc15m", "task": "zeroshot_classification", "metrics": {"acc1": 0.050705070507050705, "acc5": 0.17491749174917492, "mean_per_class_recall": 0.05043672014260249}, "language": "en"}
