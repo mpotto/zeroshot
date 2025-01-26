@@ -88,8 +88,8 @@ pretrained = {
     'nllb-clip-base': 'v1',
     'ViT-B-32': 'datacomp_m_s128m_b4k',
 }[model]
-root = "/mnt/ssd/ronak/datasets/clip_benchmark"
 dataset = my_args.dataset
+root = "/mnt/ssd/ronak/datasets/clip_benchmark/imagenet1k" if dataset == "imagenet1k" else "/mnt/ssd/ronak/datasets/clip_benchmark"
 num_seeds = my_args.num_seeds
 os.makedirs(f"/home/ronak/zeroshot/output/{model}/{dataset}", exist_ok=True)
 
