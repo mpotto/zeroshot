@@ -1,0 +1,1 @@
+{"dataset": "imagenet1k", "model": "ViT-B-32", "pretrained": "datacomp_m_s128m_b4k", "task": "zeroshot_classification", "metrics": {"acc1": 0.29398, "acc5": 0.5552, "mean_per_class_recall": 0.29410000000000003}, "language": "en"}

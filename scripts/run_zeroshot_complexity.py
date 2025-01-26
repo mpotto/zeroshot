@@ -88,9 +88,12 @@ pretrained = {
     'nllb-clip-base': 'v1',
     'ViT-B-32': 'datacomp_m_s128m_b4k',
 }[model]
+
 dataset = my_args.dataset
-root = "/mnt/ssd/ronak/datasets/clip_benchmark/imagenet1k" if dataset == "imagenet1k" else "/mnt/ssd/ronak/datasets/clip_benchmark"
 num_seeds = my_args.num_seeds
+batch_size = my_args.batch_size
+
+root = "/mnt/ssd/ronak/datasets/clip_benchmark/imagenet1k" if dataset == "imagenet1k" else "/mnt/ssd/ronak/datasets/clip_benchmark"
 os.makedirs(f"/home/ronak/zeroshot/output/{model}/{dataset}", exist_ok=True)
 
 # number of runs per dataset
@@ -118,7 +121,7 @@ for seed in range(num_seeds):
             f"--output=/home/ronak/zeroshot/output/{model}/{templates}.json",
             f"--dataset_root={root}",
             f"--custom_template_file=/home/ronak/zeroshot/prompts/{templates}.json",
-            f"--batch_size={my_args.batch_size}",
+            f"--batch_size={batch_size}",
             "--quiet"
         ]
         # for open_clip

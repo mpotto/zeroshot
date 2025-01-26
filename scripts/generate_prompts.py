@@ -51,7 +51,7 @@ print(f"dataset {dataset} has {len(classnames)} classes and {len(meta_prompts)} 
 
 
 instructions = """Please format your response as one that contains only lower case letters and no special characters (including new lines, bold, and any markdown artifacts) other than a period ('.') or commas (','). 
-The response should be a single sentence ending in a period that is directed toward the final instruction in this message. Your sentence should be a minimum of three words and maximum of thirty."""
+The response should be a single sentence ending in a period that is directed toward the final instruction in this message. Your sentence should be a minimum of three words and a maximum of thirty."""
 
 def format(class_):
     return class_.replace("(", "").replace(")", "").replace(" ", "_").replace("/", "_").replace("___", "_")    
