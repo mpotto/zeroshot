@@ -1,0 +1,1 @@
+{"dataset": "imagenet1k", "model": "RN50", "pretrained": "yfcc15m", "task": "zeroshot_classification", "metrics": {"acc1": 0.32364, "acc5": 0.57112, "mean_per_class_recall": 0.32362}, "language": "en"}

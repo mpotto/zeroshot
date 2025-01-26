@@ -2,7 +2,7 @@
 
 device=2
 
-CUDA_VISIBLE_DEVICES=$device python scripts/run_zeroshot_complexity.py --dataset imagenet1k --model RN50 --batch_size 128
+CUDA_VISIBLE_DEVICES=$device python scripts/run_zeroshot_template.py --dataset imagenet1k --model RN50 --batch_size 128
 
 # for seed in {0..9}
 # do

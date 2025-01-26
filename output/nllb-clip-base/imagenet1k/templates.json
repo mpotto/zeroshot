@@ -1,0 +1,1 @@
+{"dataset": "imagenet1k", "model": "nllb-clip-base", "pretrained": "v1", "task": "zeroshot_classification", "metrics": {"acc1": 0.24324, "acc5": 0.45166, "mean_per_class_recall": 0.24312}, "language": "en"}
