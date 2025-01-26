@@ -75,7 +75,7 @@ my_parser.add_argument(
     "--dataset",
     type=str,
     required=True,
-    choices=['dtd', 'fgvc_aircraft', 'flowers', 'sun397'],
+    choices=['dtd', 'fgvc_aircraft', 'flowers', 'sun397', 'imagenet1k'],
 )
 my_parser.add_argument("--num_seeds", type=int, default=10)
 my_parser.add_argument("--batch_size", type=int, default=64)
@@ -99,6 +99,7 @@ sample_sizes = {
     "fgvc_aircraft": [2, 4, 8, 14, 20], 
     "sun397": [2, 4, 8, 16, 23, 30], 
     "flowers": [2, 4, 8, 14, 20],
+    "imagenet1k": [16, 32, 64, 100],
 }[dataset]
 
 
