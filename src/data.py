@@ -7,7 +7,10 @@ import numpy as np
 import os
 
 NUM_CLASSES = 250
-DATA_PATH = f'/mnt/ssd/ronak/datasets/imagenet_captions_{NUM_CLASSES}k'
+# location of directory containing imagenet_images_flickr,
+# where files are of the form imagenet_images_flickr/n02110341/2041810051.jpg
+# see https://github.com/mlfoundations/imagenet-captions.
+DATA_PATH = "~" 
 
 class ImageClassificationDataset(Dataset):
     def __init__(

@@ -19,11 +19,6 @@ parser.add_argument("--model", type=str, required=True, help="which open_clip mo
 parser.add_argument("--seed", type=int, required=True)
 args = parser.parse_args()
 
-# SEED = 0
-# N_TASKS = 5
-# DEVICE = 3
-# model = 'RN50'
-
 SEED = args.seed
 N_TASKS = args.n_tasks
 DEVICE = args.device

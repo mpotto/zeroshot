@@ -50,7 +50,7 @@ The model tag indexes the subdirectories of `output/`. Similarly, the datasets a
 | [ImageNet-1k](https://image-net.org/download.php)    | `imagenet1k` | 
 
 These tags are used for the subdirectories of `prompts/`, where all dataset-and-class specific prompts are stored in `.json` format. The dataset tags also index particular results within the model directories in `output`, for instance, `output/RN50/dtd`.
-For ImageNet-Captions, we store a number of relevant files in `data`. The file `data/global_class_df.csv` lists a subset of 250 classes from ImageNet-1k in natural language, associated with a "global label" from 0 to 249. 
+For ImageNet-Captions, we store a number of relevant files in `data`. The file `data/global_class_df.csv` lists a subset of 250 classes (listed in `data/imagenet_captions_train_c250.csv`) from ImageNet-1k in natural language, associated with a "global label" from 0 to 249. 
 From these, subsets of 50 classes are selected and associated "local labels" from 0 to 49 at inference time. The `data/prompt_df.csv` file contains specific filenames (along with their associated classes and captions) from the ImageNet-1k dataset. 
 These files are used to generate the ideal prompt embeddings; accordingly, the images are not used. On the other hand, `data/eval_df.csv` contains the data that is used to evaluation the zero-shot classification accuracy. Source code for managing data is contained in `src/data.py`.
 
@@ -67,7 +67,7 @@ python scripts/evaluate_imagenet_captions_.py --model RN50 --device=0 --seed=0
 This relies on caption embeddings that are already saved in `classifiers`, but can be recreated using `scripts/create_ideal_classifiers.py` and `scripts/create_template_classifiers.py`. Source code for managing ImageNet-Captions experiments is contained in `src/zeroshot.py`.
 For the class-conditional prompting experiments, `scipts/run_zeroshot_complexity.py` generates the output for the baselines in Figure 4 whereas `scipts/run_zeroshot_complexity.py` generates the output for the curves. For example:
 ```
-CUDA_VISIBLE_DEVICES=0 python scripts/run_zeroshot_template.py --dataset imagenet1k --model ViT-B-32 --batch_size 128
+CUDA_VISIBLE_DEVICES=0 python scripts/run_zeroshot_template.py --dataset=dtd --model=ViT-B-32 --batch_size=128
 ```
 
 

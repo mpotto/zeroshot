@@ -5,6 +5,8 @@ import os
 import sys
 sys.path.extend([".", ".."])
 
+ROOT = "~" # root used to contain all local output from CLIP Benchmark. This is primarily used for storing datasets.
+
 ####################################
 # COPY ARGPARSE
 ####################################
@@ -88,8 +90,8 @@ pretrained = {
     'ViT-B-32': 'datacomp_m_s128m_b4k',
 }[model]
 dataset = my_args.dataset
-root = "/mnt/ssd/ronak/datasets/clip_benchmark/imagenet1k" if dataset == "imagenet1k" else "/mnt/ssd/ronak/datasets/clip_benchmark"
-os.makedirs(f"/home/ronak/zeroshot/output/{model}/{dataset}", exist_ok=True)
+root = ROOT
+os.makedirs(f"output/{model}/{dataset}", exist_ok=True)
 
 templates = f"templates"
 commands = [
@@ -99,9 +101,9 @@ commands = [
     f"--pretrained={pretrained}",
     f"--model={model}",
     f"--model_type={model_type}",
-    f"--output=/home/ronak/zeroshot/output/{model}/{dataset}/{templates}.json",
+    f"--output=output/{model}/{dataset}/{templates}.json",
     f"--dataset_root={root}",
-    f"--custom_template_file=/home/ronak/zeroshot/prompts/{templates}.json",
+    f"--custom_template_file=prompts/{templates}.json",
     f"--batch_size={my_args.batch_size}",
     "--quiet"
 ]
