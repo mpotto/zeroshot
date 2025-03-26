@@ -65,7 +65,8 @@ For the ImageNet-Captions experiments, they can be run using the format:
 python scripts/evaluate_imagenet_captions_.py --model RN50 --device=0 --seed=0
 ```
 This relies on caption embeddings that are already saved in `classifiers`, but can be recreated using `scripts/create_ideal_classifiers.py` and `scripts/create_template_classifiers.py`. Source code for managing ImageNet-Captions experiments is contained in `src/zeroshot.py`.
-For the class-conditional prompting experiments, `scipts/run_zeroshot_complexity.py` generates the output for the baselines in Figure 4 whereas `scipts/run_zeroshot_complexity.py` generates the output for the curves. For example:
+For the class-conditional prompting experiments, `scipts/run_zeroshot_complexity.py` generates the output for the baselines in Figure 4 whereas `scipts/run_zeroshot_complexity.py` generates the output for the curves. 
+Note that you will have to specify a `ROOT` variable that contains the directory that you will use to store CLIP Benchmark output (primarily data). Then, an example run is:
 ```
 CUDA_VISIBLE_DEVICES=0 python scripts/run_zeroshot_template.py --dataset=dtd --model=ViT-B-32 --batch_size=128
 ```
