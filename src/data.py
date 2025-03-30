@@ -40,16 +40,25 @@ class ImageClassificationDataset(Dataset):
         self.transforms = transforms
         logging.debug('Done loading data.')
 
-    def get_task_weights(self, weights, M, nonuniform=False):
-        if nonuniform:
+    def get_task_weights(self, weights, M, nonuniform="none"):
+        if nonuniform != "none":
             task_weights = torch.zeros(size=(self.task_size, weights[0].shape[1]))
             total_prompts = M * self.task_size
             p = torch.zeros(size=(self.task_size,))
+            N = np.array([len(w) for w in weights]).sum()
             for key in self.global_to_local:
                 c = self.global_to_local[key]
                 sub_embeds = weights[key]
-                mat = sub_embeds[np.random.choice(len(sub_embeds), min(5, len(sub_embeds)), replace=False)]
-                p[c] = mat.var(dim=0).sum()
+                if nonuniform == "variance":
+                    mat = sub_embeds[np.random.choice(len(sub_embeds), min(10, len(sub_embeds)), replace=False)]
+                    p[c] = mat.var(dim=0).sum()
+                elif nonuniform == "class_weight":
+                    p[c] = (len(sub_embeds) * (N - len(sub_embeds)))
+                elif nonuniform == "class_weight_variance":
+                    mat = sub_embeds[np.random.choice(len(sub_embeds), min(10, len(sub_embeds)), replace=False)]
+                    p[c] = mat.var(dim=0).sum() * (len(sub_embeds) * (N - len(sub_embeds)))
+                else:
+                    raise NotImplementedError
             p /= p.sum()
             task_prompts = torch.tensor([round((p_i * total_prompts).item(), 0) for p_i in p]).int()
             for key in self.global_to_local:

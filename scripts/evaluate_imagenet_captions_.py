@@ -17,7 +17,7 @@ parser.add_argument("--device", type=int, default=3, help="gpu index")
 parser.add_argument("--n_tasks", type=int, default=5, help="how many subtasks to split the 250 classes into", choices=[5, 10])
 parser.add_argument("--model", type=str, required=True, help="which open_clip model to use", choices=['RN50', 'nllb-clip-base', 'ViT-B-32'])
 parser.add_argument("--seed", type=int, required=True)
-parser.add_argument("--nonuniform", type=int, default=0)
+parser.add_argument("--nonuniform", type=str, default="none")
 args = parser.parse_args()
 
 SEED = args.seed
@@ -27,8 +27,9 @@ model = args.model
 DATA_PATH = "data"
 SAVE_PATH = "classifiers"
 OUT_PATH = "output"
-SAMPLE_SIZES = [5, 10, 25, 50, 100]
-nonuniform = bool(args.nonuniform)
+SAMPLE_SIZES = [50, 100]
+# SAMPLE_SIZES = [5, 10, 25, 50, 100]
+nonuniform = args.nonuniform
 
 # SEED = 0
 # N_TASKS = 5
@@ -38,7 +39,7 @@ nonuniform = bool(args.nonuniform)
 # SAVE_PATH = "classifiers"
 # OUT_PATH = "output"
 # SAMPLE_SIZES = [100]
-# nonuniform = True
+# nonuniform = "class_weights"
 
 model_type, pretrained = {
     'RN50': ('RN50', 'yfcc15m'),
@@ -67,7 +68,7 @@ clf_fp = os.path.join(DATA_PATH, f"{model_type}_text_features.pt")
 def create_global_weights(labels, embeddings, M, seed, num_classes=250, nonuniform=False):
     torch.manual_seed(seed)
     np.random.seed(seed)
-    if nonuniform:
+    if nonuniform != "none":
         weights = []
         for c in range(num_classes):
             sub_embeds = embeddings[labels==c]
@@ -99,8 +100,8 @@ for M in SAMPLE_SIZES:
 
         # generate output
         os.makedirs(os.path.join(OUT_PATH, f"{model_type}/imagenet_captions"), exist_ok=True)
-        if nonuniform:
-            out_fp = os.path.join(OUT_PATH, f"{model_type}/imagenet_captions/task_{task_id:02d}_sample_size_{M}_seed_{SEED:02d}_nonuniform.json") 
+        if nonuniform != "none":
+            out_fp = os.path.join(OUT_PATH, f"{model_type}/imagenet_captions/task_{task_id:02d}_sample_size_{M}_seed_{SEED:02d}_{nonuniform}.json") 
         else:
             out_fp = os.path.join(OUT_PATH, f"{model_type}/imagenet_captions/task_{task_id:02d}_sample_size_{M}_seed_{SEED:02d}.json") 
         if os.path.exists(out_fp):
