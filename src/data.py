@@ -1,5 +1,6 @@
 import torch
 from torch.utils.data import Dataset
+import torch.nn.functional as F
 import logging
 import pandas as pd
 from PIL import Image
@@ -10,7 +11,7 @@ NUM_CLASSES = 250
 # location of directory containing imagenet_images_flickr,
 # where files are of the form imagenet_images_flickr/n02110341/2041810051.jpg
 # see https://github.com/mlfoundations/imagenet-captions.
-DATA_PATH = "~" 
+DATA_PATH = f"/mnt/ssd/ronak/datasets/imagenet_captions_{NUM_CLASSES}k" 
 
 class ImageClassificationDataset(Dataset):
     def __init__(
@@ -39,9 +40,27 @@ class ImageClassificationDataset(Dataset):
         self.transforms = transforms
         logging.debug('Done loading data.')
 
-    def get_task_weights(self, weights, nonuniform=False):
+    def get_task_weights(self, weights, M, nonuniform=False):
         if nonuniform:
-            raise NotImplementedError
+            task_weights = torch.zeros(size=(self.task_size, weights[0].shape[1]))
+            total_prompts = M * self.task_size
+            p = torch.zeros(size=(self.task_size,))
+            for key in self.global_to_local:
+                c = self.global_to_local[key]
+                sub_embeds = weights[key]
+                mat = sub_embeds[np.random.choice(len(sub_embeds), min(5, len(sub_embeds)), replace=False)]
+                p[c] = mat.var(dim=0).sum()
+            p /= p.sum()
+            task_prompts = torch.tensor([round((p_i * total_prompts).item(), 0) for p_i in p]).int()
+            for key in self.global_to_local:
+                c = self.global_to_local[key]
+                sub_embeds = weights[key]
+                task_weights[c] = sub_embeds[np.random.choice(
+                    len(sub_embeds), 
+                    min(task_prompts[c].item(), len(sub_embeds)), 
+                    replace=False)
+                ].mean(axis=0)
+            return F.normalize(task_weights.T, dim=0)
         else:
             task_weights = torch.zeros(size=(len(weights), self.task_size))
             for key in self.global_to_local:
