@@ -12,21 +12,33 @@ sys.path.extend([".", ".."])
 from src.zeroshot import evaluate
 from src.data import ImageClassificationDataset
 
-parser = argparse.ArgumentParser()
-parser.add_argument("--device", type=int, default=3, help="gpu index")
-parser.add_argument("--n_tasks", type=int, default=5, help="how many subtasks to split the 250 classes into", choices=[5, 10])
-parser.add_argument("--model", type=str, required=True, help="which open_clip model to use", choices=['RN50', 'nllb-clip-base', 'ViT-B-32'])
-parser.add_argument("--seed", type=int, required=True)
-args = parser.parse_args()
+# parser = argparse.ArgumentParser()
+# parser.add_argument("--device", type=int, default=3, help="gpu index")
+# parser.add_argument("--n_tasks", type=int, default=5, help="how many subtasks to split the 250 classes into", choices=[5, 10])
+# parser.add_argument("--model", type=str, required=True, help="which open_clip model to use", choices=['RN50', 'nllb-clip-base', 'ViT-B-32'])
+# parser.add_argument("--seed", type=int, required=True)
+# parser.add_argument("--nonuniform", type=int, default=0)
+# args = parser.parse_args()
 
-SEED = args.seed
-N_TASKS = args.n_tasks
-DEVICE = args.device
-model = args.model
+# SEED = args.seed
+# N_TASKS = args.n_tasks
+# DEVICE = args.device
+# model = args.model
+# DATA_PATH = "data"
+# SAVE_PATH = "classifiers"
+# OUT_PATH = "output"
+# SAMPLE_SIZES = [5, 10, 25, 50, 100]
+# nonuniform = bool(args.nonuniform)
+
+SEED = 0
+N_TASKS = 5
+DEVICE = 3
+model = 'RN50'
 DATA_PATH = "data"
 SAVE_PATH = "classifiers"
 OUT_PATH = "output"
-SAMPLE_SIZES = [5, 10, 25, 50, 100]
+SAMPLE_SIZES = [100]
+nonuniform = True
 
 model_type, pretrained = {
     'RN50': ('RN50', 'yfcc15m'),
@@ -52,19 +64,21 @@ all_labels = torch.load(os.path.join(DATA_PATH, f"{model_type}_labels.pt"))
 all_text_features = torch.load(os.path.join(DATA_PATH, f"{model_type}_text_features.pt"))
 clf_fp = os.path.join(DATA_PATH, f"{model_type}_text_features.pt")
 
-def create_global_weights(labels, embeddings, M, seed, num_classes=250):
+def create_global_weights(labels, embeddings, M, seed, num_classes=250, nonuniform=False):
     torch.manual_seed(seed)
     np.random.seed(seed)
-    weights = torch.zeros(size=(250, d))
-    for c in range(num_classes):
-        sub_embeds = embeddings[labels==c]
-        weights[c] = sub_embeds[np.random.choice(len(sub_embeds), min(M, len(sub_embeds)), replace=False)].mean(axis=0)
-        weights[c] = F.normalize(weights[c], dim=-1)
-    return weights.T
-
+    if nonuniform:
+        raise NotImplementedError
+    else:
+        weights = torch.zeros(size=(250, d))
+        for c in range(num_classes):
+            sub_embeds = embeddings[labels==c]
+            weights[c] = sub_embeds[np.random.choice(len(sub_embeds), min(M, len(sub_embeds)), replace=False)].mean(axis=0)
+            weights[c] = F.normalize(weights[c], dim=-1)
+        return weights.T
 
 for M in SAMPLE_SIZES:
-    clf = create_global_weights(all_labels, all_text_features, M, SEED)
+    clf = create_global_weights(all_labels, all_text_features, M, SEED, nonuniform=nonuniform)
     for task_id in range(N_TASKS):
         print(f"\t Running task {task_id + 1}/{N_TASKS} for sample size {M:03d} and seed {SEED:02d}.")
 
@@ -81,13 +95,16 @@ for M in SAMPLE_SIZES:
 
         # generate output
         os.makedirs(os.path.join(OUT_PATH, f"{model_type}/imagenet_captions"), exist_ok=True)
-        out_fp = os.path.join(OUT_PATH, f"{model_type}/imagenet_captions/task_{task_id:02d}_sample_size_{M}_seed_{SEED:02d}.json") 
+        if nonuniform:
+            out_fp = os.path.join(OUT_PATH, f"{model_type}/imagenet_captions/task_{task_id:02d}_sample_size_{M}_seed_{SEED:02d}_nonuniform.json") 
+        else:
+            out_fp = os.path.join(OUT_PATH, f"{model_type}/imagenet_captions/task_{task_id:02d}_sample_size_{M}_seed_{SEED:02d}.json") 
         if os.path.exists(out_fp):
             print(f"Output '{out_fp}' already exists.")
         else:
             print(f"Generating '{out_fp}'.")
 
-            weights = dataset.get_task_weights(clf)
+            weights = dataset.get_task_weights(clf, nonuniform=nonuniform)
             output = evaluate(model, dataloader, DEVICE, weights)
             os.makedirs(os.path.join(OUT_PATH, f"{model_type}/{pretrained}"), exist_ok=True)
             with open(out_fp, 'w') as file:

@@ -39,11 +39,14 @@ class ImageClassificationDataset(Dataset):
         self.transforms = transforms
         logging.debug('Done loading data.')
 
-    def get_task_weights(self, weights):
-        task_weights = torch.zeros(size=(len(weights), self.task_size))
-        for key in self.global_to_local:
-            task_weights[:, self.global_to_local[key]] = weights[:, key]
-        return task_weights
+    def get_task_weights(self, weights, nonuniform=False):
+        if nonuniform:
+            raise NotImplementedError
+        else:
+            task_weights = torch.zeros(size=(len(weights), self.task_size))
+            for key in self.global_to_local:
+                task_weights[:, self.global_to_local[key]] = weights[:, key]
+            return task_weights
 
     def classification_transform(self, data, classes, task_id):
         # global label has already been randomized
