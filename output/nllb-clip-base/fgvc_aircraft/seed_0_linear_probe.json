@@ -1,0 +1,1 @@
+{"dataset": "fgvc_aircraft", "model": "nllb-clip-base", "pretrained": "v1", "task": "linear_probe", "metrics": {"lp_acc1": 0.45034503450345037, "lp_acc5": 0.7413741374137414, "lp_mean_per_class_recall": 0.45048128342245986, "weight_decay": 0, "epochs": 10, "seed": 0, "fewshot_k": -1, "normalized": true}, "language": "en"}

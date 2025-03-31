@@ -1,0 +1,1 @@
+{"dataset": "dtd", "model": "RN50", "pretrained": "yfcc15m", "task": "linear_probe", "metrics": {"lp_acc1": 0.6734042553191489, "lp_acc5": 0.9170212765957447, "lp_mean_per_class_recall": 0.6739361702127659, "weight_decay": 0, "epochs": 10, "seed": 0, "fewshot_k": -1, "normalized": true}, "language": "en"}

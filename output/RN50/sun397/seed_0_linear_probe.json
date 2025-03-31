@@ -1,0 +1,1 @@
+{"dataset": "sun397", "model": "RN50", "pretrained": "yfcc15m", "task": "linear_probe", "metrics": {"lp_acc1": 0.8962980671975284, "lp_acc5": 0.9878073450171948, "lp_mean_per_class_recall": 0.9003203028171429, "weight_decay": 0, "epochs": 10, "seed": 0, "fewshot_k": -1, "normalized": true}, "language": "en"}

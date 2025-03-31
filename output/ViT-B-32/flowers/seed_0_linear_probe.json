@@ -1,0 +1,1 @@
+{"dataset": "flowers", "model": "ViT-B-32", "pretrained": "datacomp_m_s128m_b4k", "task": "linear_probe", "metrics": {"lp_acc1": 0.8041958041958042, "lp_acc5": 0.9451943405431777, "lp_mean_per_class_recall": 0.8188142207103483, "weight_decay": 0, "epochs": 10, "seed": 0, "fewshot_k": -1, "normalized": true}, "language": "en"}

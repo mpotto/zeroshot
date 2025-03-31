@@ -1,0 +1,1 @@
+{"dataset": "flowers", "model": "nllb-clip-base", "pretrained": "v1", "task": "linear_probe", "metrics": {"lp_acc1": 0.9448690844039681, "lp_acc5": 0.9931696210765978, "lp_mean_per_class_recall": 0.9520208822561806, "weight_decay": 0, "epochs": 10, "seed": 0, "fewshot_k": -1, "normalized": true}, "language": "en"}

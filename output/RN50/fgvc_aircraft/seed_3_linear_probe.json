@@ -1,0 +1,1 @@
+{"dataset": "fgvc_aircraft", "model": "RN50", "pretrained": "yfcc15m", "task": "linear_probe", "metrics": {"lp_acc1": 0.2745274527452745, "lp_acc5": 0.5562556255625563, "lp_mean_per_class_recall": 0.27452762923351154, "weight_decay": 0, "epochs": 10, "seed": 0, "fewshot_k": -1, "normalized": true}, "language": "en"}

@@ -1,0 +1,1 @@
+{"dataset": "mscoco_captions", "model": "RN50", "pretrained": "yfcc15m", "task": "zeroshot_retrieval", "metrics": {"image_retrieval_recall@5": 0.37453019618988037, "text_retrieval_recall@5": 0.5347999930381775}, "language": "en"}

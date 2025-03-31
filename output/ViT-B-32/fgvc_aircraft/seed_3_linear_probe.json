@@ -1,0 +1,1 @@
+{"dataset": "fgvc_aircraft", "model": "ViT-B-32", "pretrained": "datacomp_m_s128m_b4k", "task": "linear_probe", "metrics": {"lp_acc1": 0.285028502850285, "lp_acc5": 0.5685568556855686, "lp_mean_per_class_recall": 0.28508021390374333, "weight_decay": 0, "epochs": 10, "seed": 0, "fewshot_k": -1, "normalized": true}, "language": "en"}
