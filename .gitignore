@@ -1,4 +1,8 @@
 # Project specific
+flickr8k.zip
+Images/*
+Images
+features/
 notebooks/workspace.ipynb
 notebooks/create_classifiers.ipynb
 scripts/debug*

@@ -1,0 +1,1 @@
+{"dataset": "sun397", "model": "nllb-clip-base", "pretrained": "v1", "task": "linear_probe", "metrics": {"lp_acc1": 0.9556614009599647, "lp_acc5": 0.9978759401953031, "lp_mean_per_class_recall": 0.9601523602673537, "weight_decay": 0, "epochs": 10, "seed": 0, "fewshot_k": -1, "normalized": true}, "language": "en"}

@@ -1,0 +1,1 @@
+{"dataset": "mscoco_captions", "model": "nllb-clip-base", "pretrained": "v1", "task": "zeroshot_retrieval", "metrics": {"image_retrieval_recall@5": 0.5151139497756958, "text_retrieval_recall@5": 0.6100000143051147}, "language": "en"}

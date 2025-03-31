@@ -1,0 +1,1 @@
+{"dataset": "flickr8k", "model": "nllb-clip-base", "pretrained": "v1", "task": "zeroshot_retrieval", "metrics": {"image_retrieval_recall@5": 0.7093999981880188, "text_retrieval_recall@5": 0.7940000295639038}, "language": "en"}

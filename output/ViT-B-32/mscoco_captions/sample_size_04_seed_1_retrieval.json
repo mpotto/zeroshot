@@ -1,0 +1,1 @@
+{"dataset": "mscoco_captions", "model": "ViT-B-32", "pretrained": "datacomp_m_s128m_b4k", "task": "zeroshot_retrieval", "metrics": {"image_retrieval_recall@5": 0.2701719403266907, "text_retrieval_recall@5": 0.37720000743865967}, "language": "en"}

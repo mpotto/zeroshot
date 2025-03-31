@@ -1,0 +1,1 @@
+{"dataset": "sun397", "model": "ViT-B-32", "pretrained": "datacomp_m_s128m_b4k", "task": "linear_probe", "metrics": {"lp_acc1": 0.7871802416462843, "lp_acc5": 0.9542453610901668, "lp_mean_per_class_recall": 0.7785866870442052, "weight_decay": 0, "epochs": 10, "seed": 0, "fewshot_k": -1, "normalized": true}, "language": "en"}

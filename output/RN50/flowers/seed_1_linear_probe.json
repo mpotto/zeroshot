@@ -1,0 +1,1 @@
+{"dataset": "flowers", "model": "RN50", "pretrained": "yfcc15m", "task": "linear_probe", "metrics": {"lp_acc1": 0.9053504634899984, "lp_acc5": 0.9874776386404294, "lp_mean_per_class_recall": 0.9139331932416223, "weight_decay": 0, "epochs": 10, "seed": 0, "fewshot_k": -1, "normalized": true}, "language": "en"}
