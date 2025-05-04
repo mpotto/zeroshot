@@ -148,7 +148,7 @@ class MultimodalEmbeddingDataset(Dataset):
         return i, self.x[i], self.z[i], self.y[i]
     
 
-def run_ssl_experiment(p, a, b, a_, b_, setting, seed=123, device="cuda:0"):
+def run_clip_experiment(p, a, b, a_, b_, setting, seed=123, device="cuda:0"):
 
     muX_0, muX_1 = setting["muX_0"], setting["muX_1"]
     d = setting["d"]
@@ -255,6 +255,8 @@ def run_ssl_experiment(p, a, b, a_, b_, setting, seed=123, device="cuda:0"):
         avg_acc = total_acc / len(val_dataloader)
 
     return avg_acc
+
+## VICReg
 
 def run_vicreg_experiment(p, a, b, a_, b_, setting, lam, seed=123, device="cuda:0"):
 
