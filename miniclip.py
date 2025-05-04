@@ -6,7 +6,7 @@ import open_clip
 from transformers import GPT2Tokenizer, GPT2LMHeadModel, AutoTokenizer, BertForMaskedLM
 
 # TODO: Change this to where the models are on your machine!
-MODEL_DIR = "/mnt/ssd/ronak/output/imagenet_captions_250k/"
+MODEL_DIR = "/mnt/ssd/ronak/output/"
 
 ####################################
 # MODEL DEFINITIONS
@@ -162,7 +162,7 @@ def load_head_model(model_name):
             "out_features": 128,
         }
         model = MiniCLIP(**model_cfg)
-    elif "clip" in model_name:
+    elif "vicreg" in model_name:
         model_cfg = {
             "in_features_img": 512,
             "hidden_size_img": 256,
