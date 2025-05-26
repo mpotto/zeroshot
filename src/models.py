@@ -104,4 +104,5 @@ class MiniVICReg(nn.Module):
     
     def _c(self, A):
         cov = torch.cov(A.T, correction=0)
-        return ((cov - torch.diag(cov)) ** 2).sum() / len(cov)
+        off_diagonal = cov[~torch.eye(*cov.shape,dtype = torch.bool)]
+        return (off_diagonal ** 2).sum() / len(cov)

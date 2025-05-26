@@ -4,7 +4,7 @@ import argparse
 from src.experiment import ExperimentHelper
 
 # Option B: Use with debugger.
-dataset, experiment_name, seed, device = "imagenet_captions_250k", "zsp_clip_hq", 0, "cuda:0"
+dataset, experiment_name, seed, device = "imagenet_captions_250k", "zsp_vicreg_hq", 0, "cuda:0"
 
 # Build model.
 helper = ExperimentHelper(dataset, experiment_name, seed, device)

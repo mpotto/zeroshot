@@ -29,7 +29,24 @@ def sample_Z_given(x, muZ_0, CZX_0, CZZ_0, CXZ_0, muZ_1, CZX_1, CZZ_1, CXZ_1, CX
     muX_0, muX_1 = setting["muX_0"], setting["muX_1"]
     dist_0 = MultivariateNormal(loc=muZ_0 + CZX_0 @ torch.linalg.solve(CXX_0, x - muX_0), covariance_matrix=CZZ_0 - CZX_0 @ torch.linalg.solve(CXX_0, CXZ_0))
     dist_1 = MultivariateNormal(loc=muZ_1 + CZX_1 @ torch.linalg.solve(CXX_1, x - muX_1), covariance_matrix=CZZ_1 - CZX_1 @ torch.linalg.solve(CXX_1, CXZ_1))
-    binom = Binomial(total_count=n_samples, probs=p)
+
+    mvnX_0 = MultivariateNormal(loc=muX_0, covariance_matrix=CXX_0)
+    mvnX_1 = MultivariateNormal(loc=muX_1, covariance_matrix=CXX_1)
+    binom = Binomial(total_count=n_samples, probs=math.exp(compute_lpx(x, mvnX_0, mvnX_1, p)))
+
+    torch.manual_seed(seed)
+    n1 = binom.sample((1,)).int().item()
+    n0 = n_samples - n1
+    return torch.cat([dist_0.rsample((n0,)), dist_1.rsample((n1,))], dim=0)
+
+def sample_X_given(z, muZ_0, muZ_1, muX_0, CXZ_0, CXX_0, CZX_0, muX_1, CXZ_1, CXX_1, CZX_1, CZZ_0, CZZ_1, p, n_samples=1000, seed=123):
+    dist_0 = MultivariateNormal(loc=muX_0 + CXZ_0 @ torch.linalg.solve(CZZ_0, z - muZ_0), covariance_matrix=CXX_0 - CXZ_0 @ torch.linalg.solve(CZZ_0, CZX_0))
+    dist_1 = MultivariateNormal(loc=muX_1 + CXZ_1 @ torch.linalg.solve(CZZ_1, z - muZ_1), covariance_matrix=CXX_1 - CXZ_1 @ torch.linalg.solve(CZZ_1, CZX_1))
+
+    mvnZ_0 = MultivariateNormal(loc=muZ_0, covariance_matrix=CZZ_0)
+    mvnZ_1 = MultivariateNormal(loc=muZ_1, covariance_matrix=CZZ_1)
+    binom = Binomial(total_count=n_samples, probs=math.exp(compute_lpz(z, mvnZ_0, mvnZ_1, p)))
+
     torch.manual_seed(seed)
     n1 = binom.sample((1,)).int().item()
     n0 = n_samples - n1
@@ -84,6 +101,43 @@ def compute_cmi(mvn_0, mvn_1, mvnZ_0, mvnZ_1, n_samples, p, setting, seed=123):
     H_Z = (-(pz) * lpz - (1 - pz) * torch.log1p(-pz)).mean()
 
     return H_Z - H_XZ
+
+def compute_information_density(x, y, z_, pz_, muX_0, muX_1, CXZ_0, CXZ_1, CZZ_0, CZZ_1, muZ_0, muZ_1, CXX_0, CXX_1, CZX_0, CZX_1):
+    lp_1 = math.log(pz_)
+    lp_0 = math.log(1 - pz_)
+
+    mvnX_0_given_Z = MultivariateNormal(loc=muX_0 + CXZ_0 @ torch.linalg.solve(CZZ_0, z_ - muZ_0), covariance_matrix=CXX_0 - CXZ_0 @ torch.linalg.solve(CZZ_0, CZX_0))
+    mvnX_1_given_Z = MultivariateNormal(loc=muX_1 + CXZ_1 @ torch.linalg.solve(CZZ_1, z_ - muZ_1), covariance_matrix=CXX_1 - CXZ_1 @ torch.linalg.solve(CZZ_1, CZX_1))
+        
+    numer = y * mvnX_1_given_Z.log_prob(x) + (1 - y) * mvnX_0_given_Z.log_prob(x)
+    denom = torch.logsumexp(torch.stack([mvnX_1_given_Z.log_prob(x) + lp_1, mvnX_0_given_Z.log_prob(x) + lp_0]), dim=0)
+
+    return torch.exp(numer - denom)
+
+def compute_msc(muZ_0, muZ_1, muX_0, CXZ_0, CXX_0, CZX_0, muX_1, CXZ_1, CXX_1, CZX_1, CZZ_0, CZZ_1, n_samples_outer, n_samples_inner, p, seed=123):
+
+    # generate z-values
+    mvnZ_0 = MultivariateNormal(loc=muZ_0, covariance_matrix=CZZ_0)
+    mvnZ_1 = MultivariateNormal(loc=muZ_1, covariance_matrix=CZZ_1)
+    binom = Binomial(total_count=n_samples_outer, probs=p)
+    torch.manual_seed(seed)
+    n1 = binom.sample((1,)).int().item()
+    n0 = n_samples_outer - n1
+    z = torch.cat([mvnZ_0.rsample((n0,)), mvnZ_1.rsample((n1,))], dim=0)
+
+    # generate data (n_samples_outer * n_samples_inner)
+    Is = []
+    pz = torch.exp(compute_lpz(z, mvnZ_0, mvnZ_1, p))
+    for i in range(len(pz)):
+        binom = Binomial(total_count=n_samples_inner, probs=pz[i])
+        n1z = binom.sample((1,)).int().item()
+        n0z = n_samples_inner - n1z
+        yz = torch.cat([torch.zeros(n0z), torch.ones(n1z)]).int()
+        xz = sample_X_given(z[i], muZ_0, muZ_1, muX_0, CXZ_0, CXX_0, CZX_0, muX_1, CXZ_1, CXX_1, CZX_1, CZZ_0, CZZ_1, p, n_samples=n_samples_inner, seed=seed)
+        S = compute_information_density(xz, yz, z[i], pz[i], muX_0, muX_1, CXZ_0, CXZ_1, CZZ_0, CZZ_1, muZ_0, muZ_1, CXX_0, CXX_1, CZX_0, CZX_1)
+        Is.append(((S - 1.) ** 2).mean())
+
+    return torch.tensor(Is).mean()
 
 def compute_bayes_accuracy(p, x, y, mvnX_0, mvnX_1):
     lpx = compute_lpx(x, mvnX_0, mvnX_1, p)
@@ -148,7 +202,8 @@ def run_gaussian_experiment(p, a, b, a_, b_, setting, n_samples=10, seed=123, ve
         print(f"\t conditional indep check second-order: {torch.norm(CXX_given_Z_0 - CXX_given_Z_1).item():0.4f}")
         print()
 
-    I = compute_cmi(mvn_0, mvn_1, mvnZ_0, mvnZ_1, 1000, p, setting, seed=seed)
+    # I = compute_cmi(mvn_0, mvn_1, mvnZ_0, mvnZ_1, 1000, p, setting, seed=seed)
+    I = compute_msc(muZ_0, muZ_1, muX_0, CXZ_0, CXX_0, CZX_0, muX_1, CXZ_1, CXX_1, CZX_1, CZZ_0, CZZ_1, 1000, 3000, p, seed=seed)
 
     # compute accuracy bayes
     binom = Binomial(total_count=5000, probs=p)

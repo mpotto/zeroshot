@@ -38,7 +38,7 @@ for seed in seeds:
         Is.append(I)
         acc1s.append(acc1)
         acc2s.append(acc2)
-    torch.save(torch.tensor(Is), f"notebooks/output/mutual_info_{d}_seed_{seed}.pt")
+    torch.save(torch.tensor(Is), f"notebooks/output/msc_{d}_seed_{seed}.pt")
     torch.save(torch.tensor(acc1s), f"notebooks/output/bayes_accuracies_{d}_seed_{seed}.pt")
     torch.save(torch.tensor(acc2s), f"notebooks/output/two_stage_accuracies_{d}_seed_{seed}.pt")
 torch.save(props, f"notebooks/output/props_{d}.pt")
