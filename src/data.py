@@ -1,11 +1,12 @@
 import torch
-from torch.utils.data import Dataset
+from torch.utils.data import Dataset, DataLoader
 import torch.nn.functional as F
 import logging
 import pandas as pd
 from PIL import Image
 import numpy as np
 import os
+from sklearn.model_selection import train_test_split
 
 NUM_CLASSES = 250
 # location of directory containing imagenet_images_flickr,
@@ -40,41 +41,11 @@ class ImageClassificationDataset(Dataset):
         self.transforms = transforms
         logging.debug('Done loading data.')
 
-    def get_task_weights(self, weights, M, nonuniform="none"):
-        if nonuniform != "none":
-            task_weights = torch.zeros(size=(self.task_size, weights[0].shape[1]))
-            total_prompts = M * self.task_size
-            p = torch.zeros(size=(self.task_size,))
-            N = np.array([len(w) for w in weights]).sum()
-            for key in self.global_to_local:
-                c = self.global_to_local[key]
-                sub_embeds = weights[key]
-                if nonuniform == "variance":
-                    mat = sub_embeds[np.random.choice(len(sub_embeds), min(10, len(sub_embeds)), replace=False)]
-                    p[c] = mat.var(dim=0).sum()
-                elif nonuniform == "class_weight":
-                    p[c] = (len(sub_embeds) * (N - len(sub_embeds)))
-                elif nonuniform == "class_weight_variance":
-                    mat = sub_embeds[np.random.choice(len(sub_embeds), min(10, len(sub_embeds)), replace=False)]
-                    p[c] = mat.var(dim=0).sum() * (len(sub_embeds) * (N - len(sub_embeds)))
-                else:
-                    raise NotImplementedError
-            p /= p.sum()
-            task_prompts = torch.tensor([round((p_i * total_prompts).item(), 0) for p_i in p]).int()
-            for key in self.global_to_local:
-                c = self.global_to_local[key]
-                sub_embeds = weights[key]
-                task_weights[c] = sub_embeds[np.random.choice(
-                    len(sub_embeds), 
-                    min(task_prompts[c].item(), len(sub_embeds)), 
-                    replace=False)
-                ].mean(axis=0)
-            return F.normalize(task_weights.T, dim=0)
-        else:
-            task_weights = torch.zeros(size=(len(weights), self.task_size))
-            for key in self.global_to_local:
-                task_weights[:, self.global_to_local[key]] = weights[:, key]
-            return task_weights
+    def get_task_weights(self, weights):
+        task_weights = torch.zeros(size=(len(weights), self.task_size))
+        for key in self.global_to_local:
+            task_weights[:, self.global_to_local[key]] = weights[:, key]
+        return task_weights
 
     def classification_transform(self, data, classes, task_id):
         # global label has already been randomized
@@ -117,3 +88,47 @@ class TextClassificationDataset(Dataset):
         texts = self.tokenize([str(self.captions[idx])])[0]
         labels = self.labels[idx]
         return idx, texts, labels
+    
+class MultimodalEmbeddingDataset(Dataset):
+    def __init__(self, x, y, class_id=None, class_embeds=None):
+        self.x = x
+        self.y = y
+        self.n = len(self.x)
+        self.zero_shot = not (class_id is None or class_embeds is None)
+
+        if self.zero_shot:
+            self.z = class_id
+            self.class_embeds = class_embeds
+
+    def __len__(self):
+        return self.n
+
+    def __getitem__(self, i):
+        if self.zero_shot:
+            return i, self.x[i], self.y[i], self.z[i]
+        else:
+            return i, self.x[i], self.y[i]
+
+def get_multimodal_dataloaders(
+    batch_size, 
+    rank, 
+    img_embed,
+    txt_embed,
+    root="/mnt/ssd/ronak/datasets/imagenet_captions_250k",
+):
+    image_features = np.load(os.path.join(root, f"{img_embed}_image_features.npy"))
+    text_features  = np.load(os.path.join(root, f"{txt_embed}_text_features.npy"))
+    x_train, x_test, y_train, y_test = train_test_split(image_features, text_features, test_size=0.1, random_state=42)
+    val_class_embeds = None
+    test_dataset = MultimodalEmbeddingDataset(x_test, y_test)
+
+    train_dataset = MultimodalEmbeddingDataset(x_train, y_train)
+    train_dataloader = DataLoader(
+        train_dataset, shuffle=True, batch_size=batch_size
+    )
+    print(f"{len(train_dataset):>5,} training samples on rank {rank}.")
+    test_dataloader = DataLoader(
+        test_dataset, shuffle=True, batch_size=batch_size
+    )
+    print(f"{len(test_dataset):>5,} validation samples on rank {rank}.")
+    return train_dataloader, test_dataloader, val_class_embeds
