@@ -81,4 +81,17 @@ Note that you will have to specify a `ROOT` variable that contains the directory
 CUDA_VISIBLE_DEVICES=0 python scripts/run_zeroshot_template.py --dataset=dtd --model=ViT-B-32 --batch_size=128
 ```
 
+## Citation
+
+If you find this code useful, or you use it in your research, please cite:
+```
+@inproceedings{mehta2025ageneralization,
+    title={{A Generalization Theory for Zero-Shot Prediction}},
+    author={Ronak Mehta and Zaid Harchaoui},
+    booktitle={ICML},
+    year={2025},
+}
+```
+Please also reach out to [Ronak Mehta](https://ronakdm.github.io/) for any questions regarding the repo.
+
 

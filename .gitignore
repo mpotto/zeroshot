@@ -12,6 +12,7 @@ notebooks/read.txt
 token.txt
 data/*.pt
 logs/*
+.vscode
 
 
 
