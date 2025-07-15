@@ -1,10 +1,10 @@
 # zeroshot
 
-This repository contains code and experiments for "From Pre-Training Foundation Models to Zero-Shot Prediction: Learning Paths, Prompt Complexity, and Residual Dependence". Please find instructions on software/hardware dependencies, reproducing all results from the manuscript below, and additional illustrations below.
+This repository contains code and experiments for "A Generalization Theory for Zero-Shot Prediction" (ICML, 2025). Please find instructions on software/hardware dependencies, reproducing all results from the paper below, and additional illustrations below.
 
 ## Abstract
 
-A clever, modern approach to machine learning and AI takes a peculiar yet effective learning path involving two stages: from an upstream pre-training task using unlabeled multimodal data (foundation modeling), to a downstream task using prompting in natural language as a replacement for training data (zero-shot prediction). We cast this approach in a theoretical framework that allows us to identify the key quantities driving both its success and its pitfalls. We obtain risk bounds identifying the residual dependence lost when translating across modalities, the number and nature of prompts necessary for zero-shot prediction, and the discrepancy of this approach with classical single-stage machine learning.  
+A modern paradigm for generalization in machine learning and AI consists of pre-training a task-agnostic foundation model, generally obtained using self-supervised and multimodal contrastive learning. The resulting representations can be used for prediction on a downstream task for which no labeled data is available. We present a theoretical framework to better understand this approach, called zero-shot prediction. We identify the target quantities that zero-shot prediction aims to learn, or learns in passing, and the key conditional independence relationships that enable its generalization ability.
 
 ## Dependencies
 
@@ -28,7 +28,8 @@ We outline the main features of this repository.
 The figures from the paper can be directly reproduced using notebooks of the form `notebooks/figure_*.ipynb`. See the list below.
 | Figure      | Caption Header | Filename |
 | ----------- | ----------- | ----------- |
-| 3   | Results: Ideal Prompting | `notebooks/figure_ideal_prompts.ipynb`   |
+| 2   | Residual Dependence Simulation | `notebooks/figure_simulation.ipynb`   |
+| 3   | Results: Unbiased Prompting | `notebooks/figure_unbiased_prompts.ipynb`   |
 | 4   | Results: Class-Conditional Prompting | `notebooks/figure_class_conditional_prompts.ipynb`   |
 
 **Models and Data:** 
@@ -58,6 +59,15 @@ These files are used to generate the ideal prompt embeddings; accordingly, the i
 The prompts come in two forms.
 - **Template-Based**: These are not downloaded locally, as they are loaded at evaluation time directly via CLIP Benchmark.
 - **Class-Conditional:** In each directory of the form `prompts/{dataset}/`, the full list of LlaMA outputs are listed in `prompts/{dataset}/{dataset}_llama3_prompts_full.json`. For completeness, the GPT-3 outputs from [Pratt et. al. (ICCV, 2023)](https://openaccess.thecvf.com/content/ICCV2023/papers/Pratt_What_Does_a_Platypus_Look_Like_Generating_Customized_Prompts_for_ICCV_2023_paper.pdf) are included as `prompts/{dataset}/{dataset}_prompts_full.json`, although only for comparison as they are not used in our experiments. For specific seeds used in experiments, see `prompts/{dataset}/sample_size_{n}_seed_{seed}.json`.
+
+**Pre-Training:** 
+For the pre-training experiments on synthetic data (which generate Figure 2), the results can be reproduced by running:
+```
+python scripts/run_simulation_gaussian.py
+python scripts/run_simulation_clip.py
+python scripts/run_simulation_vicreg.py
+```
+
 
 **Evaluations:** 
 For the ImageNet-Captions experiments, they can be run using the format:

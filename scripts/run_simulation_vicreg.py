@@ -5,7 +5,7 @@ from tqdm import tqdm
 import sys
 sys.path.extend([".", ".."])
 
-from notebooks.simulation_ssl import run_vicreg_experiment
+from simulation_ssl import run_vicreg_experiment
 
 p = 0.5
 a = 5

@@ -8,7 +8,7 @@ from tqdm import tqdm
 import sys
 sys.path.extend([".", ".."])
 
-from notebooks.simulation_gaussian import generate_distributions
+from src.simulation_gaussian import generate_distributions
 from src.models import MiniCLIP, MiniVICReg
 
 class MultimodalEmbeddingDataset(Dataset):

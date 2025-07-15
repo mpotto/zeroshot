@@ -4,8 +4,6 @@ from torch.distributions import Binomial
 import math
 from tqdm import tqdm
 
-# utilities
-
 def generate_distributions(a, b, a_, b_, setting):
 
     muX_0, muX_1 = setting["muX_0"], setting["muX_1"]
@@ -89,14 +87,11 @@ def compute_cmi(mvn_0, mvn_1, mvnZ_0, mvnZ_1, n_samples, p, setting, seed=123):
     v_ = torch.cat([mvn_0.rsample((n0,)), mvn_1.rsample((n1,))], dim=0)
     z_ =  v_[:, d:]
 
-    # pxz = torch.clamp(compute_lpxz(x, z, mvn_0, mvn_1, p), min=tol, max=1 - tol)
-    # pz = torch.clamp(compute_lpz(z_, mvnZ_0, mvnZ_1, p), min=tol, max=1 - tol)
     lpxz = compute_lpxz(x, z, mvn_0, mvn_1, p)
     lpz = compute_lpz(z_, mvnZ_0, mvnZ_1, p)
     pxz = torch.exp(lpxz)
     pz = torch.exp(lpz)
 
-    # possible numerical issue from exp then log.
     H_XZ = (-(pxz) * lpxz - (1 - pxz) * torch.log1p(-pxz)).mean()
     H_Z = (-(pz) * lpz - (1 - pz) * torch.log1p(-pz)).mean()
 
@@ -153,14 +148,11 @@ def compute_two_stage_accuracy(p, x, y, muZ_0, CZX_0, CZZ_0, CXZ_0, muZ_1, CZX_1
     y_pred = (px >= 0.5).int()
     return (y == y_pred).sum() / len(y)
 
-
-# multivariate normal experiment
-
 def run_gaussian_experiment(p, a, b, a_, b_, setting, n_samples=10, seed=123, verbose=True):
 
     muX_0, muX_1 = setting["muX_0"], setting["muX_1"]
 
-    # data distributions and parametrs
+    # data distributions and parameters
     muZ_0,  muZ_1, CZZ_0, CZX_0, CZZ_1, CZX_1, CXX_0, CXX_1 = generate_distributions(a, b, a_, b_, setting)
     CXZ_0 = CZX_0.T
     CXZ_1 = CZX_1.T
@@ -202,10 +194,9 @@ def run_gaussian_experiment(p, a, b, a_, b_, setting, n_samples=10, seed=123, ve
         print(f"\t conditional indep check second-order: {torch.norm(CXX_given_Z_0 - CXX_given_Z_1).item():0.4f}")
         print()
 
-    # I = compute_cmi(mvn_0, mvn_1, mvnZ_0, mvnZ_1, 1000, p, setting, seed=seed)
     I = compute_msc(muZ_0, muZ_1, muX_0, CXZ_0, CXX_0, CZX_0, muX_1, CXZ_1, CXX_1, CZX_1, CZZ_0, CZZ_1, 1000, 3000, p, seed=seed)
 
-    # compute accuracy bayes
+    # compute accuracy (bayes/direct)
     binom = Binomial(total_count=5000, probs=p)
     torch.manual_seed(seed)
     n1 = binom.sample((1,)).int().item()
@@ -214,7 +205,7 @@ def run_gaussian_experiment(p, a, b, a_, b_, setting, n_samples=10, seed=123, ve
     y = torch.cat([torch.zeros(n0), torch.ones(n1)]).int()
     acc1 = compute_bayes_accuracy(p, x, y, mvnX_0, mvnX_1)
 
-    # compute accuracy two stage
+    # compute accuracy (two stage/indirect)
     binom = Binomial(total_count=n_samples, probs=p)
     torch.manual_seed(seed)
     n1 = binom.sample((1,)).int().item()
