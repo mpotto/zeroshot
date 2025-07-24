@@ -5,7 +5,7 @@ from tqdm import tqdm
 import sys
 sys.path.extend([".", ".."])
 
-from simulation_gaussian import run_gaussian_experiment
+from src.simulation_gaussian import run_gaussian_experiment
 
 p = 0.5
 a = 5
